@@ -1,0 +1,22 @@
+dateModified: 1713857528
+email:
+  fromEmail: mylanvanvugt@gmail.com
+  fromName: 'Duikclub Dolfijn'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
+    c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
+system:
+  edition: solo
+  live: true
+  name: 'Duikclub Dolfijn'
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
