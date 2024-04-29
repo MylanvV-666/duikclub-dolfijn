@@ -1,4 +1,4 @@
-dateModified: 1713857528
+dateModified: 1714397684
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -8,7 +8,7 @@ meta:
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'Duikclub Dolfijn'
   schemaVersion: 5.0.0.20
