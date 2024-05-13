@@ -1,0 +1,43 @@
+$primary-color: #012836;
+$secondary-color: #4B8996;
+$white: #ffffff;
+$black: #000000;
+
+$tekst: "PT Sans", serif;
+
+@mixin titel-h1() {
+  font-family: $tekst;
+  font-size: 48pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: $black;
+}
+@mixin titel-h2() {
+  font-family: $tekst;
+  font-size: 40pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: $black;
+}
+@mixin titel-h3() {
+  font-family: $tekst;
+  font-size: 35pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: $black;
+}
+@mixin paragraaf() {
+  font-family: $tekst;
+  font-size: 24pt;
+  font-weight: 400;
+  text-decoration: none;
+  color: $black;
+}
+@mixin citaat(){
+  font-family: $tekst;
+  font-size: 24pt;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  color: $black;
+}

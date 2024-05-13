@@ -1,0 +1,15 @@
+@use "base" as *;
+
+nav{
+  background-color: $primary-color;
+  ul{
+    li{
+      display: flex;
+      flex-direction: row;
+      a{
+        @include paragraaf();
+        color: white;
+      }
+    }
+  }
+}
