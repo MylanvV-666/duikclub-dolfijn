@@ -1,16 +1,8 @@
-dateModified: 1714396427
+dateModified: 1713857528
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
   transportType: craft\mail\transportadapters\Sendmail
-fs:
-  files:
-    hasUrls: true
-    name: Bestanden
-    settings:
-      path: '@webroot/files'
-    type: craft\fs\Local
-    url: /files
 meta:
   __names__:
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
