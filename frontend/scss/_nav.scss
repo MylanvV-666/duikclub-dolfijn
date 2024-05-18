@@ -3,9 +3,10 @@
 nav{
   background-color: $primary-color;
   ul{
+    display: flex;
+    flex-direction: row;
     li{
-      display: flex;
-      flex-direction: row;
+      list-style-type: none;
       a{
         @include paragraaf();
         color: white;

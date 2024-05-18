@@ -5,6 +5,13 @@ $black: #000000;
 
 $tekst: "PT Sans", serif;
 
+*{
+  font-family: $tekst;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @mixin titel-h1() {
   font-family: $tekst;
   font-size: 48pt;
