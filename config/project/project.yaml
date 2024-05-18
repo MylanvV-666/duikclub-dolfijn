@@ -1,12 +1,24 @@
-dateModified: 1713857528
+dateModified: 1715604356
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  files:
+    hasUrls: true
+    name: Bestanden
+    settings:
+      path: '@webroot/files'
+    type: craft\fs\Local
+    url: /files
 meta:
   __names__:
+    2f141443-d73e-4cd5-9414-23f192babda8: 'Navigatie link' # Navigatie link
+    9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
+    41a1bff9-a6eb-4a75-8d10-cd9ecedf68d0: Home # Home
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
+    d6cbf5f4-6ab6-4d4f-8983-9fea51b225e3: Startpagina # Startpagina
 system:
   edition: solo
   live: true

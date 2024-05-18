@@ -1,0 +1,300 @@
+/*
+#4B8996 - groen
+#012836 - donkerblauw
+#ffffff - wit
+*/
+
+/*algemeen*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, "PT sans";
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button {
+    background-color: #4b8996;
+    color: white;
+    letter-spacing: 10px;
+    padding: 10px 50px 10px 60px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #012836;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #012836;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #012836;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 38px;
+    color: #012836;
+}
+
+p, a {
+    font-weight: normal;
+    font-size: 24px;
+    color: #012836;
+}
+
+a:hover {
+    color: #4B8996;
+}
+
+/*navigatie niet leden*/
+nav {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012836;
+    padding: 0 40px;
+}
+
+nav .menu-items {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu-items a {
+    color: white;
+}
+
+nav .menu-items a:hover {
+    color: #4b8996;
+}
+
+nav .menu-items button {
+    background-color: #fff;
+    color: #012836;
+}
+
+nav .menu-items button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+/*footer*/
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .gegevensfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .gegevensfooter div {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+footer .gegevensfooter .border {
+    border-right: 1px solid #012836;
+}
+
+footer .gegevensfooter div p, footer .gegevensfooter div a {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+footer .gegevensfooter div .gegevensmeticonen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+}
+
+footer .gegevensfooter div .gegevensmeticonen img {
+    width: 10%;
+}
+
+footer .gegevensfooter div .gegevensmeticonen p {
+    width: 70%;
+}
+
+footer .gegevensfooter div .socialsfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+}
+
+footer .gegevensfooter div .socialsfooter a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15%;
+}
+
+footer .balkfooter {
+    background-color: #012836;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .balkfooter a {
+    color: white;
+}
+
+footer .balkfooter a:hover {
+    color: #4B8996;
+}
+
+/*header home*/
+#home header h1 {
+    height: 1000px;
+    color: white;
+    font-size: 64px;
+    width: 100%;
+    text-align: right;
+    padding: 800px 150px 200px 0;
+}
+
+#home video {
+    position: fixed;
+    z-index: -1;
+}
+
+/*main home*/
+#home main {
+    background-color: white;
+    padding: 100px 150px;
+}
+
+/*sectie1*/
+#welkomhome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+/*sectie1 tekst*/
+#welkomhome .tekst {
+    width: 75%;
+    padding-right: 100px;
+}
+
+#welkomhome .tekst h2 {
+    padding: 50px 0;
+}
+
+#welkomhome .tekst p {
+    padding-bottom: 50px;
+    width: 75%;
+}
+
+#welkomhome .tekst a {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+/*sectie1 img*/
+#welkomhome .fotos {
+    position: relative;
+    left: 250px;
+}
+
+#welkomhome .fotos .foto-top {
+    max-width: 328px;
+    max-height: 268px;
+}
+
+#welkomhome .fotos .foto-mid {
+    max-width: 479px;
+    max-height: 257px;
+}
+
+#welkomhome .fotos .foto-bot {
+    max-width: 199px;
+    max-height: 376px;
+    position: relative;
+    right: 250px;
+    bottom: 150px;
+}
+
+/*sectie2 + sectie3*/
+#aanbodhome, #dankhome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#aanbodhome h2, #dankhome h2 {
+    width: 100%;
+}
+
+#aanbodhome div, #dankhome div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 50px 0 100px 0;
+}
+
+#aanbodhome div a, #dankhome div a {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#dankhome div a img {
+    max-width: 100%;
+    height: 300px;
+}
+
+#aanbodhome div a button {
+    width: 100%;
+    height: 500px;
+}
+
+#aanbodhome div a button:hover {
+    background-image: url("../assets/Mask group.png");
+    background-size: cover;
+    color: white;
+}
