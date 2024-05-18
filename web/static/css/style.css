@@ -294,7 +294,7 @@ footer .balkfooter a:hover {
 }
 
 #aanbodhome div a button:hover {
-    background-image: url("../assets/Mask group.png");
+    background-image: url("/web/static/assets/Mask group.png");
     background-size: cover;
     color: white;
 }
