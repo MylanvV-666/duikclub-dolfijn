@@ -1,1 +1,179 @@
 @use "algemeen" as *;
+
+/*sectie1*/
+#over_ons main #over_overons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+#over_ons main #over_overons div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#over_ons main #over_overons #titelenfoto {
+  align-items: flex-end;
+}
+
+#over_ons main #over_overons #tekstenfoto {
+  align-items: flex-start;
+}
+
+#over_ons main #over_overons #tekstenfoto p {
+  padding-top: 40px;
+  width: 80%;
+}
+
+#over_ons main #over_overons #tekstenfoto img {
+  position: relative;
+  right: 40px;
+  bottom: 50px;
+}
+
+/*sectie2*/
+#over_ons main #bestuur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+#over_ons main #bestuur h2 {
+  width: 100%;
+}
+
+#over_ons main #bestuur #personen {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 40px 0;
+}
+
+#over_ons main #bestuur #personen .personenrij {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#over_ons main #bestuur #personen .personenrij .persoon {
+  width: 33%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#over_ons main #bestuur #personen .personenrij .persoon div {
+  width: 60%;
+  background-color: white;
+  border: 1px solid #4B8996;
+  border-radius: 10px;
+  padding: 10px 0;
+  position: relative;
+  bottom: 40px;
+}
+
+/*sectie3*/
+#over_ons main #watdoenwij {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#over_ons main #watdoenwij h2 {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#over_ons main #watdoenwij div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#over_ons main #watdoenwij div .tekstlinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 150px;
+  width: 40%;
+  text-align: right;
+}
+
+#over_ons main #watdoenwij div .tekstlinks a {
+  width: 100%;
+  align-content: flex-end;
+}
+
+#over_ons main #watdoenwij div .tekstlinks h3, #over_ons main #watdoenwij div #tekstrechts h3 {
+  padding-bottom: 40px;
+}
+
+#over_ons main #watdoenwij div .tekstlinks p, #over_ons main #watdoenwij div #tekstrechts p {
+  padding-bottom: 100px;
+}
+
+#over_ons main #watdoenwij div .fotos {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#over_ons main #watdoenwij div .fotos .foto-top {
+  position: relative;
+  right: 150px;
+}
+
+#over_ons main #watdoenwij div .fotos .foto-mid {
+  position: relative;
+  bottom: 75px;
+}
+
+#over_ons main #watdoenwij div .fotos .foto-bot {
+  position: relative;
+  bottom: 150px;
+  right: 100px;
+  width: 50%;
+}
+
+#over_ons main #watdoenwij div #tekstrechts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 150px;
+  width: 40%;
+}
+
+#over_ons main #watdoenwij div #fotosleft {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+#over_ons main #watdoenwij div #fotosleft .fotoleft-top {
+  width: 50%;
+}
+
+#over_ons main #watdoenwij div #fotosleft .fotoleft-mid {
+  position: relative;
+  bottom: 250px;
+  left: 300px;
+}
+
+#over_ons main #watdoenwij div #fotosleft .fotoleft-bot {
+  position: relative;
+  bottom: 275px;
+}
+
+#over_ons #kaartoverons h2 {
+  padding: 50px 150px;
+}

@@ -1,1 +1,78 @@
 @use "algemeen" as *;
+
+// main lessen initiatie
+#lessen_initiatie main {
+  width: 100%;
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// sectie1
+#lessen_initiatie main #gratis_duikinitiatie_lessenpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+// sectie2
+#lessen_initiatie main #nieuw_avontuur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 0;
+  width: 80%;
+}
+
+#lessen_initiatie main #nieuw_avontuur .fotos {
+  width: 60%;
+}
+
+#lessen_initiatie main #nieuw_avontuur .fotos .foto-mid {
+  position: relative;
+  right: 50px;
+  top: 100px;
+}
+
+#lessen_initiatie main #nieuw_avontuur .fotos .foto-bot {
+  position: relative;
+  top: 75px;
+}
+
+#lessen_initiatie main #nieuw_avontuur .tekst {
+  width: 40%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#lessen_initiatie main #nieuw_avontuur .tekst h2 {
+  padding-bottom: 50px;
+}
+
+#lessen_initiatie main #nieuw_avontuur .tekst p {
+  padding-bottom: 125px;
+}
+
+// sectie3
+#lessen_initiatie main #inschrijving_initiatie {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+#lessen_initiatie main #inschrijving_initiatie p {
+  padding: 20px 0 50px 0;
+}
+
+#lessen_initiatie main #inschrijving_initiatie form {
+  text-align: left;
+  width: 40%;
+}

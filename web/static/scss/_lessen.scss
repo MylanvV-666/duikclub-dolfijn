@@ -1,1 +1,44 @@
 @use "algemeen" as *;
+
+#lessen-header{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 2rem auto 0 auto;
+}
+#lessen-header-tekst p{
+  margin: 1rem 1rem 0 0;
+}
+#lessen-header-foto1{
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  left: 10rem;
+  z-index: 10;
+}
+#lessen-header-foto1 img{
+  height: inherit;
+  width: fit-content;
+  overflow: hidden;
+}
+#lessen-header-foto2{
+  height: 140px;
+  width: 350px;
+  overflow: hidden;
+  position: relative;
+  top: -1rem;
+  z-index: 0;
+}
+
+#lessen-header-foto2 img{
+  height: fit-content;
+  width: inherit;
+  overflow: hidden;
+}
+
+#lessen-buttons{
+  width: 60%;
+  margin: 2rem auto;
+  text-align: right;
+}

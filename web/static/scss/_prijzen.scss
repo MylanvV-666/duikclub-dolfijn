@@ -1,1 +1,92 @@
 @use "algemeen" as *;
+
+#prijzen-main h1{
+  text-align: center;
+  margin: 5rem 0;
+}
+#prijzen-main h2{
+  margin: 2rem 0;
+}
+
+#duikmateriaal #indoor{
+  display: flex;
+  flex-direction: row;
+}
+#duikmateriaal #indoor-foto1{
+  height: 180px;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+
+}
+#duikmateriaal #indoor-foto1 img{
+  width: inherit;
+  height: fit-content;
+  position: relative;
+  top: -50%;
+}
+
+#duikmateriaal #indoor-foto2{
+  height: 232px;
+  width: 204px;
+  overflow: hidden;
+  position: relative;
+  left: 15rem;
+  top: -1rem;
+}
+#duikmateriaal #indoor-foto2 img{
+  height: inherit;
+  width: fit-content;
+}
+#duikmateriaal #indoor-tekst{
+  margin-left: 5rem;
+}
+
+#duikmateriaal #outdoor{
+  display: flex;
+  flex-direction: row;
+}
+#duikmateriaal #outdoor-tekst p{
+  margin: 1rem 0;
+}
+
+#duikmateriaal #outdoor-foto1{
+  height: 187px;
+  width: 377px;
+  overflow: hidden;
+  position: relative;
+  left: 10rem;
+  top: 3rem;
+  z-index: 0;
+}
+#duikmateriaal #outdoor-foto1 img{
+  width: inherit;
+  height: fit-content;
+  position: relative;
+  top: 0;
+}
+#duikmateriaal #outdoor-foto2{
+  height: 331px;
+  width: 203px;
+  overflow: hidden;
+  position: relative;
+  left: 5rem;
+
+}
+#duikmateriaal #outdoor-foto2 img{
+  height: inherit;
+  width: fit-content;
+}
+#duikmateriaal #outdoor-foto3{
+  height: 184px;
+  width: 326px;
+  overflow: hidden;
+  position: relative;
+  left: 10rem;
+  top: -2rem;
+
+}
+#duikmateriaal #outdoor-foto3 img{
+  width: inherit;
+  height: fit-content;
+}

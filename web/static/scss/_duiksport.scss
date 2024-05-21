@@ -1,1 +1,36 @@
 @use "algemeen" as *;
+
+
+.duiksport-brevet-card{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+.brevetten{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.duiksport-brevet-card .cards-image{
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+}
+.duiksport-brevet-card .cards-image img{
+  height: inherit;
+}
+.duiksport-brevet-card p{
+  background-color: #4B8996;
+  width: 12rem;
+  padding: 0.5rem;
+  position: relative;
+  top: -1rem;
+  text-align: center;
+  color: white;
+  border-radius: 1rem;
+}
