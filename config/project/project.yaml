@@ -1,4 +1,4 @@
-dateModified: 1715604356
+dateModified: 1716333886
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -14,11 +14,20 @@ fs:
 meta:
   __names__:
     2f141443-d73e-4cd5-9414-23f192babda8: 'Navigatie link' # Navigatie link
+    5b9d7c12-622b-4990-9155-c2741c5def38: 'Foto''s' # Foto's
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
     41a1bff9-a6eb-4a75-8d10-cd9ecedf68d0: Home # Home
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
+    cbdf9d66-e771-4ea6-b065-36d46f769535: InleidendeTekstHome # InleidendeTekstHome
+    cc07e5fd-bf6d-4c12-971b-1b386c10f883: 'Home Image' # Home Image
     d6cbf5f4-6ab6-4d4f-8983-9fea51b225e3: Startpagina # Startpagina
+    ea72abe5-bea8-4ae7-9a59-db81d2b10f9a: 'Titel h1' # Titel h1
+plugins:
+  redactor-custom-styles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

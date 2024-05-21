@@ -1,0 +1,38 @@
+columnSuffix: null
+handle: homeImage
+instructions: null
+name: 'Home Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+    - video
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:5b9d7c12-622b-4990-9155-c2741c5def38' # Foto's
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:5b9d7c12-622b-4990-9155-c2741c5def38' # Foto's
+  restrictedLocationSubpath: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:5b9d7c12-622b-4990-9155-c2741c5def38' # Foto's
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

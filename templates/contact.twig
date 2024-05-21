@@ -16,62 +16,62 @@
     <script defer src="web/static/script/script.js"></script>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-
-<body id="home">
-
+<body id="contact">
 <nav>
     <a href="index.html">
         <img src="static/assets/Dolfijn%201.png" alt="logo">
     </a>
     <div class="menu-items">
-        <a href="over-ons.twig">Over ons</a>
-        <a href="duiken.twig">Duiken</a>
-        <a href="contact.twig">Contact</a>
-        <a href="login.twig">
+        <a href="over-ons.html">Over ons</a>
+        <a href="duiken.html">Duiken</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">
             <button>Login</button>
         </a>
     </div>
 </nav>
-
-<div id="header-home" style="background-color:{{ entry.homeImage.one().url }}">
-    <h1>Duik in het avontuur</h1>
-</div>
-
 <main>
-    <section id="welkomhome">
-        <div class="tekst">
-            <h2>Welkom bij duikclub Dolfijn!</h2>
-            <p>{{ entry.paragraaf }}</p>
-            <a href="lessen-initiatie.html">
-                <button>Gratis duikinitiatie</button>
-            </a>
-        </div>
-        <div class="fotos">
-            <img class="foto-top" src="static/assets/Mask%20group.png" alt="foto">
-            <img class="foto-mid" src="static/assets/Mask%20group2.png" alt="foto">
-            <img class="foto-bot" src="static/assets/Mask%20group3.png" alt="foto">
-        </div>
+    <section id="contactformulier">
+        <h1>Contact</h1>
+        <form method="post" action="mailto:">
+            <label for="voornaam">Voornaam<span class="rood">*</span></label>
+            <br>
+            <input type="text" name="voornaam" id="voornaam" required>
+            <br>
+            <label for="naam">Naam<span class="rood">*</span></label>
+            <br>
+            <input type="text" name="naam" id="naam" required>
+            <br>
+            <label for="email">E-mail<span class="rood">*</span></label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="bericht">Je boodschap<span class="rood">*</span></label>
+            <br>
+            <textarea name="bericht" id="bericht" required></textarea>
+            <br>
+            <fieldset>
+                <input type="checkbox" name="privacy" id="privacy" class="checkbox" required>
+                <label for="privacy"><span class="rood">*</span>Ik heb het privacybeleid, de servicevoorwaarden en de
+                    communityrichtlijnen gelezen en ga ermee akkoord.</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Verzenden</button>
+            </fieldset>
+        </form>
     </section>
-    <section id="aanbodhome">
-        <h2>Ons aanbod</h2>
-        <div>
-            <a href="lessen-initiatie.html">
-                <button>Initiatie</button>
-            </a>
-            <a href="duiken.html">
-                <button>Clubduiken</button>
-            </a>
-            <a href="duiksport.html">
-                <button>Trainingen</button>
-            </a>
+    <section id="contactgegevens">
+        <div id="gegevens">
+            <h2>Onze thuisbasis</h2>
+            <p>Eikenstraat 25<br>3740 Bilzen</p>
+            <p>e-maiadress@host.be</p>
+            <p>+32 456 78 91</p>
         </div>
-    </section>
-    <section class="dank">
-        <h2>Met dank aan</h2>
-        <div>
-            <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>
-            <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>
-            <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>
+        <div id="kaart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.29810165103!2d5.587565312466157!3d50.936699852115694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0dc5f4fbca731%3A0x2ce2d027f84f5ae5!2sEikenstraat%2025%2C%203690%20Zutendaal!5e0!3m2!1snl!2sbe!4v1716212081198!5m2!1snl!2sbe"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 </main>

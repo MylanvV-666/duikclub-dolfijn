@@ -16,63 +16,36 @@
     <script defer src="web/static/script/script.js"></script>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-
-<body id="home">
-
+<body id="login">
 <nav>
     <a href="index.html">
         <img src="static/assets/Dolfijn%201.png" alt="logo">
     </a>
     <div class="menu-items">
-        <a href="over-ons.twig">Over ons</a>
-        <a href="duiken.twig">Duiken</a>
-        <a href="contact.twig">Contact</a>
-        <a href="login.twig">
+        <a href="over-ons.html">Over ons</a>
+        <a href="duiken.html">Duiken</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">
             <button>Login</button>
         </a>
     </div>
 </nav>
-
-<div id="header-home" style="background-color:{{ entry.homeImage.one().url }}">
-    <h1>Duik in het avontuur</h1>
-</div>
-
 <main>
-    <section id="welkomhome">
-        <div class="tekst">
-            <h2>Welkom bij duikclub Dolfijn!</h2>
-            <p>{{ entry.paragraaf }}</p>
-            <a href="lessen-initiatie.html">
-                <button>Gratis duikinitiatie</button>
-            </a>
-        </div>
-        <div class="fotos">
-            <img class="foto-top" src="static/assets/Mask%20group.png" alt="foto">
-            <img class="foto-mid" src="static/assets/Mask%20group2.png" alt="foto">
-            <img class="foto-bot" src="static/assets/Mask%20group3.png" alt="foto">
-        </div>
-    </section>
-    <section id="aanbodhome">
-        <h2>Ons aanbod</h2>
-        <div>
-            <a href="lessen-initiatie.html">
-                <button>Initiatie</button>
-            </a>
-            <a href="duiken.html">
-                <button>Clubduiken</button>
-            </a>
-            <a href="duiksport.html">
-                <button>Trainingen</button>
-            </a>
-        </div>
-    </section>
-    <section class="dank">
-        <h2>Met dank aan</h2>
-        <div>
-            <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>
-            <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>
-            <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>
-        </div>
+    <section id="inloggen">
+        <img src="static/assets/Dolfijn_full%201.png" alt="logo">
+        <form method="get" action="mailto:">
+            <label for="voornaam">Voornaam</label>
+            <br>
+            <input type="text" name="voornaam" id="voornaam" required>
+            <br>
+            <label for="ww">Wachtwoord</label>
+            <br>
+            <input type="password" name="ww" id="ww" required>
+            <br>
+            <fieldset>
+                <button type="submit">Verzenden</button>
+            </fieldset>
+        </form>
     </section>
 </main>
 <footer>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <title>{{ systemName }}</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+    <meta name="referrer" content="origin-when-cross-origin"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+
+    <script defer src="web/static/script/script.js"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body id="lessen_initiatie">
+<nav>
+    <a href="index.html">
+        <img src="static/assets/Dolfijn%201.png" alt="logo">
+    </a>
+    <div class="menu-items">
+        <a href="over-ons.html">Over ons</a>
+        <a href="duiken.html">Duiken</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">
+            <button>Login</button>
+        </a>
+    </div>
+</nav>
+<main>
+    <section id="gratis_duikinitiatie_lessenpage">
+        <h1>Gratis Duikinitiatie</h1>
+        <p>Dompel jezelf onder in een wereld van avontuur en ontdekking!<br>Een initiatie om te leren duiken biedt je de
+            perfecte kans om de magie van de onderwaterwereld te ervaren. Kom zeker langs bij Duikclub Dolfijn in
+            Zwembad De Kimpel Bilzen en zet de eerste stap naar een leven vol duikplezier!</p>
+    </section>
+    <section id="nieuw_avontuur">
+        <div class="fotos">
+            <img class="foto-top" src="static/assets/lessen1.png" alt="foto">
+            <img class="foto-mid" src="static/assets/lessen2.png" alt="foto">
+            <img class="foto-bot" src="static/assets/lessen3.png" alt="foto">
+        </div>
+        <div class="tekst">
+            <h2>Duik in een nieuw avontuur!</h2>
+            <p>Wil je vooraf al eens proberen tijdens een gratis initiatie in het zwembad te Bilzen dan kan dat. Je
+                krijgt er ondermeer uitleg over de verschillende opleidingen, het lidmaatschap, de kosten, ... Daarna
+                bieden we je de mogelijkheid om een en ander eens in het water uit te proberen en om zelfs met een
+                duikfles rond te zwemmen.<br><br>Zit je nog met vragen? Contacteer ons of schrijf je in voor een les en
+                stel ze ons terplekke. </p>
+            <a href="contact.html">
+                <button>Contact</button>
+            </a>
+        </div>
+    </section>
+    <section id="inschrijving_initiatie">
+        <h2>Schrijf je in voor de initiatie!</h2>
+        <p>maak tijdens deze initiatieles gratis gebruik van duikmateriaal van de club.</p>
+        <form method="post" action="mailto:">
+            <label for="voornaam">Voornaam<span class="rood">*</span></label>
+            <br>
+            <input type="text" name="voornaam" id="voornaam" required>
+            <br>
+            <label for="naam">Naam<span class="rood">*</span></label>
+            <br>
+            <input type="text" name="naam" id="naam" required>
+            <br>
+            <label for="email">E-mail<span class="rood">*</span></label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="tel">Telefoonnummer</label>
+            <br>
+            <input type="tel" name="tel" id="tel">
+            <br>
+            <label for="schoenmaat">Schoenmaat<span class="rood">*</span></label>
+            <br>
+            <input type="number" name="schoenmaat" id="schoenmaat" required>
+            <br>
+            <label for="ervaring">ervaring</label>
+            <br>
+            <textarea name="ervaring" id="ervaring"></textarea>
+            <br>
+            <fieldset>
+                <input type="checkbox" name="privacy" id="privacy" class="checkbox" required>
+                <label for="privacy"><span class="rood">*</span>Ik heb het privacybeleid, de servicevoorwaarden en de
+                    communityrichtlijnen gelezen en ga ermee akkoord.</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Verzenden</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <section class="gegevensfooter">
+        <div class="border">
+            <img src="static/assets/Dolfijn_full%201.png" alt="logo">
+        </div>
+        <div class="border">
+            <p><b>Met dank aan:</b></p>
+            <a href="https://www.limos-vzw.be/" target="_blank">Limos</a>
+            <a href="https://nelos.be/" target="_blank">Nelos</a>
+            <a href="https://www.cmas.org/" target="_blank">CMAS</a>
+        </div>
+        <div class="border">
+            <div class="gegevensmeticonen"><img src="static/assets/icon%20_home_.png" alt="icon">
+                <p>Eikenstraat 25<br>3740 Bilzen</p></div>
+            <div class="gegevensmeticonen"><img src="static/assets/icon%20_envelope%20closed_.png" alt="icon">
+                <p>email@email.com</p></div>
+            <div class="gegevensmeticonen"><img src="static/assets/icon%20_phone_.png" alt="icon">
+                <p>+32 456 78 91</p></div>
+        </div>
+        <div>
+            <img src="static/assets/icon%20_web_.png" alt="icon">
+            <div class="socialsfooter">
+                <a href="https://www.facebook.com/DuikclubDolfijn/" target="_blank"><img src="static/assets/icon%20_facebook_.png" alt="icon"></a>
+                <a href="#"><img src="static/assets/icon%20_instagram%20alt_.png" alt="icon"></a>
+                <a href="#"><img src="static/assets/icon%20_social%20linkedin_.png" alt="icon"></a>
+            </div>
+        </div>
+    </section>
+    <section class="balkfooter">
+        <a href="#">Regelement</a>
+        <a href="#">Algemene gebruiksvoorwaarden</a>
+        <a href="#">privacyverklaring</a>
+    </section>
+</footer>
+</body>
+</html>

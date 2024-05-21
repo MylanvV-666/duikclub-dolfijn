@@ -34,6 +34,51 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: cc07e5fd-bf6d-4c12-971b-1b386c10f883 # Home Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 177a974f-0f75-4d02-bf7b-cf347038f106
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea72abe5-bea8-4ae7-9a59-db81d2b10f9a # Titel h1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 69b79c12-4d01-47f0-882a-51ba60edff16
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cbdf9d66-e771-4ea6-b065-36d46f769535 # InleidendeTekstHome
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 459f078f-c79d-484b-815d-8c6895f4cbd9
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 47a8103a-d6e1-4e9c-90b0-fd478802db4d
         userCondition: null

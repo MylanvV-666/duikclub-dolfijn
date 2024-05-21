@@ -16,62 +16,63 @@
     <script defer src="web/static/script/script.js"></script>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-
-<body id="home">
-
+<body>
 <nav>
     <a href="index.html">
         <img src="static/assets/Dolfijn%201.png" alt="logo">
     </a>
     <div class="menu-items">
-        <a href="over-ons.twig">Over ons</a>
-        <a href="duiken.twig">Duiken</a>
-        <a href="contact.twig">Contact</a>
-        <a href="login.twig">
+        <a href="over-ons.html">Over ons</a>
+        <a href="duiken.html">Duiken</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">
             <button>Login</button>
         </a>
     </div>
 </nav>
+<header class="header2">
+    <div class="header-foto-3">
+        <img src="static/assets/Zeelandweekend-16.jpg"
+             alt="Twee duikers rechtstaand in water zich aan het klaarmaken voor een duik">
+    </div>
+    <div class="header-foto-4">
+        <img src="static/assets/Zeelandweekend-20.jpg" alt="Uitzicht over zee horizon">
+    </div>
 
-<div id="header-home" style="background-color:{{ entry.homeImage.one().url }}">
-    <h1>Duik in het avontuur</h1>
-</div>
-
+    <h1>Is duiken iets voor jou?</h1>
+    <div id="header2-tekst">
+        <p>Ben je nieuwsgierig naar de onderwaterwereld en vraag je je af of duiken iets voor jou is? Bij Duikclub
+            Dolfijn verwelkomen we zowel beginners als ervaren duikers die hun passie willen verdiepen.</p>
+        <p>Als je interesse hebt om te leren duiken of gewoon meer wilt weten over deze opwindende activiteit, aarzel
+            dan niet om contact met ons op te nemen. Duiken is voor iedereen die houdt van avontuur, ontdekking en
+            plezier
+            onder water!</p>
+    </div>
+</header>
 <main>
-    <section id="welkomhome">
-        <div class="tekst">
-            <h2>Welkom bij duikclub Dolfijn!</h2>
-            <p>{{ entry.paragraaf }}</p>
-            <a href="lessen-initiatie.html">
-                <button>Gratis duikinitiatie</button>
+    <section id="meer-info-over-duiken">
+        <h2>Meer info over duiken</h2>
+        <div id="meer-info-bollen">
+            <a href="/duiksport">
+                <div class="bol">
+                    <h3>Duiksport</h3>
+                </div>
             </a>
-        </div>
-        <div class="fotos">
-            <img class="foto-top" src="static/assets/Mask%20group.png" alt="foto">
-            <img class="foto-mid" src="static/assets/Mask%20group2.png" alt="foto">
-            <img class="foto-bot" src="static/assets/Mask%20group3.png" alt="foto">
-        </div>
-    </section>
-    <section id="aanbodhome">
-        <h2>Ons aanbod</h2>
-        <div>
-            <a href="lessen-initiatie.html">
-                <button>Initiatie</button>
+            <a href="/duiksport">
+                <div class="bol">
+                    <h3>Prijzen</h3>
+                </div>
             </a>
-            <a href="duiken.html">
-                <button>Clubduiken</button>
+            <a href="/duiksport">
+                <div class="bol">
+                    <h3>Lessen en</br>brevetten</h3>
+                </div>
             </a>
-            <a href="duiksport.html">
-                <button>Trainingen</button>
+            <a href="/duiksport">
+                <div class="bol">
+                    <h3>Duikplaatsen</h3>
+                </div>
             </a>
-        </div>
-    </section>
-    <section class="dank">
-        <h2>Met dank aan</h2>
-        <div>
-            <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>
-            <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>
-            <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>
         </div>
     </section>
 </main>

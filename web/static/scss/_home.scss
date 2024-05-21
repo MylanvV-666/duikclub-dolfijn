@@ -1,5 +1,16 @@
 @use "algemeen" as *;
 
+#header-home{
+  height: 35rem;
+}
+#header-home h1{
+  color: $wit;
+  position: relative;
+  top: 25rem;
+  text-align: right;
+  padding: 2rem;
+}
+
 // sectie1
 #welkomhome {
   display: flex;

@@ -2,6 +2,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
+    "carlcs/craft-redactorcustomstyles": "5.0.0",
     "craftcms/cms": "5.1.1",
     "vlucas/phpdotenv": "^5.4.0"
   },
