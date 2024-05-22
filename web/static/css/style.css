@@ -267,7 +267,7 @@ footer .balkfooter a:hover {
 }
 
 #header-home h1 {
-  color: #fff;
+  color: #012836;
   position: relative;
   top: 25rem;
   text-align: right;
@@ -999,6 +999,468 @@ footer .balkfooter a:hover {
 
 #login main #inloggen form {
   width: 40%;
+}
+
+@media screen and (max-width: 1700px) {
+  #home header h1 {
+    height: 800px;
+    padding: 600px 150px 200px 0;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #home header h1 {
+    height: 600px;
+    padding: 400px 150px 200px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /*navigatie niet leden*/
+  nav #groot_menu {
+    display: none;
+  }
+  nav #hamburger {
+    display: flex;
+  }
+  /*footer*/
+  footer .gegevensfooter div {
+    padding: 50px 50px 10px 50px;
+  }
+  footer .gegevensfooter div #logo_footer {
+    width: 100%;
+  }
+  footer .gegevensfooter div .gegevensmeticonen img {
+    display: none;
+  }
+  footer .gegevensfooter div .socialsfooter {
+    justify-content: space-between;
+    width: 100%;
+  }
+  /*header home*/
+  #home header h1 {
+    height: 500px;
+    padding: 350px 150px 0 0;
+  }
+  /*main home*/
+  #home main {
+    padding: 0 150px;
+  }
+  /*sectie1*/
+  #welkomhome {
+    flex-direction: column;
+    padding: 80px 0;
+  }
+  /*sectie1 tekst*/
+  #welkomhome .tekst {
+    width: 100%;
+  }
+  #welkomhome .tekst p {
+    width: 100%;
+  }
+  #welkomhome .tekst a {
+    justify-content: left;
+  }
+  /*sectie1 img*/
+  #welkomhome .fotos {
+    display: none;
+  }
+  /*sectie2*/
+  #aanbodhome div {
+    flex-wrap: wrap;
+  }
+  #aanbodhome div a {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+  #aanbodhome div #lang_responcive {
+    width: 100%;
+  }
+  #aanbodhome div a button {
+    width: 100%;
+    height: 200px;
+  }
+  /*sectie3*/
+  .dank div {
+    width: 100%;
+    padding: 50px 0 50px 0;
+  }
+  .dank div a {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+  }
+  .dank div a img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  /*main over ons*/
+  #over_ons main {
+    padding: 150px;
+  }
+  /*sectie1*/
+  #over_ons main #over_overons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  #over_ons main #over_overons div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #over_ons main #over_overons #titelenfoto img {
+    display: none;
+  }
+  #over_ons main #over_overons #tekstenfoto p {
+    width: 100%;
+  }
+  #over_ons main #over_overons #tekstenfoto img {
+    display: none;
+  }
+  /*sectie2*/
+  #over_ons main #bestuur #personen {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #over_ons main #bestuur #personen .personenrij {
+    flex-wrap: wrap;
+  }
+  #over_ons main #bestuur #personen .personenrij .persoon {
+    width: 50%;
+  }
+  /*sectie3*/
+  #over_ons main #watdoenwij div {
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+  #over_ons main #watdoenwij #andersom {
+    flex-direction: column;
+  }
+  #over_ons main #watdoenwij h2 {
+    padding-bottom: 10px;
+  }
+  #over_ons main #watdoenwij div .tekstlinks {
+    padding-top: 50px;
+    width: 100%;
+  }
+  #over_ons main #watdoenwij div .tekstlinks p, #over_ons main #watdoenwij div #tekstrechts p {
+    padding-bottom: 40px;
+  }
+  #over_ons main #watdoenwij div .fotos, #over_ons main #watdoenwij div #fotosleft {
+    width: 100%;
+    padding: 20px 0;
+  }
+  #over_ons main #watdoenwij div .fotos .foto-top, #over_ons main #watdoenwij div #fotosleft .fotoleft-mid {
+    position: static;
+  }
+  #over_ons main #watdoenwij div .fotos .foto-mid, #over_ons main #watdoenwij div #fotosleft .fotoleft-top {
+    display: none;
+  }
+  #over_ons main #watdoenwij div .fotos .foto-bot, #over_ons main #watdoenwij div #fotosleft .fotoleft-bot {
+    display: none;
+  }
+  #over_ons main #watdoenwij div #tekstrechts {
+    padding-top: 20px;
+    width: 100%;
+  }
+  #over_ons #kaartoverons h2 {
+    padding: 0 50px 50px 50px;
+  }
+  /* -------------- DUIKEN -------------- */
+  .header2 {
+    width: 80%;
+  }
+  header .header-foto-3 {
+    display: none;
+  }
+  header .header-foto-4 {
+    display: none;
+  }
+  .header2 h1 {
+    position: static;
+  }
+  #header2-tekst {
+    position: static;
+    width: 100%;
+  }
+  #meer-info-over-duiken {
+    margin: 0 auto 5rem auto;
+  }
+  #meer-info-over-duiken h2 {
+    text-align: left;
+  }
+  #meer-info-bollen {
+    flex-wrap: wrap;
+  }
+  /*duiksport*/
+  #duiksport-main {
+    margin: 0 auto;
+  }
+  .duiksport-brevet-card {
+    width: 50%;
+  }
+  /* ----------- PRIJZEN -------------*/
+  #prijzen-main {
+    width: 80%;
+  }
+  #duikmateriaal #indoor {
+    flex-direction: column;
+  }
+  #duikmateriaal #indoor-foto1 {
+    width: 90%;
+    height: initial;
+    position: static;
+  }
+  #duikmateriaal #indoor-foto2 {
+    display: none;
+  }
+  #duikmateriaal #indoor-tekst, #duikmateriaal #outdoor-tekst {
+    margin-left: 0;
+    padding: 1rem 0 5rem 0;
+  }
+  #duikmateriaal #outdoor {
+    flex-direction: column-reverse;
+  }
+  #duikmateriaal #outdoor-foto1 {
+    display: none;
+  }
+  #duikmateriaal #outdoor-foto1 img {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: 0;
+  }
+  #duikmateriaal #outdoor-foto2 {
+    display: none;
+  }
+  #duikmateriaal #outdoor-foto3 {
+    width: 90%;
+    height: initial;
+    position: static;
+  }
+  /* ------------ LESSEN -----------*/
+  #lessen-header {
+    flex-direction: column-reverse;
+    width: 80%;
+  }
+  #lessen-header-foto1 {
+    display: none;
+  }
+  #lessen-header-foto2 {
+    height: initial;
+    width: 100%;
+  }
+  #lessen-buttons {
+    width: 80%;
+  }
+  /*main duikplaatsen*/
+  #duikplaatsen main #duikplaatsenheader .fotos {
+    display: none;
+  }
+  #duikplaatsen main #duikplaatsenheader .tekst {
+    width: 100%;
+  }
+  #duikplaatsen main #duikplaatsenheader .tekst h1 {
+    padding: 50px 0 20px 0;
+  }
+  #duikplaatsen main #duikplaatsenheader .tekst p {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  #duikplaatsen main .duikplaatsencarousel p {
+    width: 100%;
+  }
+  /*main lessen initiatie*/
+  /*sectie1*/
+  #lessen_initiatie main #gratis_duikinitiatie_lessenpage {
+    text-align: left;
+    width: 100%;
+  }
+  #lessen_initiatie main #gratis_duikinitiatie_lessenpage h1 {
+    width: 100%;
+    padding: 50px 0 20px 0;
+  }
+  /*sectie2*/
+  #lessen_initiatie main #nieuw_avontuur {
+    width: 100%;
+  }
+  #lessen_initiatie main #nieuw_avontuur .fotos {
+    width: 40%;
+  }
+  #lessen_initiatie main #nieuw_avontuur .fotos .foto-mid {
+    display: none;
+  }
+  #lessen_initiatie main #nieuw_avontuur .fotos .foto-bot {
+    display: none;
+  }
+  #lessen_initiatie main #nieuw_avontuur .tekst {
+    width: 59%;
+    padding-top: 0;
+  }
+  #lessen_initiatie main #nieuw_avontuur .tekst h2 {
+    padding-bottom: 20px;
+  }
+  #lessen_initiatie main #nieuw_avontuur .tekst p {
+    padding-bottom: 50px;
+  }
+  /*sectie3*/
+  #lessen_initiatie main #inschrijving_initiatie form {
+    width: 80%;
+  }
+  /*main contact*/
+  /*sectie1*/
+  #contact main #contactformulier form {
+    width: 80%;
+  }
+  /*sectie2*/
+  #contact main #contactgegevens {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  /*footer*/
+  footer .gegevensfooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .gegevensfooter div {
+    width: 50%;
+  }
+  footer .gegevensfooter .border {
+    border-right: none;
+  }
+  footer .gegevensfooter div p, footer .gegevensfooter div a {
+    text-align: center;
+    margin: 0 auto;
+  }
+  footer .gegevensfooter div .gegevensmeticonen img {
+    display: flex;
+  }
+  footer .gegevensfooter div .gegevensmeticonen p {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 800px) {
+  /*header home*/
+  #home header h1 {
+    height: 350px;
+    font-size: 48px;
+    text-align: left;
+    padding: 250px 0 0 50px;
+  }
+  /*main home*/
+  #home main {
+    padding: 50px 50px;
+  }
+  /*sectie1*/
+  #welkomhome {
+    padding: 0;
+  }
+  /*sectie1 tekst*/
+  #welkomhome .tekst h2 {
+    padding: 0 0 20px 0;
+  }
+  #welkomhome .tekst a {
+    padding-bottom: 50px;
+  }
+  /*sectie2*/
+  #aanbodhome div {
+    width: 100%;
+  }
+  /*sectie3*/
+  .dank div {
+    flex-direction: column;
+  }
+  .dank div a {
+    width: 50%;
+  }
+  .dank div a img {
+    max-width: 100%;
+  }
+  /*over ons*/
+  /*sectie2*/
+  #over_ons main #bestuur #personen .personenrij .persoon {
+    width: 100%;
+  }
+  /*duiksport*/
+  .duiksport-brevet-card {
+    width: 100%;
+  }
+  /* ------------ LESSEN -----------*/
+  #lessen-buttons {
+    width: 100%;
+  }
+  /*main duikplaatsen*/
+  #duikplaatsen main, #lessen_initiatie main, #contact main {
+    padding: 100px 50px 0 50px;
+  }
+  /*main lessen initiatie*/
+  /*sectie2*/
+  #lessen_initiatie main #nieuw_avontuur .fotos {
+    display: none;
+  }
+  #lessen_initiatie main #nieuw_avontuur .tekst {
+    width: 100%;
+  }
+  /*sectie3*/
+  #lessen_initiatie main #inschrijving_initiatie form {
+    width: 100%;
+  }
+  /*main contact*/
+  /*sectie1*/
+  #contact main #contactformulier form {
+    width: 100%;
+  }
+  /*sectie2*/
+  #contact main #contactgegevens {
+    width: 100%;
+  }
+  /*main login*/
+  #login main #inloggen {
+    padding: 100px 50px;
+  }
+  #login main #inloggen form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 650px) {
+  /*navigatie niet leden*/
+  nav #hamburger #uitklap {
+    padding: 0 30px 100px 30px;
+  }
+  /*footer*/
+  footer .gegevensfooter div {
+    width: 100%;
+  }
+  #logo_footer {
+    display: none;
+  }
+  footer .gegevensfooter div a, footer .gegevensfooter div p {
+    text-align: left;
+  }
+  footer .balkfooter {
+    flex-direction: column;
+    height: 200px;
+  }
+  /*home*/
+  /*sectie2*/
+  #aanbodhome div a {
+    width: 100%;
+  }
+  /*contact*/
+  /*sectie2*/
+  #contact main #contactgegevens {
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact main #contactgegevens #gegevens, #contact main #contactgegevens #kaart {
+    width: 100%;
+    padding: 20px 0;
+  }
+  #login main #inloggen form {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

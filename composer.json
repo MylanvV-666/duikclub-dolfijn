@@ -3,6 +3,7 @@
   "prefer-stable": true,
   "require": {
     "carlcs/craft-redactorcustomstyles": "5.0.0",
+    "craftcms/ckeditor": "4.0.6",
     "craftcms/cms": "5.1.1",
     "vlucas/phpdotenv": "^5.4.0"
   },

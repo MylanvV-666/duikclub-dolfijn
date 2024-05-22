@@ -1,4 +1,4 @@
-dateModified: 1716333886
+dateModified: 1716337468
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -8,7 +8,7 @@ fs:
     hasUrls: true
     name: Bestanden
     settings:
-      path: '@webroot/files'
+      path: '@webroot/assets'
     type: craft\fs\Local
     url: /files
 meta:
@@ -22,8 +22,13 @@ meta:
     cbdf9d66-e771-4ea6-b065-36d46f769535: InleidendeTekstHome # InleidendeTekstHome
     cc07e5fd-bf6d-4c12-971b-1b386c10f883: 'Home Image' # Home Image
     d6cbf5f4-6ab6-4d4f-8983-9fea51b225e3: Startpagina # Startpagina
+    d912c11c-507e-49ef-b4b6-c5877d355fda: Simple # Simple
     ea72abe5-bea8-4ae7-9a59-db81d2b10f9a: 'Titel h1' # Titel h1
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   redactor-custom-styles:
     edition: standard
     enabled: true

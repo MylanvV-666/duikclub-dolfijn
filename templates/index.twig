@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="utf-8"/>
-    <title>{{ systemName }}</title>
+    <title>{{ systemName }} | {{ entry.title }}</title>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
     <meta name="referrer" content="origin-when-cross-origin"/>
@@ -33,15 +33,15 @@
     </div>
 </nav>
 
-<div id="header-home" style="background-color:{{ entry.homeImage.one().url }}">
-    <h1>Duik in het avontuur</h1>
+<div id="header-home" style="background-image:url(' {{ entry.homeImage.one().url }} ')">
+    <h1>{{  entry.titelH1 }}</h1>
 </div>
 
 <main>
     <section id="welkomhome">
         <div class="tekst">
             <h2>Welkom bij duikclub Dolfijn!</h2>
-            <p>{{ entry.paragraaf }}</p>
+            <p>{{ entry.inleidendeTekstHome }}</p>
             <a href="lessen-initiatie.html">
                 <button>Gratis duikinitiatie</button>
             </a>
