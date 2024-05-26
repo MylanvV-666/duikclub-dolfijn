@@ -1,0 +1,110 @@
+color: null
+fieldLayouts:
+  b70c9af4-2a10-491c-a3a8-7e0586440828:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d18b523b-cd88-4549-93dc-13a4feb21718
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea72abe5-bea8-4ae7-9a59-db81d2b10f9a # Titel h1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a48d224-6eb2-40e8-97f0-2a40c99a668d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c0cd35b-1aba-46c8-b16a-d98f0be224f9 # Foto1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7eb155c2-4de0-4468-b2b7-a2c0ad1e8909
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 35b61dda-4599-41ec-971a-683a1878b7d6 # Foto 2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d3da206-d7c1-40c1-bf84-2a89e301e55e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cbdf9d66-e771-4ea6-b065-36d46f769535 # InleidendeTekstHome
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd0f9f85-2720-4a9b-ab91-cb13fb001483
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d2c6b752-efd1-4207-89c4-6dd67c561a09
+        userCondition: null
+handle: duikplaatsen
+hasTitleField: true
+icon: memo
+name: Duikplaatsen
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

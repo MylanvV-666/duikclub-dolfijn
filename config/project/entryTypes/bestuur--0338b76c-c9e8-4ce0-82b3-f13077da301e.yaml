@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  70ce7920-8e3d-4162-acf7-181d8e841d47:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Naam
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d58fc640-d348-4e43-a8d8-a44532be639f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5f0fb296-50ea-493b-ba31-ebb357791b23 # Rol
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 306807d3-9aed-4c82-a1cf-9508d1c8fca4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b1de7fa-3133-4824-9bea-05e8303c1f51 # Foto Bestuur
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18f2a2ca-8005-4e00-b95e-96b5e7ef1609
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5fd2b869-1b0d-46ec-a7c5-9bb32fd8ad56
+        userCondition: null
+handle: bestuur
+hasTitleField: true
+icon: user
+name: Bestuur
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

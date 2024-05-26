@@ -1,4 +1,4 @@
-dateModified: 1716337468
+dateModified: 1716694773
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -10,25 +10,70 @@ fs:
     settings:
       path: '@webroot/assets'
     type: craft\fs\Local
-    url: /files
+    url: '@web/assets/'
 meta:
   __names__:
+    1ccf6509-e880-4ff1-b8d8-a020867d59eb: Brevetten # Brevetten
+    1f5effd7-cdc3-4299-87c8-419a47830d24: 'Lang verticaal' # Lang verticaal
+    2a3eea25-77ba-47cc-85b0-a1920e038b0d: Federaties # Federaties
+    2c4e8754-f3bf-4096-9ae3-9a11212c3654: Duikplaatsen # Duikplaatsen
     2f141443-d73e-4cd5-9414-23f192babda8: 'Navigatie link' # Navigatie link
+    3a5628fe-88ab-4ade-aa40-c5bf83414dee: bestuur # bestuur
+    4d1070e7-0af4-4cdd-85d3-91155db1b7f5: 'Titel H2.3' # Titel H2.3
+    5b1de7fa-3133-4824-9bea-05e8303c1f51: 'Foto Bestuur' # Foto Bestuur
     5b9d7c12-622b-4990-9155-c2741c5def38: 'Foto''s' # Foto's
+    5c0dc2c9-285c-45aa-887a-c887ea0e4c0d: 'Titel H3.2' # Titel H3.2
+    5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
+    8c0cd35b-1aba-46c8-b16a-d98f0be224f9: Foto1 # Foto1
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
+    12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg3 # Uitleg3
+    13d1ccc4-b02c-46db-9af1-03469cce2ece: 'Over ons' # Over ons
+    35b61dda-4599-41ec-971a-683a1878b7d6: 'Foto 2' # Foto 2
     41a1bff9-a6eb-4a75-8d10-cd9ecedf68d0: Home # Home
+    047f311b-5a9b-4f2a-83e5-bb93db79c152: 'Foto 4' # Foto 4
+    050a6c8f-b201-4a7c-bf27-90550f2a81b1: Prijzen # Prijzen
+    0338b76c-c9e8-4ce0-82b3-f13077da301e: Bestuur # Bestuur
+    532c63e0-e8c9-43e6-a365-064f3559f2c4: 'Foto 5' # Foto 5
+    576a2557-7a12-4da9-a061-82e817ee493f: 'Logo''s' # Logo's
+    888ddfaa-bf6f-484f-a10b-4a2e5249a753: Dank # Dank
+    7108a5e2-c2f3-4d7b-a353-7b9639603cda: 'Titel H3.1' # Titel H3.1
+    8063a39b-adbe-447a-a100-69422b04438d: verticaal # verticaal
+    38526ff8-201f-4280-9758-4eafe67903af: Initiatie # Initiatie
+    486688b8-6ea0-4455-96eb-adb504204342: 'Titel H3.3' # Titel H3.3
+    1944228b-667b-4679-a9a7-5cd61ba6363b: 'Titel H2.2' # Titel H2.2
+    02450193-808b-42e8-b4cd-9a0991eb8258: 'Titel H2' # Titel H2
+    23162187-50bf-4930-b65c-16f4631c8527: 'Uitleg 2' # Uitleg 2
+    24270014-0a29-4a8a-9cd7-1bacac913949: Duiken # Duiken
+    63434597-0860-43b3-802d-0c07397e573b: 'Lessen initiatie' # Lessen initiatie
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
+    a673f98a-6771-449a-a0f3-276be1a1061d: Duiken # Duiken
+    b56f921c-3a00-4fec-b19c-58f744660752: Lessen # Lessen
+    b95e3bf5-e962-483f-9c0c-e6af209b4f1f: horizontaal # horizontaal
+    bb9b1097-9276-461c-aac1-6f5b359e8106: 'Lang horizontaal' # Lang horizontaal
+    bf8f250d-e4d1-4d7d-9b2d-7715bf489fc9: 'Foto 3' # Foto 3
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
     cbdf9d66-e771-4ea6-b065-36d46f769535: InleidendeTekstHome # InleidendeTekstHome
     cc07e5fd-bf6d-4c12-971b-1b386c10f883: 'Home Image' # Home Image
+    d00f9e93-2d15-43f4-8dcb-b6e87b13ba35: 'Over ons' # Over ons
     d6cbf5f4-6ab6-4d4f-8983-9fea51b225e3: Startpagina # Startpagina
+    d8c902a6-806b-47c9-b83f-7aafbb84b98b: Square # Square
+    d10fa2a6-2fa0-4ca1-a7bf-856b57fd0d0c: Brevetten # Brevetten
     d912c11c-507e-49ef-b4b6-c5877d355fda: Simple # Simple
+    d1809068-0b65-420d-a675-e40b84fe0109: Duiksport # Duiksport
+    e06bb397-2b42-4693-83e3-12537430bbc4: 'Titel H3.4' # Titel H3.4
     ea72abe5-bea8-4ae7-9a59-db81d2b10f9a: 'Titel h1' # Titel h1
+    f0075299-99cf-41b1-a05d-e33c296efccc: Bestuur # Bestuur
+    f91e36f4-9384-45d5-b776-dd455ec19ade: Uitleg1 # Uitleg1
+    f287c90d-2adb-4d28-b12d-dcd0d25fa64d: Duikplaatsen-indiv # Duikplaatsen-indiv
 plugins:
   ckeditor:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  freeform:
+    edition: express
+    enabled: true
+    schemaVersion: 5.1.0
   redactor-custom-styles:
     edition: standard
     enabled: true

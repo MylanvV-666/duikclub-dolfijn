@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 0338b76c-c9e8-4ce0-82b3-f13077da301e # Bestuur
+handle: bestuur
+maxAuthors: 1
+name: bestuur
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    enabledByDefault: true
+    hasUrls: true
+    template: bestuur/_entry
+    uriFormat: 'bestuur/{slug}'
+type: channel

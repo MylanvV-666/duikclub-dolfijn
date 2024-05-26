@@ -1,7 +1,7 @@
 altTranslationKeyFormat: null
 altTranslationMethod: none
 fieldLayouts:
-  3238378f-e1cc-4420-8772-47980baac1a9:
+  36105100-3740-4567-b42c-3b33ff1c4d28:
     tabs:
       -
         elementCondition: null
@@ -31,19 +31,19 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
-            uid: 73714c54-319a-4b13-bb52-54909f23c66e
+            uid: 57b31ccb-05cf-43cd-8fca-75f5612d6bb6
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 18914afc-b6bc-4ccc-be58-af47133c8867
+        uid: cf35fd24-383d-44f3-8325-df7486e6847f
         userCondition: null
 fs: files
-handle: fotos
-name: 'Foto''s'
-sortOrder: 1
-subpath: '@webroot\assets'
+handle: logos
+name: 'Logo''s'
+sortOrder: 3
+subpath: '@webroot\assets\logos'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''
-transformSubpath: '@web/assets'
+transformSubpath: ''

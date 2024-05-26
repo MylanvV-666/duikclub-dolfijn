@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 2a3eea25-77ba-47cc-85b0-a1920e038b0d # Federaties
+handle: dank
+maxAuthors: 1
+name: Dank
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    enabledByDefault: true
+    hasUrls: true
+    template: dank/_entry
+    uriFormat: 'dank/{slug}'
+type: channel

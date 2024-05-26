@@ -1,6 +1,6 @@
-color: blue
+color: null
 fieldLayouts:
-  125b7959-d141-4398-9bf1-512cffc279a1:
+  ef0f4fa9-071f-4458-a34e-70edf7bf8a98:
     tabs:
       -
         elementCondition: null
@@ -30,22 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 2d968edf-0ba3-48b6-9939-739d07495fce
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: cc07e5fd-bf6d-4c12-971b-1b386c10f883 # Home Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 177a974f-0f75-4d02-bf7b-cf347038f106
+            uid: 5740900a-a187-492e-a875-0604063539b7
             userCondition: null
             warning: null
             width: 100
@@ -57,10 +42,10 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 69b79c12-4d01-47f0-882a-51ba60edff16
+            uid: c218e80a-35d8-4fc0-b212-526588bf212e
             userCondition: null
             warning: null
             width: 100
@@ -72,10 +57,10 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 440151a1-67c4-4883-9a4b-1bf1ba8527e4
+            uid: 4dd16c56-650f-4444-b4c0-0b7e73355101
             userCondition: null
             warning: null
             width: 100
@@ -87,10 +72,10 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 459f078f-c79d-484b-815d-8c6895f4cbd9
+            uid: 8a043abb-9870-4609-91ee-09efadcd82af
             userCondition: null
             warning: null
             width: 100
@@ -102,10 +87,10 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9725ee13-2adb-477f-949c-91f156959cdb
+            uid: af5b3b82-0a03-4cac-a6d1-054bebbf55af
             userCondition: null
             warning: null
             width: 100
@@ -117,40 +102,40 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9961fe28-f50d-4513-be08-3efbb882287e
+            uid: 523b81a7-624c-47f7-ac9a-7571b45d0e90
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5c0dc2c9-285c-45aa-887a-c887ea0e4c0d # Titel H3.2
+            fieldUid: 8c0cd35b-1aba-46c8-b16a-d98f0be224f9 # Foto1
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8e2984a8-f02d-4b60-9061-3cc75ef3a25e
+            uid: 17a88137-bc43-46c0-873c-2075f6999aee
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 486688b8-6ea0-4455-96eb-adb504204342 # Titel H3.3
+            fieldUid: 35b61dda-4599-41ec-971a-683a1878b7d6 # Foto 2
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 76f98f09-fa71-42f2-8cd7-4ac4c9d0d17a
+            uid: 4f11d615-c555-4dab-ba67-cb8cccb52533
             userCondition: null
             warning: null
             width: 100
@@ -162,10 +147,25 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 882596d2-8b70-4f29-82a4-4bcada9ee416
+            uid: e0e2eb51-d438-4bd0-82bb-15d8baa7284a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5c0dc2c9-285c-45aa-887a-c887ea0e4c0d # Titel H3.2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6fa59126-40a5-4b75-bce1-e447589332b9
             userCondition: null
             warning: null
             width: 100
@@ -177,36 +177,66 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 23e9475b-b481-4f17-85ec-4babbf2bd9f3
+            uid: bab8b5a1-466b-4cf8-86a9-48acf42bd10d
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 12b7a069-0112-452b-ae5f-804c0ab2992d # Uitleg3
+            fieldUid: bf8f250d-e4d1-4d7d-9b2d-7715bf489fc9 # Foto 3
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ff5a1d50-471b-4fbe-accc-9c7a901c0bf3
+            uid: 859c045f-5bbc-41ac-a786-74231889a2d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 047f311b-5a9b-4f2a-83e5-bb93db79c152 # Foto 4
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29e0eef0-f80c-4b2d-9981-12bf106c0b21
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 532c63e0-e8c9-43e6-a365-064f3559f2c4 # Foto 5
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f1f3587-dd18-410e-814f-42a48296c332
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 47a8103a-d6e1-4e9c-90b0-fd478802db4d
+        uid: f7d84687-b238-45e2-b016-23db3b7c1a0e
         userCondition: null
-handle: startpagina
+handle: prijzen
 hasTitleField: true
-icon: house
-name: Startpagina
-showSlugField: false
+icon: memo
+name: Prijzen
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

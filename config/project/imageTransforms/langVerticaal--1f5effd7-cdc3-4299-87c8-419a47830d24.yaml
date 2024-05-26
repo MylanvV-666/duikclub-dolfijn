@@ -1,0 +1,11 @@
+fill: null
+format: png
+handle: langVerticaal
+height: 450
+interlace: none
+mode: crop
+name: 'Lang verticaal'
+position: center-center
+quality: null
+upscale: true
+width: 200

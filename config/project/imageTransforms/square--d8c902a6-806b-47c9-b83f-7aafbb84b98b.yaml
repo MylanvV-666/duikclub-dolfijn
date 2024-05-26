@@ -1,0 +1,11 @@
+fill: null
+format: png
+handle: square
+height: 240
+interlace: none
+mode: crop
+name: Square
+position: center-center
+quality: null
+upscale: true
+width: 240
