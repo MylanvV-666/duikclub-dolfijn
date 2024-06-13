@@ -264,10 +264,13 @@ footer .balkfooter a:hover {
 
 #header-home {
   height: 35rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 #header-home h1 {
-  color: #012836;
+  color: #fff;
   position: relative;
   top: 25rem;
   text-align: right;
@@ -348,11 +351,6 @@ footer .balkfooter a:hover {
   width: 30%;
   display: flex;
   justify-content: center;
-}
-
-.dank div a img {
-  max-width: 100%;
-  height: 300px;
 }
 
 #aanbodhome div a button {

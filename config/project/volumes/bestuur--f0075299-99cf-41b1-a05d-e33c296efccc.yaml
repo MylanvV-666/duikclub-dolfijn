@@ -42,7 +42,7 @@ fs: files
 handle: bestuur
 name: Bestuur
 sortOrder: 2
-subpath: '@webroot\assets\bestuur'
+subpath: bestuur
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''

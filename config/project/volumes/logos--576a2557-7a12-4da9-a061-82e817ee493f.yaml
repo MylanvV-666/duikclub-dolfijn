@@ -42,7 +42,7 @@ fs: files
 handle: logos
 name: 'Logo''s'
 sortOrder: 3
-subpath: '@webroot\assets\logos'
+subpath: logos
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''

@@ -1,4 +1,4 @@
-dateModified: 1716694773
+dateModified: 1716821685
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -10,7 +10,7 @@ fs:
     settings:
       path: '@webroot/assets'
     type: craft\fs\Local
-    url: '@web/assets/'
+    url: /assets
 meta:
   __names__:
     1ccf6509-e880-4ff1-b8d8-a020867d59eb: Brevetten # Brevetten

@@ -42,8 +42,8 @@ fs: files
 handle: fotos
 name: 'Foto''s'
 sortOrder: 1
-subpath: '@webroot\assets'
+subpath: assets
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''
-transformSubpath: '@web/assets'
+transformSubpath: assets

@@ -32,8 +32,8 @@
         </a>
     </div>
 </nav>
-
-<div id="header-home" style="background-image:url(' {{ entry.homeImage.one().url }} ')">
+{% set homeImage = entry.homeImage.one() %}
+<div id="header-home" style="background-image:url('{{ homeImage.url }}')">
     <h1>{{  entry.titelH1 }}</h1>
 </div>
 

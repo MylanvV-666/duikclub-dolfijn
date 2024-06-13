@@ -2,9 +2,12 @@
 
 #header-home{
   height: 35rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 #header-home h1{
-  color: $donkerblauw;
+  color: $wit;
   position: relative;
   top: 25rem;
   text-align: right;
