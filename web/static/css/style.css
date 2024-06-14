@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif, "PT sans";
-  text-decoration: none;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
 
 main {
   width: 75%;
-  margin: 3rem auto;
+  margin: 0 auto;
 }
 
 button {
@@ -24,8 +23,7 @@ button {
   border-radius: 10px;
   text-align: center;
 }
-
-button:hover {
+button :hover {
   background-color: transparent;
   color: #012836;
 }
@@ -34,24 +32,28 @@ h1 {
   font-weight: bold;
   font-size: 48px;
   color: #012836;
+  padding: 2rem 0;
 }
 
 h2 {
   font-weight: bold;
   font-size: 40px;
   color: #012836;
+  padding: 2rem 0;
 }
 
 h3 {
   font-weight: bold;
   font-size: 30px;
   color: #012836;
+  padding: 2rem 0;
 }
 
 p, a {
   font-weight: normal;
   font-size: 20px;
   color: #012836;
+  text-decoration: none;
 }
 
 a:hover {
@@ -68,7 +70,6 @@ nav {
   background-color: #012836;
   padding: 0 40px;
 }
-
 nav .menu-items {
   width: 650px;
   display: flex;
@@ -76,21 +77,18 @@ nav .menu-items {
   justify-content: space-between;
   align-items: center;
 }
-
 nav .menu-items a {
   color: #fff;
 }
-
-nav .menu-items a:hover {
+nav .menu-items a :hover {
   color: #4B8996;
 }
-
 nav .menu-items button {
   background-color: #fff;
   color: #012836;
+  text-decoration: none;
 }
-
-nav .menu-items button:hover {
+nav .menu-items button :hover {
   background-color: transparent;
   color: #fff;
 }
@@ -107,13 +105,11 @@ header {
   position: relative;
   z-index: 10;
 }
-
 .header2 .header-foto-3 img {
   height: inherit;
   position: relative;
   left: -25%;
 }
-
 .header2 .header-foto-4 {
   height: 200px;
   width: 657px;
@@ -123,63 +119,49 @@ header {
   left: -2rem;
   z-index: 0;
 }
-
 .header2 .header-foto-4 img {
   width: inherit;
   position: relative;
   top: -25%;
 }
-
 .header2 h1 {
   position: relative;
   top: -34rem;
   left: 17rem;
 }
-
-#header2-tekst {
+.header2 #header2-tekst {
   position: relative;
   top: -34rem;
   left: 17rem;
   width: 40rem;
 }
-
-#header2-tekst p {
+.header2 #header2-tekst p {
   padding: 0.5rem 0;
 }
-
-footer {
+.header2 footer {
   margin-top: 2rem;
 }
-
-footer p, footer a {
+.header2 footer p, .header2 footer a {
   font-size: 12pt;
   margin-top: 20px;
 }
-
-footer .gegevensfooter {
+.header2 footer .gegevensfooter {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-footer .gegevensfooter div {
+.header2 footer .gegevensfooter div {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 50px;
 }
-
-footer .gegevensfooter .border {
-  border-right: 1px solid #012836;
-}
-
-footer .gegevensfooter div p, footer .gegevensfooter div a {
+.header2 footer .gegevensfooter div p, .header2 footer .gegevensfooter div a {
   width: 100%;
   text-align: left;
 }
-
-footer .gegevensfooter div .gegevensmeticonen {
+.header2 footer .gegevensfooter div .gegevensmeticonen {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -187,17 +169,14 @@ footer .gegevensfooter div .gegevensmeticonen {
   padding: 0;
   width: 100%;
 }
-
-footer .gegevensfooter div .gegevensmeticonen img {
+.header2 footer .gegevensfooter div .gegevensmeticonen img {
   width: 10%;
   margin-top: 20px;
 }
-
-footer .gegevensfooter div .gegevensmeticonen p {
+.header2 footer .gegevensfooter div .gegevensmeticonen p {
   width: 70%;
 }
-
-footer .gegevensfooter div .socialsfooter {
+.header2 footer .gegevensfooter div .socialsfooter {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -205,44 +184,40 @@ footer .gegevensfooter div .socialsfooter {
   align-items: flex-start;
   width: 100%;
 }
-
-footer .gegevensfooter div .socialsfooter a {
+.header2 footer .gegevensfooter div .socialsfooter a {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 15%;
 }
-
-footer .balkfooter {
+.header2 footer .gegevensfooter .border {
+  border-right: 1px solid #012836;
+}
+.header2 footer .balkfooter {
   background-color: #012836;
   width: 100%;
   height: 40px;
   display: flex;
   justify-content: space-evenly;
 }
-
-footer .balkfooter a {
+.header2 footer .balkfooter a {
   color: #fff;
   font-size: 10pt;
   margin-bottom: 20px;
 }
-
-footer .balkfooter a:hover {
+.header2 footer .balkfooter a :hover {
   color: #4B8996;
 }
-
-.dank {
+.header2 .dank {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2rem auto 0 auto;
 }
-
-.dank h2 {
+.header2 .dank h2 {
   width: 100%;
 }
-
-.dank div {
+.header2 .dank div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -250,14 +225,12 @@ footer .balkfooter a:hover {
   width: 80%;
   padding: 50px 0 100px 0;
 }
-
-.dank div a {
+.header2 .dank div a {
   width: 25%;
   display: flex;
   justify-content: center;
 }
-
-.dank div a img {
+.header2 .dank div a img {
   width: 100%;
   height: fit-content;
 }
@@ -268,7 +241,6 @@ footer .balkfooter a:hover {
   background-size: cover;
   background-position: center;
 }
-
 #header-home h1 {
   color: #fff;
   position: relative;
@@ -279,90 +251,72 @@ footer .balkfooter a:hover {
 }
 
 #welkomhome {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 80px 0;
+  padding: 6rem 0;
+  margin-bottom: -15%;
 }
-
-#welkomhome .tekst {
-  width: 75%;
-  padding-right: 100px;
-}
-
-#welkomhome .tekst h2 {
-  padding: 50px 0;
-}
-
 #welkomhome .tekst p {
-  padding-bottom: 50px;
   width: 75%;
 }
-
 #welkomhome .tekst a {
-  width: 100%;
+  margin-top: 5rem;
   display: flex;
   justify-content: right;
 }
-
-#welkomhome .fotos {
+#welkomhome .fotos :nth-child(1) {
   position: relative;
-  left: 250px;
+  top: -5%;
 }
-
-#welkomhome .fotos .foto-top {
-  max-width: 328px;
-  max-height: 268px;
-}
-
-#welkomhome .fotos .foto-mid {
-  max-width: 479px;
-  max-height: 257px;
-}
-
-#welkomhome .fotos .foto-bot {
-  max-width: 199px;
-  max-height: 376px;
+#welkomhome .fotos :nth-child(2) {
   position: relative;
-  right: 250px;
-  bottom: 150px;
+  top: -20%;
+  left: 40%;
+}
+#welkomhome .fotos :nth-child(3) {
+  position: relative;
+  top: -30%;
+  left: 3%;
 }
 
-#aanbodhome, .dank {
-  display: flex;
-  flex-direction: column;
+#aanbodhome div {
+  gap: 1rem;
+}
+#aanbodhome div a {
+  flex: 1;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: #4B8996;
+  --bg-image: none;
+}
+#aanbodhome div a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  align-items: center;
+  height: 100%;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
 }
-
-#aanbodhome h2, .dank h2 {
-  width: 100%;
+#aanbodhome div a:hover::before {
+  opacity: 1;
 }
-
-#aanbodhome div, .dank div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  padding: 50px 0 100px 0;
-}
-
-#aanbodhome div a, .dank div a {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-}
-
 #aanbodhome div a button {
   width: 100%;
-  height: 500px;
+  height: 100%;
+  background: none;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
-#aanbodhome div a button:hover {
-  background-image: url("../assets/Mask group.png");
-  background-size: cover;
-  color: #fff;
+.federaties {
+  margin-top: 5rem;
 }
 
 /*sectie1*/
@@ -1048,7 +1002,6 @@ footer .balkfooter a:hover {
     flex-direction: column;
     padding: 80px 0;
   }
-  /*sectie1 tekst*/
   #welkomhome .tekst {
     width: 100%;
   }
@@ -1058,7 +1011,6 @@ footer .balkfooter a:hover {
   #welkomhome .tekst a {
     justify-content: left;
   }
-  /*sectie1 img*/
   #welkomhome .fotos {
     display: none;
   }

@@ -1,8 +1,11 @@
-<section class="dank">
-    <h2>Met dank aan</h2>
-    <div>
-        <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>
-        <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>
-        <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>
-    </div>
-</section>
+    <a href="{{ federatie.navigatieLink }}" target="_blank" class="col-12 col-md-3 align-items-center">
+        {% set fedImage = federatie.foto.one() %}
+        <img src="{{ fedImage.url }}" alt="{{ federatie.title }}">
+    </a>
+
+
+{#    <div class="row justify-content-between">#}
+{#        <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>#}
+{#        <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>#}
+{#        <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>#}
+{#    </div>#}

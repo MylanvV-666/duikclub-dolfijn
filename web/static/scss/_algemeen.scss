@@ -1,5 +1,5 @@
 $groen: #4B8996;
-$donkerblauw:  #012836;
+$donkerblauw: #012836;
 $wit: #fff;
 
 // ------------------ ALGEMEEN ------------------
@@ -8,15 +8,15 @@ $wit: #fff;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif, "PT sans";
-  text-decoration: none;
 }
 
 body {
   overflow-x: hidden;
 }
-main{
+
+main {
   width: 75%;
-  margin: 3rem auto;
+  margin: 0 auto;
 }
 
 button {
@@ -27,35 +27,39 @@ button {
   border: none;
   border-radius: 10px;
   text-align: center;
-}
 
-button:hover {
-  background-color: transparent;
-  color: $donkerblauw;
+  :hover {
+    background-color: transparent;
+    color: $donkerblauw;
+  }
 }
 
 h1 {
   font-weight: bold;
   font-size: 48px;
   color: $donkerblauw;
+  padding: 2rem 0;
 }
 
 h2 {
   font-weight: bold;
   font-size: 40px;
   color: $donkerblauw;
+  padding: 2rem 0;
 }
 
 h3 {
   font-weight: bold;
   font-size: 30px;
   color: $donkerblauw;
+  padding: 2rem 0;
 }
 
 p, a {
   font-weight: normal;
   font-size: 20px;
   color: $donkerblauw;
+  text-decoration: none;
 }
 
 a:hover {
@@ -73,201 +77,212 @@ nav {
   align-items: center;
   background-color: $donkerblauw;
   padding: 0 40px;
-}
 
-nav .menu-items {
-  width: 650px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 
-nav .menu-items a {
-  color: $wit;
-}
+  .menu-items {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
-nav .menu-items a:hover {
-  color: $groen;
-}
+    a {
+      color: $wit;
 
-nav .menu-items button {
-  background-color: #fff;
-  color: $donkerblauw;
-}
+      :hover {
+        color: $groen;
+      }
+    }
 
-nav .menu-items button:hover {
-  background-color: transparent;
-  color: $wit;
+    button {
+      background-color: #fff;
+      color: $donkerblauw;
+      text-decoration:none;
+
+      :hover {
+        background-color: transparent;
+        color: $wit;
+      }
+    }
+  }
 }
 
 // ------------------ HEADER(s) ------------------
 
-header{
+header {
   width: 60%;
   margin: 5rem auto;
 }
 
-.header2 .header-foto-3{
-  height: 338px;
-  width: 250px;
-  overflow: hidden;
-  position: relative;
-  z-index: 10;
-}
-.header2 .header-foto-3 img{
-  height: inherit;
-  position: relative;
-  left: -25%;
-}
+.header2 {
+  .header-foto-3 {
+    height: 338px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
 
-.header2 .header-foto-4{
-  height: 200px;
-  width: 657px;
-  overflow: hidden;
-  position: relative;
-  top: -1rem;
-  left: -2rem;
-  z-index: 0;
-}
-.header2 .header-foto-4 img{
-  width: inherit;
-  position: relative;
-  top: -25%;
-}
+    img {
+      height: inherit;
+      position: relative;
+      left: -25%;
+    }
+  }
 
-.header2 h1{
-  position: relative;
-  top: -34rem;
-  left: 17rem;
-}
+  .header-foto-4 {
+    height: 200px;
+    width: 657px;
+    overflow: hidden;
+    position: relative;
+    top: -1rem;
+    left: -2rem;
+    z-index: 0;
 
-#header2-tekst{
-  position: relative;
-  top: -34rem;
-  left: 17rem;
-  width: 40rem;
-}
-#header2-tekst p{
-  padding: 0.5rem 0;
-}
+    img {
+      width: inherit;
+      position: relative;
+      top: -25%;
+    }
+  }
 
-// ------------------ FOOTER ------------------
+  h1 {
+    position: relative;
+    top: -34rem;
+    left: 17rem;
+  }
 
-footer{
-  margin-top: 2rem;
-}
-footer p, footer a{
-  font-size: 12pt;
-  margin-top: 20px;
-}
-footer .gegevensfooter {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  #header2-tekst {
+    position: relative;
+    top: -34rem;
+    left: 17rem;
+    width: 40rem;
 
-footer .gegevensfooter div {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 50px;
-}
+    p {
+      padding: 0.5rem 0;
+    }
+  }
 
-footer .gegevensfooter .border {
-  border-right: 1px solid $donkerblauw;
-}
+  // ------------------ FOOTER ------------------
 
-footer .gegevensfooter div p, footer .gegevensfooter div a {
-  width: 100%;
-  text-align: left;
-}
-
-footer .gegevensfooter div .gegevensmeticonen {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  width: 100%;
-}
-
-footer .gegevensfooter div .gegevensmeticonen img {
-  width: 10%;
-  margin-top: 20px;
-}
-
-footer .gegevensfooter div .gegevensmeticonen p {
-  width: 70%;
-}
-
-footer .gegevensfooter div .socialsfooter {
-  margin-top:50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 100%;
-}
-
-footer .gegevensfooter div .socialsfooter a {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 15%;
-}
-
-footer .balkfooter {
-  background-color: $donkerblauw;
-  width: 100%;
-  height: 40px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer .balkfooter a {
-  color: $wit;
-  font-size: 10pt;
-  margin-bottom: 20px;
-}
-
-footer .balkfooter a:hover {
-  color: $groen;
-}
-
-// ------------------ FEDERATIES ------------------
+  footer {
+    margin-top: 2rem;
 
 
-.dank {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem auto 0 auto;
-}
+    p, a {
+      font-size: 12pt;
+      margin-top: 20px;
+    }
 
-.dank h2 {
-  width: 100%;
-}
+    .gegevensfooter {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
-.dank div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  padding: 50px 0 100px 0;
-}
+      div {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px;
 
-.dank div a {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-}
+        p, a {
+          width: 100%;
+          text-align: left;
+        }
 
-.dank div a img {
-  width: 100%;
-  height: fit-content;
+
+        .gegevensmeticonen {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0;
+          width: 100%;
+
+          img {
+            width: 10%;
+            margin-top: 20px;
+          }
+
+          p {
+            width: 70%;
+          }
+        }
+
+        .socialsfooter {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: flex-start;
+          width: 100%;
+
+          a {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 15%;
+          }
+        }
+      }
+
+      .border {
+        border-right: 1px solid $donkerblauw;
+      }
+    }
+
+    .balkfooter {
+      background-color: $donkerblauw;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: space-evenly;
+
+      a {
+        color: $wit;
+        font-size: 10pt;
+        margin-bottom: 20px;
+
+        :hover {
+          color: $groen;
+        }
+      }
+    }
+  }
+
+  // ------------------ FEDERATIES ------------------
+
+
+  .dank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+
+    h2 {
+      width: 100%;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      padding: 50px 0 100px 0;
+
+      a {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+    }
+  }
 }
 
 // ------------------ BOLLEN ------------------

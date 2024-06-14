@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 38526ff8-201f-4280-9758-4eafe67903af # Initiatie
-handle: lessenInitiatie
+  - 2a3eea25-77ba-47cc-85b0-a1920e038b0d # Federaties
+handle: federaties
 maxAuthors: 1
-name: 'Lessen initiatie'
+name: Federaties
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,9 @@ siteSettings:
   c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
     enabledByDefault: true
     hasUrls: true
-    template: lessen-initiatie/_entry
-    uriFormat: lessen-initiatie
-type: single
+    template: _snippets\_federaties.twig
+    uriFormat: 'federaties/{slug}'
+structure:
+  maxLevels: null
+  uid: 99227c48-801c-41bd-bf51-630d49afbc3a
+type: structure

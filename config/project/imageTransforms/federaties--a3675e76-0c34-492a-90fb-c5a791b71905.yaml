@@ -1,10 +1,10 @@
 fill: null
-format: png
-handle: langVerticaal
-height: 400
+format: null
+handle: federaties
+height: 200
 interlace: none
-mode: crop
-name: 'Lang verticaal'
+mode: fit
+name: federaties
 position: center-center
 quality: null
 upscale: true

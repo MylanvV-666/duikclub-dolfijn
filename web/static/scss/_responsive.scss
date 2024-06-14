@@ -14,6 +14,7 @@
   }
 }
 
+
 @media screen and (max-width: 1200px) {
   /*navigatie niet leden*/
   nav #groot_menu {
@@ -52,29 +53,27 @@
   #home main {
     padding: 0 150px;
   }
-
   /*sectie1*/
   #welkomhome {
     flex-direction: column;
     padding: 80px 0;
-  }
 
-  /*sectie1 tekst*/
-  #welkomhome .tekst {
-    width: 100%;
-  }
+    .tekst {
+      width: 100%;
 
-  #welkomhome .tekst p {
-    width: 100%;
-  }
+      p {
+        width: 100%;
+      }
 
-  #welkomhome .tekst a {
-    justify-content: left;
-  }
+      a {
+        justify-content: left;
+      }
 
-  /*sectie1 img*/
-  #welkomhome .fotos {
-    display: none;
+    }
+
+    .fotos {
+      display: none;
+    }
   }
 
   /*sectie2*/
@@ -209,35 +208,35 @@
   }
 
   /* -------------- DUIKEN -------------- */
-  .header2{
+  .header2 {
     width: 80%;
   }
 
-  header .header-foto-3{
+  header .header-foto-3 {
     display: none;
   }
 
-  header .header-foto-4{
+  header .header-foto-4 {
     display: none;
   }
 
-  .header2 h1{
+  .header2 h1 {
     position: static;
   }
 
-  #header2-tekst{
+  #header2-tekst {
     position: static;
     width: 100%;
   }
 
-  #meer-info-over-duiken{
+  #meer-info-over-duiken {
     margin: 0 auto 5rem auto;
   }
-  #meer-info-over-duiken h2{
+  #meer-info-over-duiken h2 {
     text-align: left;
   }
 
-  #meer-info-bollen{
+  #meer-info-bollen {
     flex-wrap: wrap;
   }
 
@@ -245,73 +244,73 @@
   #duiksport-main {
     margin: 0 auto;
   }
-  .duiksport-brevet-card{
+  .duiksport-brevet-card {
     width: 50%;
   }
 
   /* ----------- PRIJZEN -------------*/
-  #prijzen-main{
+  #prijzen-main {
     width: 80%;
   }
 
-  #duikmateriaal #indoor{
+  #duikmateriaal #indoor {
     flex-direction: column;
   }
-  #duikmateriaal #indoor-foto1{
+  #duikmateriaal #indoor-foto1 {
     width: 90%;
     height: initial;
     position: static;
   }
 
-  #duikmateriaal #indoor-foto2{
+  #duikmateriaal #indoor-foto2 {
     display: none;
   }
 
-  #duikmateriaal #indoor-tekst, #duikmateriaal #outdoor-tekst{
+  #duikmateriaal #indoor-tekst, #duikmateriaal #outdoor-tekst {
     margin-left: 0;
     padding: 1rem 0 5rem 0;
   }
 
-  #duikmateriaal #outdoor{
+  #duikmateriaal #outdoor {
     flex-direction: column-reverse;
   }
 
-  #duikmateriaal #outdoor-foto1{
+  #duikmateriaal #outdoor-foto1 {
     display: none;
   }
-  #duikmateriaal #outdoor-foto1 img{
+  #duikmateriaal #outdoor-foto1 img {
     width: inherit;
     height: inherit;
     position: relative;
     top: 0;
   }
-  #duikmateriaal #outdoor-foto2{
+  #duikmateriaal #outdoor-foto2 {
     display: none;
 
   }
 
-  #duikmateriaal #outdoor-foto3{
+  #duikmateriaal #outdoor-foto3 {
     width: 90%;
     height: initial;
     position: static;
   }
 
   /* ------------ LESSEN -----------*/
-  #lessen-header{
+  #lessen-header {
     flex-direction: column-reverse;
     width: 80%;
   }
 
-  #lessen-header-foto1{
+  #lessen-header-foto1 {
     display: none;
   }
 
-  #lessen-header-foto2{
+  #lessen-header-foto2 {
     height: initial;
     width: 100%;
   }
 
-  #lessen-buttons{
+  #lessen-buttons {
     width: 80%;
   }
 
@@ -478,12 +477,12 @@
   }
 
   /*duiksport*/
-  .duiksport-brevet-card{
+  .duiksport-brevet-card {
     width: 100%;
   }
 
   /* ------------ LESSEN -----------*/
-  #lessen-buttons{
+  #lessen-buttons {
     width: 100%;
   }
 

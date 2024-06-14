@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 2a3eea25-77ba-47cc-85b0-a1920e038b0d # Federaties
-handle: dank
+  - 38526ff8-201f-4280-9758-4eafe67903af # Initiatie
+handle: initiatieLes
 maxAuthors: 1
-name: Dank
+name: 'Lessen initiatie'
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
     enabledByDefault: true
     hasUrls: true
-    template: dank/_entry
-    uriFormat: 'dank/{slug}'
-type: channel
+    template: initiatie.twig
+    uriFormat: lessen-initiatie
+type: single

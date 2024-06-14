@@ -2,41 +2,58 @@
 
 {% block content %}
 
-{% set homeImage = entry.homeImage.one() %}
-<div id="header-home" style="background-image:url('{{ homeImage.url }}')">
-    <h1>{{  entry.titelH1 }}</h1>
-</div>
+    {% set homeImage = entry.homeImage.one() %}
+    <div id="header-home" style="background-image:url('{{ homeImage.url }}')">
+        <h1>{{ entry.titelH1 }}</h1>
+    </div>
 
-<main>
-    <section id="welkomhome">
-        <div class="tekst">
-            <h2>Welkom bij duikclub Dolfijn!</h2>
-            <p>{{ entry.inleidendeTekstHome }}</p>
-            <a href="lessen-initiatie.html">
-                <button>Gratis duikinitiatie</button>
-            </a>
-        </div>
-        <div class="fotos">
-            <img class="foto-top" src="static/assets/Mask%20group.png" alt="foto">
-            <img class="foto-mid" src="static/assets/Mask%20group2.png" alt="foto">
-            <img class="foto-bot" src="static/assets/Mask%20group3.png" alt="foto">
-        </div>
-    </section>
-    <section id="aanbodhome">
-        <h2>Ons aanbod</h2>
-        <div>
-            <a href="lessen-initiatie.html">
-                <button>Initiatie</button>
-            </a>
-            <a href="duiken.html">
-                <button>Clubduiken</button>
-            </a>
-            <a href="duiksport.html">
-                <button>Trainingen</button>
-            </a>
-        </div>
-    </section>
-    {% include '_snippets/_federaties.twig' %}
-</main>
+
+    <main>
+        <section id="welkomhome" class="row">
+            <div class="tekst col-12 col-md-7 col-xl-8">
+                <h2>{{ entry.titelH2 }}</h2>
+                <p>{{ entry.inleidendeTekstHome }}</p>
+                <a href="{{ initiatieLes.url }}">
+                    <button>{{ "Gratis initiatie" }}</button>
+                </a>
+            </div>
+            <div class="fotos col-12 col-md-5 col-xl-4">
+                {% set foto1 = entry.foto.one() %}
+                {% set foto2 = entry.foto2.one() %}
+                {% set foto3 = entry.foto3.one() %}
+                <img class="foto-top" src="{{ foto1.url('square') }}" alt="foto">
+                <img class="foto-mid" src="{{ foto2.url('verticaal') }}" alt="foto">
+                <img class="foto-bot" src="{{ foto3.url('horizontaal') }}" alt="foto">
+            </div>
+        </section>
+
+        <section id="aanbodhome">
+            <h2>{{ entry.titelH22 }}</h2>
+            {% set initiatieBTN = entry.achtergrondInitiatie.one() %}
+            {% set clubduikenBTN = entry.achtergrondClubduiken.one() %}
+            {% set trainingBTN = entry.achtergrondTrainingen.one() %}
+            <div class="row mx-auto justify-content-between text-center">
+                <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ initiatieBTN.url }}">
+                    <button>{{ entry.titelH31 }}</button>
+                </a>
+                <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ clubduikenBTN.url }}">
+                    <button>{{ entry.titelH32 }}</button>
+                </a>
+                <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ trainingBTN.url }}">
+                    <button>{{ entry.titelH33 }}</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="federaties">
+            <h2>{{ entry.titelH23 }}</h2>
+            {% set federaties = craft.entries.section('federaties').all() %}
+            <div class="row justify-content-between">
+            {% for federatie in federaties %}
+                {% include '_snippets/_federaties.twig' %}
+            {% endfor %}
+            </div>
+        </section>
+    </main>
 
 {% endblock %}

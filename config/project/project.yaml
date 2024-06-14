@@ -1,4 +1,4 @@
-dateModified: 1718377609
+dateModified: 1718405829
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -13,6 +13,7 @@ fs:
     url: /assets
 meta:
   __names__:
+    0cc0e134-280b-4ce9-a93f-34904f77d1de: 'achtergrond clubduiken' # achtergrond clubduiken
     1ccf6509-e880-4ff1-b8d8-a020867d59eb: Brevetten # Brevetten
     1f5effd7-cdc3-4299-87c8-419a47830d24: 'Lang verticaal' # Lang verticaal
     2a3eea25-77ba-47cc-85b0-a1920e038b0d: Federaties # Federaties
@@ -26,6 +27,7 @@ meta:
     5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
     8c0cd35b-1aba-46c8-b16a-d98f0be224f9: Foto1 # Foto1
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
+    10a43b4a-2950-4a68-9db6-9ead8ae73b03: 'achtergrond initiatie' # achtergrond initiatie
     12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg3 # Uitleg3
     13d1ccc4-b02c-46db-9af1-03469cce2ece: 'Over ons' # Over ons
     16ff90ed-59f0-4bca-bf42-ea5bae0d8cd3: 'Contact Form' # Contact Form
@@ -37,7 +39,7 @@ meta:
     0338b76c-c9e8-4ce0-82b3-f13077da301e: Bestuur # Bestuur
     532c63e0-e8c9-43e6-a365-064f3559f2c4: 'Foto 5' # Foto 5
     576a2557-7a12-4da9-a061-82e817ee493f: 'Logo''s' # Logo's
-    888ddfaa-bf6f-484f-a10b-4a2e5249a753: Dank # Dank
+    888ddfaa-bf6f-484f-a10b-4a2e5249a753: Federaties # Federaties
     7108a5e2-c2f3-4d7b-a353-7b9639603cda: 'Titel H3.1' # Titel H3.1
     8063a39b-adbe-447a-a100-69422b04438d: verticaal # verticaal
     38526ff8-201f-4280-9758-4eafe67903af: Initiatie # Initiatie
@@ -49,6 +51,7 @@ meta:
     63434597-0860-43b3-802d-0c07397e573b: 'Lessen initiatie' # Lessen initiatie
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
     a673f98a-6771-449a-a0f3-276be1a1061d: Duiken # Duiken
+    a3675e76-0c34-492a-90fb-c5a791b71905: federaties # federaties
     b56f921c-3a00-4fec-b19c-58f744660752: Lessen # Lessen
     b95e3bf5-e962-483f-9c0c-e6af209b4f1f: horizontaal # horizontaal
     bb9b1097-9276-461c-aac1-6f5b359e8106: 'Lang horizontaal' # Lang horizontaal
@@ -58,6 +61,7 @@ meta:
     cc07e5fd-bf6d-4c12-971b-1b386c10f883: 'Home Image' # Home Image
     d00f9e93-2d15-43f4-8dcb-b6e87b13ba35: 'Over ons' # Over ons
     d6cbf5f4-6ab6-4d4f-8983-9fea51b225e3: Startpagina # Startpagina
+    d6cd970f-8faf-48e1-aac2-6fcd8950dcf3: 'achtergrond trainingen' # achtergrond trainingen
     d8c902a6-806b-47c9-b83f-7aafbb84b98b: Square # Square
     d10fa2a6-2fa0-4ca1-a7bf-856b57fd0d0c: Brevetten # Brevetten
     d912c11c-507e-49ef-b4b6-c5877d355fda: Simple # Simple
