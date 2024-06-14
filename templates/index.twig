@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta charset="utf-8"/>
-    <title>{{ systemName }} | {{ entry.title }}</title>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
-    <meta name="referrer" content="origin-when-cross-origin"/>
+{% extends '_snippets/_head.twig' %}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet">
-
-{#    <script defer src="web/static/script/script.js"></script>#}
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-
+{% block content %}
 <body id="home">
 
 <nav>
@@ -110,4 +94,5 @@
     </section>
 </footer>
 </body>
-</html>
+
+{% endblock %}

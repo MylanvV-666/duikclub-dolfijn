@@ -1,4 +1,4 @@
-dateModified: 1716821685
+dateModified: 1718355392
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -28,10 +28,12 @@ meta:
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
     12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg3 # Uitleg3
     13d1ccc4-b02c-46db-9af1-03469cce2ece: 'Over ons' # Over ons
+    16ff90ed-59f0-4bca-bf42-ea5bae0d8cd3: 'Contact Form' # Contact Form
     35b61dda-4599-41ec-971a-683a1878b7d6: 'Foto 2' # Foto 2
     41a1bff9-a6eb-4a75-8d10-cd9ecedf68d0: Home # Home
     047f311b-5a9b-4f2a-83e5-bb93db79c152: 'Foto 4' # Foto 4
     050a6c8f-b201-4a7c-bf27-90550f2a81b1: Prijzen # Prijzen
+    67f6c2ee-6e6c-4443-9e87-85ec1263c3ad: New # New
     0338b76c-c9e8-4ce0-82b3-f13077da301e: Bestuur # Bestuur
     532c63e0-e8c9-43e6-a365-064f3559f2c4: 'Foto 5' # Foto 5
     576a2557-7a12-4da9-a061-82e817ee493f: 'Logo''s' # Logo's
@@ -70,10 +72,48 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
-  freeform:
-    edition: express
+  formie:
+    edition: standard
     enabled: true
-    schemaVersion: 5.1.0
+    licenseKey: 8HBM2TS1FZW5GPMTPYK97EF0
+    schemaVersion: 3.4.5
+    settings:
+      ajaxTimeout: 10
+      alertEmails: null
+      defaultDateDisplayType: calendar
+      defaultDateTime: null
+      defaultDateValueOption: ''
+      defaultEmailTemplate: ''
+      defaultFileUploadVolume: ''
+      defaultFormTemplate: ''
+      defaultInstructionsPosition: verbb\formie\positions\AboveInput
+      defaultLabelPosition: verbb\formie\positions\AboveInput
+      defaultPage: forms
+      emptyValuePlaceholder: 'No response.'
+      enableBackSubmission: true
+      enableCsrfValidationForGuests: true
+      enableLargeFieldStorage: false
+      enableUnloadWarning: true
+      includeDraftElementUsage: false
+      includeRevisionElementUsage: false
+      maxIncompleteSubmissionAge: 30
+      maxSentNotificationsAge: 30
+      pdfPaperOrientation: portrait
+      pdfPaperSize: letter
+      pluginName: Formulieren
+      queuePriority: null
+      saveSpam: true
+      sendEmailAlerts: false
+      sentNotifications: true
+      setOnlyCurrentPagePayload: false
+      spamBehaviour: showSuccess
+      spamBehaviourMessage: ''
+      spamEmailNotifications: false
+      spamKeywords: ''
+      spamLimit: 500
+      useQueueForIntegrations: true
+      useQueueForNotifications: true
+      validateCustomTemplates: true
   redactor-custom-styles:
     edition: standard
     enabled: true
