@@ -263,16 +263,17 @@ footer .balkfooter a:hover {
 }
 
 #header-home {
-  height: 35rem;
+  height: 10rem;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-size: contain;
+  background-position: center;
 }
 
 #header-home h1 {
   color: #fff;
   position: relative;
   top: 25rem;
+  right: 10rem;
   text-align: right;
   padding: 2rem;
 }
