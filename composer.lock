@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbb348701eb74416fed8727f9f03c425",
+    "content-hash": "1c1d76e02e65dc1990645fbece83c91e",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1359,11 +1359,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.38",
+            "version": "8.13.39",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/libphonenumber-for-php.git",
+                "reference": "5a36692616dba1ec4a24217f248021b1ec9cdade"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/2cba3d628e52a1dd436f647fb55a7fd8b1f5c2a7",
-                "reference": "2cba3d628e52a1dd436f647fb55a7fd8b1f5c2a7",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/5a36692616dba1ec4a24217f248021b1ec9cdade",
+                "reference": "5a36692616dba1ec4a24217f248021b1ec9cdade",
                 "shasum": ""
             },
             "require": {
@@ -1373,6 +1378,15 @@
             },
             "replace": {
                 "giggsey/libphonenumber-for-php-lite": "self.version"
+            },
+            "require-dev": {
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^1.0|^2.0",
+                "symfony/console": "^2.8|^3.0|^v4.4|^v5.2",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
             },
             "type": "library",
             "extra": {
@@ -1391,6 +1405,7 @@
                     "/src/timezone/data/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -1411,7 +1426,11 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2024-06-10T08:32:03+00:00"
+            "support": {
+                "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
+                "source": "https://github.com/giggsey/libphonenumber-for-php"
+            },
+            "time": "2024-06-14T12:43:12+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -4416,6 +4435,61 @@
                 "stripe"
             ],
             "time": "2024-04-09T21:08:04+00:00"
+        },
+        {
+            "name": "studioespresso/craft-navigate",
+            "version": "5.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studioespresso/craft-navigate/zipball/1a48c723c4e0d0d9a0d86f0e947768d32e2734d4",
+                "reference": "1a48c723c4e0d0d9a0d86f0e947768d32e2734d4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.1.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Navigate",
+                "handle": "navigate",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/studioespresso/craft-navigate/v5/CHANGELOG.md",
+                "components": {
+                    "navigate": "studioespresso\\navigate\\services\\NavigateService",
+                    "nodes": "studioespresso\\navigate\\services\\NodesService"
+                },
+                "class": "studioespresso\\navigate\\Navigate"
+            },
+            "autoload": {
+                "psr-4": {
+                    "studioespresso\\navigate\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Studio Espresso",
+                    "homepage": "https://www.studioespresso.co"
+                }
+            ],
+            "description": "Navigation plugin for Craft CMS",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "menus",
+                "navigate",
+                "navigation"
+            ],
+            "support": {
+                "docs": "https://github.com/studioespresso/craft-navigate/blob/v5/README.md",
+                "issues": "https://github.com/studioespresso/craft-navigate/issues"
+            },
+            "time": "2024-05-16T18:22:59+00:00"
         },
         {
             "name": "symfony/cache",

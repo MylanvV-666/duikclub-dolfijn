@@ -16,6 +16,12 @@
     {#    <script defer src="static/script/script.js"></script> #}
     <link rel="stylesheet" href="static/css/style.css">
 </head>
+<body class="container">
+{% include '_snippets/_nav.twig' %}
+
 {% block content %}
 {% endblock %}
+
+{% include '_snippets/_footer.twig' %}
+</body>
 </html>

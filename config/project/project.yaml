@@ -1,4 +1,4 @@
-dateModified: 1718355392
+dateModified: 1718377609
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -79,8 +79,7 @@ plugins:
     schemaVersion: 3.4.5
     settings:
       ajaxTimeout: 10
-      alertEmails: null
-      defaultDateDisplayType: calendar
+      defaultDateDisplayType: ''
       defaultDateTime: null
       defaultDateValueOption: ''
       defaultEmailTemplate: ''
@@ -89,6 +88,38 @@ plugins:
       defaultInstructionsPosition: verbb\formie\positions\AboveInput
       defaultLabelPosition: verbb\formie\positions\AboveInput
       defaultPage: forms
+      disabledFields:
+        - verbb\formie\fields\Address
+        - verbb\formie\fields\Agree
+        - verbb\formie\fields\Calculations
+        - verbb\formie\fields\Categories
+        - verbb\formie\fields\Checkboxes
+        - verbb\formie\fields\Date
+        - verbb\formie\fields\Dropdown
+        - verbb\formie\fields\Email
+        - verbb\formie\fields\FileUpload
+        - verbb\formie\fields\Group
+        - verbb\formie\fields\Heading
+        - verbb\formie\fields\MultiLineText
+        - verbb\formie\fields\Name
+        - verbb\formie\fields\Number
+        - verbb\formie\fields\Password
+        - verbb\formie\fields\Radio
+        - verbb\formie\fields\SingleLineText
+        - verbb\formie\fields\Tags
+        - verbb\formie\fields\subfields\AddressAutoComplete
+        - verbb\formie\fields\subfields\Address1
+        - verbb\formie\fields\subfields\AddressCity
+        - verbb\formie\fields\subfields\AddressZip
+        - verbb\formie\fields\subfields\AddressState
+        - verbb\formie\fields\subfields\AddressCountry
+        - verbb\formie\fields\subfields\DateYearDropdown
+        - verbb\formie\fields\subfields\DateMonthDropdown
+        - verbb\formie\fields\subfields\DateDayDropdown
+        - verbb\formie\fields\subfields\DateHourDropdown
+        - verbb\formie\fields\subfields\NameFirst
+        - verbb\formie\fields\subfields\NameMiddle
+        - verbb\formie\fields\subfields\NameLast
       emptyValuePlaceholder: 'No response.'
       enableBackSubmission: true
       enableCsrfValidationForGuests: true
@@ -100,7 +131,7 @@ plugins:
       maxSentNotificationsAge: 30
       pdfPaperOrientation: portrait
       pdfPaperSize: letter
-      pluginName: Formulieren
+      pluginName: Formie
       queuePriority: null
       saveSpam: true
       sendEmailAlerts: false
@@ -114,6 +145,11 @@ plugins:
       useQueueForIntegrations: true
       useQueueForNotifications: true
       validateCustomTemplates: true
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: P1T4YODLTQEVVWEHCAX7R0VF
+    schemaVersion: 2.4.0
   redactor-custom-styles:
     edition: standard
     enabled: true
