@@ -1,58 +1,68 @@
 <footer>
-    {% set footerLogo = craft.entries().section('footer').slug('footerLogo').one() %}
-    {% set footerFederaties = craft.entries().section('footer').slug('footerFederaties').one() %}
-    {% set footerGegevens = craft.entries().section('footer').slug('footerGegevens').one() %}
-    {% set footerSocials = craft.entries().section('footer').slug('footerSocials').one() %}
-
-{#    {% set logo =  footerLogo.foto.one() %}#}
-    {{ dump(footerLogo) }}
-    {{ dump(footerFederaties) }}3
-    {{ dump(footerGegevens) }}
-    {{ dump(footerSocials) }}
+    {% set footerLogo = craft.entries().section('footer').slug('logo-duikclub-dolfijn').one() %}
+    {% set footerFederaties = craft.entries().section('footer').slug('federaties').one() %}
+    {% set footerGegevens = craft.entries().section('footer').slug('gegevens').one() %}
+    {% set footerSocials = craft.entries().section('footer').slug('socials').one() %}
+    {% set footerDocs = craft.entries().section('footer').slug('documenten').one() %}
 
     <section class="gegevensfooter row justify-content-between">
-        <div class="lijn">
+        <div class="lijn col-12 col-md-3 text-center">
             {% if footerLogo %}
                 {% set logo = footerLogo.foto.one() %}
                 {% if logo %}
-                    <img src="{{ logo.url }}" alt="{{ footerLogo.title }}">
+                    <img id="logo_footer" src="{{ logo.url }}" alt="{{ footerLogo.title }}">
                 {% else %}
                     <p>Logo niet gevonden.</p>
                 {% endif %}
             {% else %}
-                <p>Footer logo entry niet gevonden.</p>
+                <p>Logo niet gevonden.</p>
             {% endif %}
         </div>
-        <div class="lijn">
-            {% if footerFederaties %}
-                <p><b>{{ footerFederaties.uitleg }}</b></p>
-                <a href="{{ footerFederaties.navigatielink }}" target="_blank">{{ footerFederaties.titelH2 }}</a>
-                <a href="{{ footerFederaties.navigatielink2 }}" target="_blank">{{ footerFederaties.titelH22 }}</a>
-            {% else %}
-                <p>Footer federaties entry niet gevonden.</p>
-            {% endif %}
+        <div class="lijn col-12 col-md-3">
+            <div class="federaties text-center">
+                {% if footerFederaties %}
+                    <p><b>{{ footerFederaties.uitleg }}</b></p>
+                    <a href="{{ footerFederaties.navigatieLink }}" target="_blank"
+                       class="row justify-content-center">{{ footerFederaties.titelH2 }}</a>
+                    <a href="{{ footerFederaties.navigatieLink2 }}" target="_blank"
+                       class="row justify-content-center">{{ footerFederaties.titelH22 }}</a>
+                    <a href="{{ footerFederaties.navigatieLink3 }}" target="_blank"
+                       class="row justify-content-center">{{ footerFederaties.titelH23 }}</a>
+                {% else %}
+                    <p>Footer federaties entry niet gevonden.</p>
+                {% endif %}
+            </div>
         </div>
-
-{#        <div class="lijn">#}
-{#            <div class="gegevensmeticonen"><img src="static/assets/icon%20_home_.png" alt="icon">#}
-{#                <p>Eikenstraat 25<br>3740 Bilzen</p></div>#}
-{#            <div class="gegevensmeticonen"><img src="static/assets/icon%20_envelope%20closed_.png" alt="icon">#}
-{#                <p>email@email.com</p></div>#}
-{#            <div class="gegevensmeticonen"><img src="static/assets/icon%20_phone_.png" alt="icon">#}
-{#                <p>+32 456 78 91</p></div>#}
-{#        </div>#}
-{#        <div>#}
-{#            <img src="static/assets/icon%20_web_.png" alt="icon">#}
-{#            <div class="socialsfooter">#}
-{#                <a href="https://www.facebook.com/DuikclubDolfijn/" target="_blank"><img src="static/assets/icon%20_facebook_.png" alt="icon"></a>#}
-{#                <a href="#"><img src="static/assets/icon%20_instagram%20alt_.png" alt="icon"></a>#}
-{#                <a href="#"><img src="static/assets/icon%20_social%20linkedin_.png" alt="icon"></a>#}
-{#            </div>#}
-{#        </div>#}
-{#    </section>#}
-{#    <section class="balkfooter">#}
-{#        <a href="#">Regelement</a>#}
-{#        <a href="#">Algemene gebruiksvoorwaarden</a>#}
-{#        <a href="#">privacyverklaring</a>#}
+        <div class="gegevensmeticonen lijn col-12 col-md-3 text-center align-content-center">
+            {% set homeIcon = footerGegevens.foto.one() %}
+            {% set mailIcon = footerGegevens.foto2.one() %}
+            {% set eMail = footerGegevens.eMail %}
+            <div class="row justify-content-center">
+                <img src="{{ homeIcon.url }}" alt="icon">
+                {{ footerGegevens.uitleg1 }}
+            </div>
+            <div class=" row justify-content-center">
+                <img src="{{ mailIcon.url }}" alt="icon">
+                <a href="{{ eMail }}">{{ eMail|replace({'mailto:': ''}) }}</a>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 text-center align-content-center">
+            {% set webIcon = footerSocials.foto.one() %}
+            {% set facebook = footerSocials.foto2.one() %}
+            <img src="{{ webIcon.url }}" alt="icon">
+            <div class="socialsfooter my-5">
+                <a href="{{ footerSocials.navigatieLink }}" target="_blank">
+                    <img src="{{ facebook.url }}" alt="facebook">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="balkfooter row align-items-center text-center">
+        {% set privacyPolicy = footerDocs.privacyPolicy.one() %}
+        {% set voorwaarden = footerDocs.algemeneVoorwaarden.one() %}
+        {% set reglement = footerDocs.reglement.one() %}
+        <a href="{{ reglement.url }}" target="_blank" class="col-12 col-md-4">Reglement</a>
+        <a href="{{ voorwaarden.url }}" target="_blank" class="col-12 col-md-4">Algemene gebruiksvoorwaarden</a>
+        <a href="{{ privacyPolicy.url }}" target="_blank" class="col-12 col-md-4">privacyverklaring</a>
     </section>
 </footer>

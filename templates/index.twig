@@ -32,13 +32,13 @@
             {% set clubduikenBTN = entry.achtergrondClubduiken.one() %}
             {% set trainingBTN = entry.achtergrondTrainingen.one() %}
             <div class="row mx-auto justify-content-between text-center">
-                <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ initiatieBTN.url }}">
+                <a href="{{ initiatieLes.url }}" class="hover-background col-12 col-md-4" data-bg-url="{{ initiatieBTN.url }}">
                     <button class="text-center">{{ entry.titelH31 }}</button>
                 </a>
-                <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ clubduikenBTN.url }}">
+                <a href="{{ initiatieLes.url }}" class="hover-background col-12 col-md-4" data-bg-url="{{ clubduikenBTN.url }}">
                     <button class="text-center">{{ entry.titelH32 }}</button>
                 </a>
-                <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ trainingBTN.url }}">
+                <a href="{{ initiatieLes.url }}" class="hover-background col-12 col-md-4" data-bg-url="{{ trainingBTN.url }}">
                     <button class="text-center">{{ entry.titelH33 }}</button>
                 </a>
             </div>

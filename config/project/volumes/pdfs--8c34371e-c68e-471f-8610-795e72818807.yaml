@@ -1,0 +1,49 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  184e6275-9d99-4aef-a004-d14d6204f8e2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 1050b734-478d-4724-8461-6787d2837f71
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f1ce3f96-0a77-4641-8b26-6623e7c7894b
+        userCondition: null
+fs: files
+handle: pdfs
+name: 'PDF''s'
+sortOrder: 4
+subpath: pdf
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

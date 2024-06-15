@@ -5,6 +5,7 @@ entryTypes:
   - ca016f7c-0fc0-4cf1-9f6b-4aec0fb7edb4 # footer-federaties
   - 87cacba1-c6eb-41ed-b307-76aae2d474d8 # footer-gegevens
   - d1712481-37e5-4d9f-b944-66f7661d3dea # footer-socials
+  - 0c6f1422-4cba-4a7e-ab34-64799488efd5 # Documenten wetgeving
 handle: footer
 maxAuthors: 1
 name: Footer
@@ -27,7 +28,4 @@ siteSettings:
     hasUrls: true
     template: _snippets\_footer.twig
     uriFormat: 'footer/{slug}'
-structure:
-  maxLevels: null
-  uid: 44c945b2-4c79-438f-9e72-24096b43abd6
-type: structure
+type: channel

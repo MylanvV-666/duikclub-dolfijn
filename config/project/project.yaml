@@ -1,4 +1,4 @@
-dateModified: 1718413627
+dateModified: 1718439323
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -13,6 +13,7 @@ fs:
     url: /assets
 meta:
   __names__:
+    0c6f1422-4cba-4a7e-ab34-64799488efd5: 'Documenten wetgeving' # Documenten wetgeving
     0cc0e134-280b-4ce9-a93f-34904f77d1de: 'achtergrond clubduiken' # achtergrond clubduiken
     1ccf6509-e880-4ff1-b8d8-a020867d59eb: Brevetten # Brevetten
     1f5effd7-cdc3-4299-87c8-419a47830d24: 'Lang verticaal' # Lang verticaal
@@ -28,6 +29,7 @@ meta:
     5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
     8be40aa8-3de4-4725-b130-fdbc6a69a967: Logo-footer # Logo-footer
     8c0cd35b-1aba-46c8-b16a-d98f0be224f9: Foto1 # Foto1
+    8c34371e-c68e-471f-8610-795e72818807: 'PDF''s' # PDF's
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
     10a43b4a-2950-4a68-9db6-9ead8ae73b03: 'achtergrond initiatie' # achtergrond initiatie
     12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg # Uitleg
@@ -44,6 +46,8 @@ meta:
     532c63e0-e8c9-43e6-a365-064f3559f2c4: 'Foto 5' # Foto 5
     576a2557-7a12-4da9-a061-82e817ee493f: 'Logo''s' # Logo's
     888ddfaa-bf6f-484f-a10b-4a2e5249a753: Federaties # Federaties
+    950a9039-871a-447e-8e8b-6c305728b9ba: reglement # reglement
+    2977cff4-bcbc-4a4f-a18c-5e5debe273f1: 'algemene voorwaarden' # algemene voorwaarden
     7108a5e2-c2f3-4d7b-a353-7b9639603cda: 'Titel H3.1' # Titel H3.1
     8063a39b-adbe-447a-a100-69422b04438d: verticaal # verticaal
     38526ff8-201f-4280-9758-4eafe67903af: Initiatie # Initiatie
@@ -60,6 +64,7 @@ meta:
     b56f921c-3a00-4fec-b19c-58f744660752: Lessen # Lessen
     b95e3bf5-e962-483f-9c0c-e6af209b4f1f: horizontaal # horizontaal
     b657c4d7-f8d5-4cb8-b322-3707bfe16ed3: 'Navigatie link 3' # Navigatie link 3
+    b697bce0-480b-4ea7-8a6f-6cf6782970d1: 'Privacy policy' # Privacy policy
     bb9b1097-9276-461c-aac1-6f5b359e8106: 'Lang horizontaal' # Lang horizontaal
     bf8f250d-e4d1-4d7d-9b2d-7715bf489fc9: 'Foto 3' # Foto 3
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn

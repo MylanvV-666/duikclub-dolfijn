@@ -18,7 +18,8 @@ button {
   background-color: #4B8996;
   color: #fff;
   letter-spacing: 5px;
-  padding: 10px 50px;
+  text-align: center;
+  padding: 10px 20px;
   border: none;
   border-radius: 10px;
 }
@@ -145,44 +146,31 @@ footer p, footer a {
   font-size: 12pt;
   margin-top: 20px;
 }
-footer .gegevensfooter div {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
+footer .gegevensfooter .gegevensmeticonen {
   align-items: center;
-  padding: 0 50px;
+  padding: 2rem;
 }
-footer .gegevensfooter div p, footer .gegevensfooter div a {
+footer .gegevensfooter .gegevensmeticonen p, footer .gegevensfooter .gegevensmeticonen a {
   width: 100%;
   text-align: left;
 }
-footer .gegevensfooter div .gegevensmeticonen {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
+footer .gegevensfooter .gegevensmeticonen div {
   width: 100%;
 }
-footer .gegevensfooter div .gegevensmeticonen img {
-  width: 10%;
-  margin-top: 20px;
+footer .gegevensfooter .gegevensmeticonen div img {
+  width: 20%;
+  height: fit-content;
 }
-footer .gegevensfooter div .gegevensmeticonen p {
+footer .gegevensfooter .gegevensmeticonen div p, footer .gegevensfooter .gegevensmeticonen div a {
   width: 70%;
 }
-footer .gegevensfooter div .socialsfooter {
-  margin-top: 50px;
+footer .gegevensfooter .gegevensmeticonen .socialsfooter {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-start;
   width: 100%;
 }
-footer .gegevensfooter div .socialsfooter a {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+footer .gegevensfooter .gegevensmeticonen .socialsfooter a {
   width: 15%;
 }
 footer .gegevensfooter .lijn {
@@ -192,13 +180,11 @@ footer .balkfooter {
   background-color: #012836;
   width: 100%;
   height: 40px;
-  display: flex;
   justify-content: space-evenly;
 }
 footer .balkfooter a {
   color: #fff;
   font-size: 10pt;
-  margin-bottom: 20px;
 }
 footer .balkfooter a :hover {
   color: #4B8996;
@@ -206,6 +192,12 @@ footer .balkfooter a :hover {
 
 .federaties {
   margin-top: 5rem;
+}
+.federaties img {
+  max-width: 100%;
+  max-height: 15rem;
+  height: fit-content;
+  width: fit-content;
 }
 
 #header-home {
@@ -218,14 +210,14 @@ footer .balkfooter a :hover {
   color: #fff;
   position: relative;
   top: 25rem;
-  right: 10rem;
+  right: 10%;
   text-align: right;
   padding: 2rem;
 }
 
 #welkomhome {
   padding: 6rem 0;
-  margin-bottom: -15%;
+  margin-bottom: -20%;
 }
 #welkomhome .tekst p {
   width: 75%;
@@ -250,6 +242,9 @@ footer .balkfooter a :hover {
   left: 3%;
 }
 
+#aanbodhome {
+  margin-top: 4rem;
+}
 #aanbodhome div {
   gap: 1rem;
 }
@@ -944,16 +939,16 @@ footer .balkfooter a :hover {
   }
   /*footer*/
   footer .gegevensfooter div {
-    padding: 50px 50px 10px 50px;
+    padding: 3rem;
   }
   footer .gegevensfooter div #logo_footer {
-    width: 100%;
+    scale: 0.5;
   }
   footer .gegevensfooter div .gegevensmeticonen img {
     display: none;
   }
   footer .gegevensfooter div .socialsfooter {
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
   }
   /*header home*/
@@ -983,10 +978,6 @@ footer .balkfooter a :hover {
   #aanbodhome div a button {
     width: 100%;
     height: 200px;
-  }
-  /*sectie3*/
-  .federaties div a img {
-    scale: 0.5;
   }
   /*main over ons*/
   #over_ons main {
@@ -1216,25 +1207,33 @@ footer .balkfooter a :hover {
 }
 @media screen and (max-width: 992px) {
   /*footer*/
-  footer .gegevensfooter {
-    flex-direction: column;
-    align-items: center;
-  }
-  footer .gegevensfooter div {
-    width: 50%;
-  }
-  footer .gegevensfooter .border {
-    border-right: none;
-  }
-  footer .gegevensfooter div p, footer .gegevensfooter div a {
-    text-align: center;
+  footer {
+    width: 80%;
     margin: 0 auto;
   }
-  footer .gegevensfooter div .gegevensmeticonen img {
-    display: flex;
+  footer .gegevensfooter {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
   }
-  footer .gegevensfooter div .gegevensmeticonen p {
-    text-align: left;
+  footer .gegevensfooter div {
+    width: 100%;
+  }
+  footer .gegevensfooter .gegevensmeticonen div {
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .gegevensfooter .gegevensmeticonen div img {
+    scale: 0.6;
+  }
+  footer .gegevensfooter .gegevensmeticonen div p, footer .gegevensfooter .gegevensmeticonen div a {
+    text-align: center;
+    width: 15rem;
+    height: fit-content;
+  }
+  footer .gegevensfooter .lijn {
+    border-right: none;
+    border-bottom: 1px solid #012836;
   }
   #welkomhome .fotos {
     display: none;
