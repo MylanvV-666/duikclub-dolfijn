@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 2c4e8754-f3bf-4096-9ae3-9a11212c3654 # Duikplaatsen
+handle: duikplaatsen
+maxAuthors: 1
+name: Duikplaatsen
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    enabledByDefault: true
+    hasUrls: true
+    template: duikplaatsen.twig
+    uriFormat: duikplaatsen
+type: single

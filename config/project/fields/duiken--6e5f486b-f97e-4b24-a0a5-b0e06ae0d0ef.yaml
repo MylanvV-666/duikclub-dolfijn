@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: duiken
+instructions: null
+name: duiken
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Select a navigation'
+        -
+          - value
+          - '-'
+    -
+      __assoc__:
+        -
+          - label
+          - navigation-loggedIn
+        -
+          - value
+          - navigationLoggedin
+translationKeyFormat: null
+translationMethod: none
+type: studioespresso\navigate\fields\NavigateField

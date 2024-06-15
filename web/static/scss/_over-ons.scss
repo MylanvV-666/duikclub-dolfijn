@@ -1,29 +1,5 @@
 @use "algemeen" as *;
 
-#over_overons {
-  @include header();
-
-  .tekst {
-    margin-top: 10%;
-  }
-
-  .fotos {
-    margin-top: 2rem;
-
-    :nth-child(1) {
-      position: absolute;
-      top: 30%;
-      left: 55%;
-    }
-
-    :nth-child(2) {
-      position: absolute;
-      top: 50%;
-      left: 70%;
-    }
-  }
-}
-
 #bestuur {
   h2 {
     width: 100%;

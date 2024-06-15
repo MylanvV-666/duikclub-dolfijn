@@ -1,4 +1,4 @@
-dateModified: 1718472671
+dateModified: 1718480172
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -30,6 +30,7 @@ meta:
     5c0dc2c9-285c-45aa-887a-c887ea0e4c0d: 'Titel H3.2' # Titel H3.2
     5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
     6ca1ff32-7d0c-4274-aeb0-2dbfb42fc6fe: 'Titel federaties' # Titel federaties
+    6e5f486b-f97e-4b24-a0a5-b0e06ae0d0ef: duiken # duiken
     8be40aa8-3de4-4725-b130-fdbc6a69a967: Logo-footer # Logo-footer
     8c0cd35b-1aba-46c8-b16a-d98f0be224f9: Foto1 # Foto1
     8c34371e-c68e-471f-8610-795e72818807: 'PDF''s' # PDF's
@@ -70,6 +71,7 @@ meta:
     23162187-50bf-4930-b65c-16f4631c8527: 'Uitleg 2' # Uitleg 2
     24270014-0a29-4a8a-9cd7-1bacac913949: Duiken # Duiken
     63434597-0860-43b3-802d-0c07397e573b: 'Lessen initiatie' # Lessen initiatie
+    87915945-61fd-4efb-8c23-37cef93e0a6a: Duikplaatsen # Duikplaatsen
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
     a673f98a-6771-449a-a0f3-276be1a1061d: Duiken_tijdelijk # Duiken_tijdelijk
     a3675e76-0c34-492a-90fb-c5a791b71905: federaties # federaties

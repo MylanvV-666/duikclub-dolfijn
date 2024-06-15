@@ -1,0 +1,6 @@
+adminOnly: 1
+allowSources: '["entry"]'
+enabledSiteGroups: '*'
+handle: duiken
+levels: '1'
+title: duiken

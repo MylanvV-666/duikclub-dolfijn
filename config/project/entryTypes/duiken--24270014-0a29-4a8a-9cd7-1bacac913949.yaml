@@ -111,7 +111,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 7108a5e2-c2f3-4d7b-a353-7b9639603cda # Titel H3.1
+            fieldUid: 6e5f486b-f97e-4b24-a0a5-b0e06ae0d0ef # duiken
             handle: null
             includeInCards: false
             instructions: null
@@ -120,52 +120,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 453e1b36-57e4-4d04-93c2-ab1a841492f5
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 5c0dc2c9-285c-45aa-887a-c887ea0e4c0d # Titel H3.2
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: afaa8516-0d74-4a88-9932-e60ef572a4f9
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 486688b8-6ea0-4455-96eb-adb504204342 # Titel H3.3
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 614e1661-0145-4523-86e8-f7c69b477fe0
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: e06bb397-2b42-4693-83e3-12537430bbc4 # Titel H3.4
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e78747ef-6482-4bb5-94de-e2c60f5c409d
+            uid: 169cfd50-d6a7-4881-b32c-f8f985d3f55d
             userCondition: null
             warning: null
             width: 100
