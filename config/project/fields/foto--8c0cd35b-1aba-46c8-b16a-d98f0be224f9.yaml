@@ -28,8 +28,7 @@ settings:
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  sources:
-    - 'volume:576a2557-7a12-4da9-a061-82e817ee493f' # Logo's
+  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

@@ -1,6 +1,6 @@
-    <a href="{{ federatie.navigatieLink }}" target="_blank" class="col-12 col-md-3 align-items-center">
+    <a href="{{ federatie.navigatieLink }}" target="_blank" class="col-12 col-md-3 align-items-center text-center">
         {% set fedImage = federatie.foto.one() %}
-        <img src="{{ fedImage.url }}" alt="{{ federatie.title }}">
+        <img src="{{ fedImage.url('federaties') }}" alt="{{ federatie.title }}">
     </a>
 
 

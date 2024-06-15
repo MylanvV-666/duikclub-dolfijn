@@ -23,10 +23,9 @@ button {
   background-color: $groen;
   color: $wit;
   letter-spacing: 5px;
-  padding: 10px 50px 10px 60px;
+  padding: 10px 50px;
   border: none;
   border-radius: 10px;
-  text-align: center;
 
   :hover {
     background-color: transparent;
@@ -161,22 +160,18 @@ header {
       padding: 0.5rem 0;
     }
   }
+}
 
   // ------------------ FOOTER ------------------
 
   footer {
     margin-top: 2rem;
-
-
     p, a {
       font-size: 12pt;
       margin-top: 20px;
     }
 
     .gegevensfooter {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
 
       div {
         width: 33%;
@@ -226,7 +221,7 @@ header {
         }
       }
 
-      .border {
+      .lijn {
         border-right: 1px solid $donkerblauw;
       }
     }
@@ -253,36 +248,8 @@ header {
   // ------------------ FEDERATIES ------------------
 
 
-  .dank {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem auto 0 auto;
-
-    h2 {
-      width: 100%;
-    }
-
-    div {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      width: 80%;
-      padding: 50px 0 100px 0;
-
-      a {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-
-        img {
-          width: 100%;
-          height: fit-content;
-        }
-      }
-    }
+  .federaties{
+    margin-top: 5rem;
   }
-}
 
 // ------------------ BOLLEN ------------------

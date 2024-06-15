@@ -1,20 +1,20 @@
 @use "algemeen" as *;
 
-@media screen and (max-width: 1700px) {
-  #home header h1 {
-    height: 800px;
-    padding: 600px 150px 200px 0;
+@media screen and (min-width: 1600px) {
+  body, nav, header, main {
+    max-width: 1400px;
   }
 }
 
-@media screen and (max-width: 1500px) {
+//Bootstrap XXL
+@media screen and (max-width: 1400px) {
   #home header h1 {
     height: 600px;
     padding: 400px 150px 200px 0;
   }
 }
 
-
+//Bootstrap XL
 @media screen and (max-width: 1200px) {
   /*navigatie niet leden*/
   nav #groot_menu {
@@ -50,29 +50,16 @@
   }
 
   /*main home*/
-  #home main {
-    padding: 0 150px;
-  }
   /*sectie1*/
   #welkomhome {
-    flex-direction: column;
-    padding: 80px 0;
-
     .tekst {
-      width: 100%;
-
-      p {
-        width: 100%;
-      }
-
       a {
         justify-content: left;
       }
-
     }
 
     .fotos {
-      display: none;
+      margin-top: 5rem;
     }
   }
 
@@ -96,20 +83,8 @@
   }
 
   /*sectie3*/
-  .dank div {
-    width: 100%;
-    padding: 50px 0 50px 0;
-  }
-
-  .dank div a {
-    width: 33%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .dank div a img {
-    max-width: 200px;
-    max-height: 200px;
+  .federaties div a img {
+    scale: 0.5;
   }
 
   /*main over ons*/
@@ -395,7 +370,8 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+//Bootstrap LG
+@media screen and (max-width: 992px) {
   /*footer*/
   footer .gegevensfooter {
     flex-direction: column;
@@ -422,9 +398,16 @@
   footer .gegevensfooter div .gegevensmeticonen p {
     text-align: left;
   }
+
+  #welkomhome {
+    .fotos {
+      display: none;
+    }
+  }
 }
 
-@media screen and (max-width: 800px) {
+//Bootstrap MD
+@media screen and (max-width: 768px) {
   /*header home*/
   #home header h1 {
     height: 350px;
@@ -441,15 +424,16 @@
   /*sectie1*/
   #welkomhome {
     padding: 0;
-  }
 
-  /*sectie1 tekst*/
-  #welkomhome .tekst h2 {
-    padding: 0 0 20px 0;
-  }
+    .tekst {
+      h2 {
+        padding: 0 0 20px 0;
+      }
 
-  #welkomhome .tekst a {
-    padding-bottom: 50px;
+      a {
+        padding-bottom: 50px;
+      }
+    }
   }
 
   /*sectie2*/
@@ -527,7 +511,8 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+//Bootstrap SM
+@media screen and (max-width: 576px) {
   /*navigatie niet leden*/
   nav #hamburger #uitklap {
     padding: 0 30px 100px 30px;

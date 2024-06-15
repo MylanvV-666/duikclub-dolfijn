@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: eMail
+instructions: null
+name: E-mail
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - email
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

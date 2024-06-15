@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  b82597fe-3dcd-44fa-82e6-23e4a1590f0e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fd89cdcc-3636-41d2-a9f6-006708fcd037
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c0cd35b-1aba-46c8-b16a-d98f0be224f9 # Foto1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b93198b9-3dc2-4f11-8a3d-fd080ac44514
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5f4de1b0-7da5-4d8c-91e9-a9c1252dbc45
+        userCondition: null
+handle: logoFooter
+hasTitleField: true
+icon: ''
+name: Logo-footer
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

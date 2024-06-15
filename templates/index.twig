@@ -7,17 +7,16 @@
         <h1>{{ entry.titelH1 }}</h1>
     </div>
 
-
     <main>
         <section id="welkomhome" class="row">
-            <div class="tekst col-12 col-md-7 col-xl-8">
+            <div class="tekst col-12 col-lg-7 col-xl-8">
                 <h2>{{ entry.titelH2 }}</h2>
                 <p>{{ entry.inleidendeTekstHome }}</p>
                 <a href="{{ initiatieLes.url }}">
                     <button>{{ "Gratis initiatie" }}</button>
                 </a>
             </div>
-            <div class="fotos col-12 col-md-5 col-xl-4">
+            <div class="fotos col-12 col-lg-5 col-xl-4">
                 {% set foto1 = entry.foto.one() %}
                 {% set foto2 = entry.foto2.one() %}
                 {% set foto3 = entry.foto3.one() %}
@@ -34,13 +33,13 @@
             {% set trainingBTN = entry.achtergrondTrainingen.one() %}
             <div class="row mx-auto justify-content-between text-center">
                 <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ initiatieBTN.url }}">
-                    <button>{{ entry.titelH31 }}</button>
+                    <button class="text-center">{{ entry.titelH31 }}</button>
                 </a>
                 <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ clubduikenBTN.url }}">
-                    <button>{{ entry.titelH32 }}</button>
+                    <button class="text-center">{{ entry.titelH32 }}</button>
                 </a>
                 <a href="{{ initiatieLes.url }}" class="hover-background" data-bg-url="{{ trainingBTN.url }}">
-                    <button>{{ entry.titelH33 }}</button>
+                    <button class="text-center">{{ entry.titelH33 }}</button>
                 </a>
             </div>
         </section>

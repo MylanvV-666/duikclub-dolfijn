@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 2dfea5fd-7269-4188-a409-37395b79c4c6 # footer-logo
+  - ca016f7c-0fc0-4cf1-9f6b-4aec0fb7edb4 # footer-federaties
+  - 87cacba1-c6eb-41ed-b307-76aae2d474d8 # footer-gegevens
+  - d1712481-37e5-4d9f-b944-66f7661d3dea # footer-socials
+handle: footer
+maxAuthors: 1
+name: Footer
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    enabledByDefault: true
+    hasUrls: true
+    template: _snippets\_footer.twig
+    uriFormat: 'footer/{slug}'
+structure:
+  maxLevels: null
+  uid: 44c945b2-4c79-438f-9e72-24096b43abd6
+type: structure

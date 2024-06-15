@@ -1,4 +1,4 @@
-dateModified: 1718405829
+dateModified: 1718413627
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -18,6 +18,7 @@ meta:
     1f5effd7-cdc3-4299-87c8-419a47830d24: 'Lang verticaal' # Lang verticaal
     2a3eea25-77ba-47cc-85b0-a1920e038b0d: Federaties # Federaties
     2c4e8754-f3bf-4096-9ae3-9a11212c3654: Duikplaatsen # Duikplaatsen
+    2dfea5fd-7269-4188-a409-37395b79c4c6: footer-logo # footer-logo
     2f141443-d73e-4cd5-9414-23f192babda8: 'Navigatie link' # Navigatie link
     3a5628fe-88ab-4ade-aa40-c5bf83414dee: bestuur # bestuur
     4d1070e7-0af4-4cdd-85d3-91155db1b7f5: 'Titel H2.3' # Titel H2.3
@@ -25,17 +26,20 @@ meta:
     5b9d7c12-622b-4990-9155-c2741c5def38: 'Foto''s' # Foto's
     5c0dc2c9-285c-45aa-887a-c887ea0e4c0d: 'Titel H3.2' # Titel H3.2
     5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
+    8be40aa8-3de4-4725-b130-fdbc6a69a967: Logo-footer # Logo-footer
     8c0cd35b-1aba-46c8-b16a-d98f0be224f9: Foto1 # Foto1
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
     10a43b4a-2950-4a68-9db6-9ead8ae73b03: 'achtergrond initiatie' # achtergrond initiatie
-    12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg3 # Uitleg3
+    12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg # Uitleg
     13d1ccc4-b02c-46db-9af1-03469cce2ece: 'Over ons' # Over ons
     16ff90ed-59f0-4bca-bf42-ea5bae0d8cd3: 'Contact Form' # Contact Form
     35b61dda-4599-41ec-971a-683a1878b7d6: 'Foto 2' # Foto 2
+    39b5853e-79de-4dd0-be0f-e3402a38417a: 'Navigatie link 2' # Navigatie link 2
     41a1bff9-a6eb-4a75-8d10-cd9ecedf68d0: Home # Home
     047f311b-5a9b-4f2a-83e5-bb93db79c152: 'Foto 4' # Foto 4
     050a6c8f-b201-4a7c-bf27-90550f2a81b1: Prijzen # Prijzen
     67f6c2ee-6e6c-4443-9e87-85ec1263c3ad: New # New
+    87cacba1-c6eb-41ed-b307-76aae2d474d8: footer-gegevens # footer-gegevens
     0338b76c-c9e8-4ce0-82b3-f13077da301e: Bestuur # Bestuur
     532c63e0-e8c9-43e6-a365-064f3559f2c4: 'Foto 5' # Foto 5
     576a2557-7a12-4da9-a061-82e817ee493f: 'Logo''s' # Logo's
@@ -44,6 +48,7 @@ meta:
     8063a39b-adbe-447a-a100-69422b04438d: verticaal # verticaal
     38526ff8-201f-4280-9758-4eafe67903af: Initiatie # Initiatie
     486688b8-6ea0-4455-96eb-adb504204342: 'Titel H3.3' # Titel H3.3
+    579560c5-3e5d-4d86-b10a-5080ba6e513d: E-mail # E-mail
     1944228b-667b-4679-a9a7-5cd61ba6363b: 'Titel H2.2' # Titel H2.2
     02450193-808b-42e8-b4cd-9a0991eb8258: 'Titel H2' # Titel H2
     23162187-50bf-4930-b65c-16f4631c8527: 'Uitleg 2' # Uitleg 2
@@ -54,9 +59,11 @@ meta:
     a3675e76-0c34-492a-90fb-c5a791b71905: federaties # federaties
     b56f921c-3a00-4fec-b19c-58f744660752: Lessen # Lessen
     b95e3bf5-e962-483f-9c0c-e6af209b4f1f: horizontaal # horizontaal
+    b657c4d7-f8d5-4cb8-b322-3707bfe16ed3: 'Navigatie link 3' # Navigatie link 3
     bb9b1097-9276-461c-aac1-6f5b359e8106: 'Lang horizontaal' # Lang horizontaal
     bf8f250d-e4d1-4d7d-9b2d-7715bf489fc9: 'Foto 3' # Foto 3
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
+    ca016f7c-0fc0-4cf1-9f6b-4aec0fb7edb4: footer-federaties # footer-federaties
     cbdf9d66-e771-4ea6-b065-36d46f769535: InleidendeTekstHome # InleidendeTekstHome
     cc07e5fd-bf6d-4c12-971b-1b386c10f883: 'Home Image' # Home Image
     d00f9e93-2d15-43f4-8dcb-b6e87b13ba35: 'Over ons' # Over ons
@@ -65,12 +72,14 @@ meta:
     d8c902a6-806b-47c9-b83f-7aafbb84b98b: Square # Square
     d10fa2a6-2fa0-4ca1-a7bf-856b57fd0d0c: Brevetten # Brevetten
     d912c11c-507e-49ef-b4b6-c5877d355fda: Simple # Simple
+    d1712481-37e5-4d9f-b944-66f7661d3dea: footer-socials # footer-socials
     d1809068-0b65-420d-a675-e40b84fe0109: Duiksport # Duiksport
     e06bb397-2b42-4693-83e3-12537430bbc4: 'Titel H3.4' # Titel H3.4
     ea72abe5-bea8-4ae7-9a59-db81d2b10f9a: 'Titel h1' # Titel h1
     f0075299-99cf-41b1-a05d-e33c296efccc: Bestuur # Bestuur
     f91e36f4-9384-45d5-b776-dd455ec19ade: Uitleg1 # Uitleg1
     f287c90d-2adb-4d28-b12d-dcd0d25fa64d: Duikplaatsen-indiv # Duikplaatsen-indiv
+    f470ca0e-0522-477d-9818-131140a3814f: Footer # Footer
 plugins:
   ckeditor:
     edition: standard
