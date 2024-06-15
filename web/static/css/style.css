@@ -93,11 +93,6 @@ nav .menu-items button :hover {
   color: #fff;
 }
 
-header {
-  width: 60%;
-  margin: 5rem auto;
-}
-
 .header2 .header-foto-3 {
   height: 338px;
   width: 250px;
@@ -283,182 +278,91 @@ footer .balkfooter a :hover {
   z-index: 1;
 }
 
-/*sectie1*/
-#over_ons main #over_overons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 100px;
+#over_overons {
+  width: 70%;
+  margin: 5rem auto;
+}
+#over_overons .tekst {
+  margin-top: 10%;
+}
+#over_overons .fotos {
+  margin-top: 2rem;
+}
+#over_overons .fotos :nth-child(1) {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+}
+#over_overons .fotos :nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 70%;
 }
 
-#over_ons main #over_overons div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+#bestuur h2 {
   width: 100%;
 }
-
-#over_ons main #over_overons #titelenfoto {
-  align-items: flex-end;
+#bestuur #personen {
+  margin: 2rem auto;
 }
-
-#over_ons main #over_overons #tekstenfoto {
-  align-items: flex-start;
-}
-
-#over_ons main #over_overons #tekstenfoto p {
-  padding-top: 40px;
-  width: 80%;
-}
-
-#over_ons main #over_overons #tekstenfoto img {
-  position: relative;
-  right: 40px;
-  bottom: 50px;
-}
-
-/*sectie2*/
-#over_ons main #bestuur {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding-bottom: 100px;
-}
-
-#over_ons main #bestuur h2 {
-  width: 100%;
-}
-
-#over_ons main #bestuur #personen {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  padding: 40px 0;
-}
-
-#over_ons main #bestuur #personen .personenrij {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-#over_ons main #bestuur #personen .personenrij .persoon {
-  width: 33%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+#bestuur #personen .persoon {
   align-items: center;
   text-align: center;
 }
-
-#over_ons main #bestuur #personen .personenrij .persoon div {
-  width: 60%;
-  background-color: white;
-  border: 1px solid #4B8996;
-  border-radius: 10px;
+#bestuur #personen .persoon div {
   padding: 10px 0;
-  position: relative;
-  bottom: 40px;
 }
 
-/*sectie3*/
-#over_ons main #watdoenwij {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+#watdoenwij {
+  margin: 4rem auto;
 }
-
-#over_ons main #watdoenwij h2 {
-  width: 100%;
-  padding-bottom: 40px;
-}
-
-#over_ons main #watdoenwij div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-#over_ons main #watdoenwij div .tekstlinks {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 150px;
+#watdoenwij div .tekstlinks {
   width: 40%;
   text-align: right;
 }
-
-#over_ons main #watdoenwij div .tekstlinks a {
+#watdoenwij div .tekstlinks a {
   width: 100%;
   align-content: flex-end;
 }
-
-#over_ons main #watdoenwij div .tekstlinks h3, #over_ons main #watdoenwij div #tekstrechts h3 {
-  padding-bottom: 40px;
+#watdoenwij div .fotos {
+  margin-bottom: -10%;
 }
-
-#over_ons main #watdoenwij div .tekstlinks p, #over_ons main #watdoenwij div #tekstrechts p {
-  padding-bottom: 100px;
-}
-
-#over_ons main #watdoenwij div .fotos {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-}
-
-#over_ons main #watdoenwij div .fotos .foto-top {
+#watdoenwij div .fotos :nth-child(1) {
   position: relative;
-  right: 150px;
+  top: 0;
+  left: 40%;
 }
-
-#over_ons main #watdoenwij div .fotos .foto-mid {
+#watdoenwij div .fotos :nth-child(2) {
   position: relative;
-  bottom: 75px;
+  top: -5%;
+  left: 10%;
 }
-
-#over_ons main #watdoenwij div .fotos .foto-bot {
+#watdoenwij div .fotos :nth-child(3) {
   position: relative;
-  bottom: 150px;
-  right: 100px;
-  width: 50%;
+  top: -20%;
+  left: 80%;
+  scale: 0.8;
 }
-
-#over_ons main #watdoenwij div #tekstrechts {
-  display: flex;
-  flex-direction: column;
+#watdoenwij div .tekstrechts {
   justify-content: flex-start;
-  padding-top: 150px;
   width: 40%;
 }
-
-#over_ons main #watdoenwij div #fotosleft {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-}
-
-#over_ons main #watdoenwij div #fotosleft .fotoleft-top {
-  width: 50%;
-}
-
-#over_ons main #watdoenwij div #fotosleft .fotoleft-mid {
+#watdoenwij div .fotosleft :nth-child(1) {
   position: relative;
-  bottom: 250px;
-  left: 300px;
 }
-
-#over_ons main #watdoenwij div #fotosleft .fotoleft-bot {
+#watdoenwij div .fotosleft :nth-child(2) {
   position: relative;
-  bottom: 275px;
+  top: -18%;
+  left: 30%;
+}
+#watdoenwij div .fotosleft :nth-child(3) {
+  position: relative;
+  top: -20%;
+  left: 5%;
 }
 
-#over_ons #kaartoverons h2 {
-  padding: 50px 150px;
+#kaartoverons {
+  margin: 4rem auto;
 }
 
 #meer-info-over-duiken {

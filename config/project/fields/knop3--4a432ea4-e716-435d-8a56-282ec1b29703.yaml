@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: knop3
+instructions: null
+name: 'Knop 3'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:fe6ec8ae-645c-4bc3-91d7-b7b6eed7727d' # knoppen
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

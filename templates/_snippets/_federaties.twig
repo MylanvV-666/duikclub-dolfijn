@@ -1,8 +1,15 @@
-    <a href="{{ federatie.navigatieLink }}" target="_blank" class="col-12 col-md-4 align-content-center text-center">
-        {% set fedImage = federatie.foto.one() %}
-        <img src="{{ fedImage.url('federaties') }}" alt="{{ federatie.title }}">
-    </a>
-
+    <section class="federaties">
+        <h2>{{ entry.titelFederaties }}</h2>
+        {% set federaties = craft.entries.section('federaties').all() %}
+        <div class="row justify-content-between">
+            {% for federatie in federaties %}
+                <a href="{{ federatie.navigatieLink }}" target="_blank" class="col-12 col-md-4 align-content-center text-center">
+                    {% set fedImage = federatie.foto.one() %}
+                    <img src="{{ fedImage.url('federaties') }}" alt="{{ federatie.title }}">
+                </a>
+            {% endfor %}
+        </div>
+    </section>
 
 {#    <div class="row justify-content-between">#}
 {#        <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>#}

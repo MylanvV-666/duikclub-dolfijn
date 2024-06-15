@@ -1,0 +1,16 @@
+<section id="bestuur">
+    <h2>{{ entry.titelH2 }}</h2>
+    <div id="personen" class="row">
+        {% set bestuur = craft.entries.section('bestuur').all() %}
+        {% for lid in bestuur %}
+            <div class="persoon col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 justify-content-between">
+                {% set foto = lid.fotoBestuur.one() %}
+                <img src="{{ foto.url('square') }}" alt="{{ lid.title }}">
+                <div>
+                    <p><b>{{ lid.title }}</b></p>
+                    <p>{{ lid.rol }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

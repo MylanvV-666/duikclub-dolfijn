@@ -1,207 +1,92 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta charset="utf-8"/>
-    <title>{{ systemName }}</title>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
-    <meta name="referrer" content="origin-when-cross-origin"/>
+{% extends '_snippets/_head.twig' %}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet">
+{% block content %}
+    <header id="over_overons" class="row">
+        <div class="tekst col-12 col-lg-7 col-xl-8">
+            <h1>{{ entry.titelH1 }}</h1>
+            {{ entry.inleidendeTekstHome }}
+        </div>
+        <div class="fotos col-12 col-lg-5 col-xl-4">
+            {% set headerImg1 = entry.foto.one() %}
+            {% set headerImg2 = entry.foto2.one() %}
+            <img src="{{ headerImg1.url('horizontaal') }}" alt="foto">
+            <img src="{{ headerImg2.url('verticaal') }}" alt="foto">
+        </div>
+    </header>
+    <main>
 
-    <script defer src="web/static/script/script.js"></script>
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-<body id="over_ons">
-<nav>
-    <a href="index.html">
-        <img src="static/assets/Dolfijn%201.png" alt="logo">
-    </a>
-    <div class="menu-items">
-        <a href="over-ons.html">Over ons</a>
-        <a href="duiken.html">Duiken</a>
-        <a href="contact.html">Contact</a>
-        <a href="login.html">
-            <button>Login</button>
-        </a>
-    </div>
-</nav>
-<main>
-    <section id="over_overons">
-        <div id="titelenfoto">
-            <h1>Over de duikclub</h1>
-            <img src="static/assets/foto1.png" alt="foto">
+        {% include '_snippets/_bestuur.twig' %}
+
+        {% set knop = entry.knop.one() %}
+        <div class="row text-center mt-2">
+            <a href="{{ knop.knopLinktNaar }}">
+                <button>{{ knop.title }}</button>
+            </a>
         </div>
-        <div id="tekstenfoto">
-            <p>Duikclub Dolfijn is een enthousiaste en gezellige duikvereniging gevestigd in Bilzen. Onze club is
-                opgericht met als doel duikliefhebbers samen te brengen en hen de kans te bieden om hun passie voor
-                duiken te delen en te ontwikkelen. Of je nu een beginner bent die wil leren duiken of een ervaren duiker
-                op zoek naar nieuwe duikavonturen, bij Duikclub Dolfijn ben je aan het juiste adres.<br><br>
-                Wij bieden een vriendelijke en ondersteunende omgeving waarin je kunt leren duiken onder begeleiding van
-                ervaren instructeurs. Onze wekelijkse trainingsavonden in het Stedelijk Zwembad De Kimpel zijn een
-                uitstekende gelegenheid om je duikvaardigheden te verbeteren of gewoon plezier te hebben met
-                gelijkgestemde duikers. Daarnaast organiseren we regelmatig duikuitstapjes naar verschillende
-                duiklocaties, zowel binnen als buiten België.</p>
-            <img src="static/assets/foto.png" alt="foto">
-        </div>
-    </section>
-    <section id="bestuur">
-        <h2>Het bestuur</h2>
-        <div id="personen">
-            <div class="personenrij">
-                <div class="persoon">
-                    <img src="static/assets/kaderlid1.png" alt="kader">
-                    <div>
-                        <p><b>Guy Goossens</b></p>
-                        <p>Kaderlid</p>
+
+        <section id="watdoenwij">
+            <h2>{{ entry.titelH22 }}</h2>
+            {% set activiteiten = craft.entries().section('watDoenWij').orderBy('postDate').all() %}
+            {% for activiteit in activiteiten %}
+                {% if loop.index is odd %}
+                    <div class="row justify-content-center">
+                        <div class="tekstlinks col-6">
+                            <h3>{{ activiteit.title }}</h3>
+                            {{ activiteit.inleidendeTekstHome }}
+                            <a href="{{ activiteit.knop.one().url }}" target="_blank">
+                                <button>{{ activiteit.knop.one().title }}</button>
+                            </a>
+                        </div>
+                        <div class="fotos col-4">
+                            {% if activiteit.foto|length %}
+                                {% set foto1 = activiteit.foto.one() %}
+                                <img src="{{ foto1.url('horizontaal') }}" alt="{{ foto1.title }}">
+                            {% endif %}
+                            {% if activiteit.foto2|length %}
+                                {% set foto2 = activiteit.foto2.one() %}
+                                <img src="{{ foto2.url('horizontaal') }}" alt="{{ foto2.title }}">
+                            {% endif %}
+                            {% if activiteit.foto3|length %}
+                                {% set foto3 = activiteit.foto3.one() %}
+                                <img src="{{ foto3.url('verticaal') }}" alt="{{ foto3.title }}">
+                            {% endif %}
+                        </div>
                     </div>
-                </div>
-                <div class="persoon">
-                    <img src="static/assets/kaderlid2.png" alt="kader">
-                    <div>
-                        <p><b>Jan-Pieter Ploem</b></p>
-                        <p>Kaderlid</p>
+                {% else %}
+                    <div class="row">
+                        <div class="fotosleft col-6">
+                            {% if activiteit.foto|length %}
+                                {% set foto1 = activiteit.foto.one() %}
+                                <img src="{{ foto1.url('verticaal') }}" alt="{{ foto1.title }}">
+                            {% endif %}
+                            {% if activiteit.foto2|length %}
+                                {% set foto2 = activiteit.foto2.one() %}
+                                <img src="{{ foto2.url('horizontaal') }}" alt="{{ foto2.title }}">
+                            {% endif %}
+                            {% if activiteit.foto2|length %}
+                                {% set foto3 = activiteit.foto2.one() %}
+                                <img src="{{ foto3.url('horizontaal') }}" alt="{{ foto3.title }}">
+                            {% endif %}
+                        </div>
+                        <div class="tekstrechts col-6">
+                            <h3>{{ activiteit.title }}</h3>
+                            {{ activiteit.inleidendeTekstHome }}
+                            <a href="{{ activiteit.knop.one().url }}">
+                                <button>{{ activiteit.knop.one().title }}</button>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="persoon">
-                    <img src="static/assets/kaderlid3.png" alt="kader">
-                    <div>
-                        <p><b>Liesbeth Wijgaerts</b></p>
-                        <p>Kaderlid</p>
-                    </div>
-                </div>
-            </div>
-            <div class="personenrij">
-                <div class="persoon">
-                    <img src="static/assets/kaderlid4.png" alt="kader">
-                    <div>
-                        <p><b>Nathalie Delile</b></p>
-                        <p>Kaderlid</p>
-                    </div>
-                </div>
-                <div class="persoon">
-                    <img src="static/assets/kaderlid5.png" alt="kader">
-                    <div>
-                        <p><b>Pino Argento</b></p>
-                        <p>Kaderlid</p>
-                    </div>
-                </div>
-                <div class="persoon"></div>
-            </div>
-        </div>
-        <a href="contact.html">
-            <button>Contacteer ons</button>
-        </a>
-    </section>
-    <section id="watdoenwij">
-        <h2>Wat doen wij?</h2>
-        <div>
-            <div class="tekstlinks">
-                <h3>Jaarlijkse eetdag</h3>
-                <p>Mosselen, ribbekes, stoofvlees... Deze klassiekers vind je allemaal op de kaart van onze jaarlijke
-                    eetdag.<br><br>
-                    Kom dus in februari mee smullen en maak ineens kennis met de club, het bestuur en de leden.<br><br>
-                    Wil je op de hoogte blijven van onze activiteiten? Volg ons dan op Facebook!</p>
-                <a href="https://www.facebook.com/DuikclubDolfijn/" target="_blank">
-                    <button>Facebook</button>
-                </a>
-            </div>
-            <div class="fotos">
-                <img class="foto-top" src="static/assets/restfoto.png" alt="foto">
-                <img class="foto-mid" src="static/assets/restfoto2.png" alt="foto">
-                <img class="foto-bot" src="static/assets/restfoto3.png" alt="foto">
-            </div>
-        </div>
-        <div>
-            <div id="fotosleft">
-                <img class="fotoleft-top" src="static/assets/weekendfoto1.png" alt="foto">
-                <img class="fotoleft-mid" src="static/assets/weekendfoto2.png" alt="foto">
-                <img class="fotoleft-bot" src="static/assets/weekendfoto3.png" alt="foto">
-            </div>
-            <div id="tekstrechts">
-                <h3>Weekends</h3>
-                <p>Klinkt een heel weekend duiken voor jou ook als hemel op aarde?<br><br>
-                    Aarzel dan niet om mee te komen genieten tijdens een van onze weekends in Mol, Zeeland, op het
-                    botenweekend van Limos of stel zelf een locatie voor! Wij staan open voor suggesties.<br><br>
-                    Bang dat je misschien nog niet het geweste niveau behaalt? Afhankelijk van de duikers passen wij de
-                    locatie aan.<br><br>
-                    Wil je meer weten over de weekends? Log in en bekijk de kalender.</p>
-                <a href="login.html">
-                    <button>Kalender</button>
-                </a>
-            </div>
-        </div>
-        <div>
-            <div class="tekstlinks">
-                <h3>Jaarlijkse clubreis</h3>
-                <p>Egypte, Frankrijk, Spanje, Italië, Malediven, Bonaire … We reizen samen de wereld rond!<br><br>
-                    Onze jaarlijkse duikreis is een geweldige kans om samen met mededuikers te genieten van
-                    adembenemende duiklocaties, van kleurrijke koraalriffen tot mysterieuze wrakken. We zullen de
-                    onderwaterwereld verkennen, nieuwe vrienden maken en bovenal fantastische duikervaringen
-                    delen.<br><br>Contacteer ons voor meer informatie over de clubreis.</p>
-                <a href="contact.html">
-                    <button>Contact</button>
-                </a>
-            </div>
-            <div class="fotos">
-                <img class="foto-top" src="static/assets/reizen1.png" alt="foto">
-                <img class="foto-mid" src="static/assets/reizen2.png" alt="foto">
-                <img class="foto-bot" src="static/assets/reizen3.png" alt="foto">
-            </div>
-        </div>
-    </section>
-    <section class="dank">
-        <h2>Met dank aan</h2>
-        <div>
-            <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>
-            <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>
-            <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>
-        </div>
-    </section>
-</main>
-<section id="kaartoverons">
-    <h2>Waar vind je ons?</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1777.8577338211999!2d5.588351435660224!3d50.93720999065072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0dc5f4fbca731%3A0x2ce2d027f84f5ae5!2sEikenstraat%2025%2C%203690%20Zutendaal!5e0!3m2!1snl!2sbe!4v1716121117815!5m2!1snl!2sbe"
-            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-<footer>
-    <section class="gegevensfooter">
-        <div class="border">
-            <img src="static/assets/Dolfijn_full%201.png" alt="logo">
-        </div>
-        <div class="border">
-            <p><b>Met dank aan:</b></p>
-            <a href="https://www.limos-vzw.be/" target="_blank">Limos</a>
-            <a href="https://nelos.be/" target="_blank">Nelos</a>
-            <a href="https://www.cmas.org/" target="_blank">CMAS</a>
-        </div>
-        <div class="border">
-            <div class="gegevensmeticonen"><img src="static/assets/icon%20_home_.png" alt="icon">
-                <p>Eikenstraat 25<br>3740 Bilzen</p></div>
-            <div class="gegevensmeticonen"><img src="static/assets/icon%20_envelope%20closed_.png" alt="icon">
-                <p>email@email.com</p></div>
-            <div class="gegevensmeticonen"><img src="static/assets/icon%20_phone_.png" alt="icon">
-                <p>+32 456 78 91</p></div>
-        </div>
-        <div>
-            <img src="static/assets/icon%20_web_.png" alt="icon">
-            <div class="socialsfooter">
-                <a href="https://www.facebook.com/DuikclubDolfijn/" target="_blank"><img src="static/assets/icon%20_facebook_.png" alt="icon"></a>
-                <a href="#"><img src="static/assets/icon%20_instagram%20alt_.png" alt="icon"></a>
-                <a href="#"><img src="static/assets/icon%20_social%20linkedin_.png" alt="icon"></a>
-            </div>
-        </div>
-    </section>
-    <section class="balkfooter">
-        <a href="#">Regelement</a>
-        <a href="#">Algemene gebruiksvoorwaarden</a>
-        <a href="#">privacyverklaring</a>
-    </section>
-</footer>
-</body>
-</html>
+                {% endif %}
+            {% endfor %}
+        </section>
+
+
+        {% include '_snippets/_federaties.twig' %}
+
+        <section id="kaartoverons">
+            <h2>Waar vind je ons?</h2>
+        </section>
+    </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d796.4150951233381!2d5.511764127033176!3d50.865890062986736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0e0b9fe04ea1d%3A0xdd47456e41a19bdb!2sEikenlaan%2025%2C%203740%20Bilzen!5e1!3m2!1snl!2sbe!4v1718478390711!5m2!1snl!2sbe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{% endblock %}

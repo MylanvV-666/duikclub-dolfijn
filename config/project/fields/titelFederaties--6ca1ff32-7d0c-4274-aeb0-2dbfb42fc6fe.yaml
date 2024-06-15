@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: titelFederaties
+instructions: null
+name: 'Titel federaties'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Met dank aan:'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -81,7 +81,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: cbdf9d66-e771-4ea6-b065-36d46f769535 # InleidendeTekstHome
+            fieldUid: cbdf9d66-e771-4ea6-b065-36d46f769535 # uitgebreide tekst
             handle: null
             includeInCards: false
             instructions: null
@@ -91,6 +91,21 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 459f078f-c79d-484b-815d-8c6895f4cbd9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1d1b8e8c-f843-4846-884d-d62c4d69ebc3 # Knop
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52b91b15-2c22-4e51-b8df-5b2db7d5b4af
             userCondition: null
             warning: null
             width: 100
@@ -246,7 +261,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4d1070e7-0af4-4cdd-85d3-91155db1b7f5 # Titel H2.3
+            fieldUid: 6ca1ff32-7d0c-4274-aeb0-2dbfb42fc6fe # Titel federaties
             handle: null
             includeInCards: false
             instructions: null
@@ -255,7 +270,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 266a74f1-0bde-4857-b548-e51b1206e160
+            uid: 3a708b8d-f09c-4bd5-bbb2-f1186faab09a
             userCondition: null
             warning: null
             width: 100

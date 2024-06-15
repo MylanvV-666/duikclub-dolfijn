@@ -109,8 +109,8 @@ nav {
 
 // ------------------ HEADER(s) ------------------
 
-header {
-  width: 60%;
+@mixin header{
+  width: 70%;
   margin: 5rem auto;
 }
 

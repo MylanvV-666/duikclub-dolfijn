@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  ec4fdace-426d-4b6f-8275-d4dd2794cca1:
+  f6b4a98d-09ef-4158-8cf4-31b7fbd90023:
     tabs:
       -
         elementCondition: null
@@ -30,52 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 37c7b861-4ed4-49a6-8fa6-f44421e24c50
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: ea72abe5-bea8-4ae7-9a59-db81d2b10f9a # Titel h1
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b0249a27-683d-4f48-8104-f65696d4d10a
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 8c0cd35b-1aba-46c8-b16a-d98f0be224f9 # Foto1
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b1445446-f351-4d73-a05f-2e88f2488769
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 35b61dda-4599-41ec-971a-683a1878b7d6 # Foto 2
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b50fbbe1-e8fc-4dd0-989e-f464bba4e4d6
+            uid: 50ba1892-16bc-45bd-aa11-8f9ee522aacc
             userCondition: null
             warning: null
             width: 100
@@ -90,13 +45,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 37445e1b-1a71-4fe6-a218-835632f3e1f5
+            uid: 06d520ac-ea02-4177-9a52-d5e12f80b4d8
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 02450193-808b-42e8-b4cd-9a0991eb8258 # Titel H2
+            fieldUid: 1d1b8e8c-f843-4846-884d-d62c4d69ebc3 # Knop
             handle: null
             includeInCards: false
             instructions: null
@@ -105,17 +60,47 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 142b5f84-690d-4a75-867a-45699ae462ec
+            uid: 3ba7156d-e17d-40a9-82a8-9e3d1dd66689
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c0cd35b-1aba-46c8-b16a-d98f0be224f9 # Foto1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a8ddc64-ebb3-4a04-bac3-01b46f3fbf0c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 35b61dda-4599-41ec-971a-683a1878b7d6 # Foto 2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1cdfca70-1c99-46f6-b3fe-c8c86dbca65c
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1df7427a-81f9-4008-9eb8-40f8c65bb780
+        uid: 249fec65-7b63-4d51-a914-b0fc45d9ec6f
         userCondition: null
-handle: duiksport
+handle: met2Fotos
 hasTitleField: true
-icon: memo
-name: Duiksport
+icon: ''
+name: 'met 2 foto''s'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

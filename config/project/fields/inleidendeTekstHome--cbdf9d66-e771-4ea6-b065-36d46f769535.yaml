@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: inleidendeTekstHome
 instructions: null
-name: InleidendeTekstHome
+name: 'uitgebreide tekst'
 searchable: false
 settings:
   availableTransforms: ''

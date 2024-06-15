@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  147b08b1-2eb3-4e65-8a7e-cab8765c7623:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a850794b-16a0-4af1-9e3f-4f8e9f93c70b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bade1538-2c3e-49a0-8c51-32dcc3ee2ed9 # knop linkt naar
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a846169-2c20-41dc-8740-196878c87a53
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0b7b3d2a-8c7d-48d0-b5e7-2159f061ec38
+        userCondition: null
+handle: knop
+hasTitleField: true
+icon: ''
+name: Knop
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

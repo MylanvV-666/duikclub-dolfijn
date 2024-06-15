@@ -12,8 +12,9 @@
             <div class="tekst col-12 col-lg-7 col-xl-8">
                 <h2>{{ entry.titelH2 }}</h2>
                 <p>{{ entry.inleidendeTekstHome }}</p>
-                <a href="{{ initiatieLes.url }}">
-                    <button>{{ "Gratis initiatie" }}</button>
+                {% set knop = entry.knop.one() %}
+                <a href="{{ knop.knopLinktNaar }}">
+                    <button>{{ knop.title }}</button>
                 </a>
             </div>
             <div class="fotos col-12 col-lg-5 col-xl-4">
@@ -44,15 +45,8 @@
             </div>
         </section>
 
-        <section class="federaties">
-            <h2>{{ entry.titelH23 }}</h2>
-            {% set federaties = craft.entries.section('federaties').all() %}
-            <div class="row justify-content-between">
-            {% for federatie in federaties %}
-                {% include '_snippets/_federaties.twig' %}
-            {% endfor %}
-            </div>
-        </section>
+        {% include '_snippets/_federaties.twig' %}
+
     </main>
 
 {% endblock %}

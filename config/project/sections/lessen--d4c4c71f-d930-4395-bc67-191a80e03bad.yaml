@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - d00f9e93-2d15-43f4-8dcb-b6e87b13ba35 # Over ons
-handle: overOns
+  - b56f921c-3a00-4fec-b19c-58f744660752 # Lessen
+handle: lessen
 maxAuthors: 1
-name: 'Over ons'
+name: Lessen
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
     enabledByDefault: true
     hasUrls: true
-    template: over-ons.twig
-    uriFormat: over-ons
+    template: lessen.twig
+    uriFormat: lessen
 type: single

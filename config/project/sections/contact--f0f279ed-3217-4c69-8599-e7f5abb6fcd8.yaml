@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - d00f9e93-2d15-43f4-8dcb-b6e87b13ba35 # Over ons
-handle: overOns
+  - eaa7e28f-4742-4c66-999b-b00a7ab41bcd # empty
+handle: contact
 maxAuthors: 1
-name: 'Over ons'
+name: Contact
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
     enabledByDefault: true
     hasUrls: true
-    template: over-ons.twig
-    uriFormat: over-ons
+    template: contact.twig
+    uriFormat: contact
 type: single
