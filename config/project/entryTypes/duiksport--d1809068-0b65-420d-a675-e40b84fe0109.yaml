@@ -96,6 +96,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 02450193-808b-42e8-b4cd-9a0991eb8258 # Titel H2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ed1f172-7fc6-4489-810a-40307295d57b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 6ca1ff32-7d0c-4274-aeb0-2dbfb42fc6fe # Titel federaties
             handle: null
             includeInCards: false

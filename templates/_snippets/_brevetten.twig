@@ -1,0 +1,7 @@
+<a href="{{ brevet.navigatieLink }}" target="_blank" class="duiksport-brevet-card">
+    <div class="cards-image">
+        {% set foto = brevet.foto.one() %}
+        <img src="{{ foto.url('square') }}" alt="{{ foto.title }}">
+    </div>
+    <p>{{ brevet.title }}</p>
+</a>

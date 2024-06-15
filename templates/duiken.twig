@@ -2,16 +2,14 @@
 
 {% block content %}
 <header class="header2 row">
-    <div class="fotos">
+    <div class="fotos col-12 col-md-4">
         {% set foto1= entry.foto.one() %}
         <img src="{{ foto1.url('verticaal') }}" alt="{{ foto1.title }}">
 
         {% set foto2= entry.foto2.one() %}
         <img src="{{ foto2.url('horizontaal') }}" alt="{{ foto2.title }}">
     </div>
-
-
-    <div class="tekst">
+    <div class="tekst col-12 col-md-8">
         <h1>{{ entry.titelH1 }}</h1>
         {{ entry.inleidendeTekstHome }}
     </div>

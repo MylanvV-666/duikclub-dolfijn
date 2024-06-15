@@ -122,11 +122,10 @@ nav {
   }
 
   .fotos {
-    margin-top: 2rem;
 
     :nth-child(1) {
       position: absolute;
-      top: 30%;
+      top: 28%;
       left: 55%;
     }
 
@@ -134,6 +133,23 @@ nav {
       position: absolute;
       top: 50%;
       left: 70%;
+    }
+  }
+}
+.header2{
+@include header;
+.tekst{
+  margin-top: 15%;
+}
+  .fotos{
+    :nth-child(1){
+      position: absolute;
+      top: 45%;
+      left: 12%;
+    }
+    :nth-child(2){
+      position: absolute;
+      top: 25%;
     }
   }
 }

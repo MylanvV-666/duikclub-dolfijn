@@ -93,45 +93,39 @@ nav .menu-items button :hover {
   color: #fff;
 }
 
-.header2 .header-foto-3 {
-  height: 338px;
-  width: 250px;
-  overflow: hidden;
-  position: relative;
-  z-index: 10;
+.header1 {
+  width: 70%;
+  margin: 5rem auto;
 }
-.header2 .header-foto-3 img {
-  height: inherit;
-  position: relative;
-  left: -25%;
+.header1 .tekst {
+  margin-top: 10%;
 }
-.header2 .header-foto-4 {
-  height: 200px;
-  width: 657px;
-  overflow: hidden;
-  position: relative;
-  top: -1rem;
-  left: -2rem;
-  z-index: 0;
+.header1 .fotos :nth-child(1) {
+  position: absolute;
+  top: 28%;
+  left: 55%;
 }
-.header2 .header-foto-4 img {
-  width: inherit;
-  position: relative;
-  top: -25%;
+.header1 .fotos :nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 70%;
 }
-.header2 h1 {
-  position: relative;
-  top: -34rem;
-  left: 17rem;
+
+.header2 {
+  width: 70%;
+  margin: 5rem auto;
 }
-.header2 #header2-tekst {
-  position: relative;
-  top: -34rem;
-  left: 17rem;
-  width: 40rem;
+.header2 .tekst {
+  margin-top: 15%;
 }
-.header2 #header2-tekst p {
-  padding: 0.5rem 0;
+.header2 .fotos :nth-child(1) {
+  position: absolute;
+  top: 45%;
+  left: 12%;
+}
+.header2 .fotos :nth-child(2) {
+  position: absolute;
+  top: 25%;
 }
 
 footer {
@@ -278,27 +272,6 @@ footer .balkfooter a :hover {
   z-index: 1;
 }
 
-#over_overons {
-  width: 70%;
-  margin: 5rem auto;
-}
-#over_overons .tekst {
-  margin-top: 10%;
-}
-#over_overons .fotos {
-  margin-top: 2rem;
-}
-#over_overons .fotos :nth-child(1) {
-  position: absolute;
-  top: 30%;
-  left: 55%;
-}
-#over_overons .fotos :nth-child(2) {
-  position: absolute;
-  top: 50%;
-  left: 70%;
-}
-
 #bestuur h2 {
   width: 100%;
 }
@@ -367,9 +340,8 @@ footer .balkfooter a :hover {
 
 #meer-info-over-duiken {
   width: 80%;
-  margin: -17rem auto 5rem auto;
+  margin: 5rem auto;
 }
-
 #meer-info-over-duiken h2 {
   text-align: right;
   margin: 2rem 0;
@@ -437,7 +409,7 @@ footer .balkfooter a :hover {
 
 #prijzen-main h1 {
   text-align: center;
-  margin: 5rem 0;
+  margin: 4rem 0 2rem 0;
 }
 
 #prijzen-main h2 {
@@ -460,7 +432,6 @@ footer .balkfooter a :hover {
   width: inherit;
   height: fit-content;
   position: relative;
-  top: -50%;
 }
 
 #duikmateriaal #indoor-foto2 {
