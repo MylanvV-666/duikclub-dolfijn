@@ -1,0 +1,24 @@
+<section class="my-5">
+    <h2>{{ entry.titelH2 }}</h2>
+    {% set reizen = craft.entries.section('clubReizen').all() %}
+    {% for reis in reizen %}
+    <div class="clubreis row">
+        {% set foto = reis.foto.one() %}
+        <img class="col-12 col-md-3" src="{{ foto.url('square') }}" alt="{{ foto.title }}">
+        <div class="col-12 col-md-9">
+            <div class="row justify-content-between">
+                {% set startdatum = reis.startDatum|date('d F') %}
+                {% set einddatum = reis.eindDatum|date('d F') %}
+                <h3 class="col-8">{{ reis.title }} {{ startdatum }} - {{ einddatum }}</h3>
+                <h3 class="col-3 text-end">€{{ reis.prijs|number_format(2, ',', '.') }}</h3>
+            </div>
+            {{ reis.uitleg1 }}
+            <a href="{{ reis.knop.one().knopLinktNaar }}">
+                <button class="buttonwit">{{ reis.knop.one().title }}</button>
+            </a>
+        </div>
+    </div>
+    <hr>
+    {% endfor %}
+
+</section>

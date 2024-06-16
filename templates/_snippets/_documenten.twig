@@ -1,1 +1,41 @@
-<h2>Documenten</h2>
+<div class="documenten">
+    <h2>{{ entry.titelH23 }}</h2>
+    <div id="filters" class="row">
+        {% set foto4 = entry.foto4.one() %}
+        <button class="col-2">
+            filter type 1 <img src="{{ foto4.url }}" alt="remove">
+        </button>
+        <button class="col-2">
+            filter type 2 <img src="{{ foto4.url }}" alt="remove">
+        </button>
+        <button class="col-2">
+            filter type 3 <img src="{{ foto4.url }}" alt="remove">
+        </button>
+        <button class="col-2">
+            filter datum 1 <img src="{{ foto4.url }}" alt="remove">
+        </button>
+        <button class="col-2">
+            filter datum 2 <img src="{{ foto4.url }}" alt="remove">
+        </button>
+        <button class="col-2">
+            filter datum 3 <img src="{{ foto4.url }}" alt="remove">
+        </button>
+    </div>
+    {% set documenten = craft.entries.section('documenten').all() %}
+    {% for document in documenten %}
+        <div class="row">
+            <div class="col-3 align-content-center">
+                <a href="{{ document.pdfFile.one().url }}" target="_blank">
+                    <button>{{ document.title }}</button>
+                </a>
+            </div>
+            <div class="col-8">
+                <h3>{{ document.title }}</h3>
+                {{ document.uitleg1 }}
+            </div>
+
+        </div>
+        <hr>
+    {% endfor %}
+</div>
+

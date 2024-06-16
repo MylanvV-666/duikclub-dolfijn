@@ -1170,5 +1170,144 @@ nav #hamburger #uitklap .menu-items-burger a {
     padding: 0 30px 100px 30px;
   }
 }
+.buttonwit {
+  background-color: #fff;
+  color: #012836;
+  border: 1px solid #012836;
+}
+.buttonwit :hover {
+  background-color: #4B8996;
+  color: #fff;
+  border: none;
+}
+
+.header-leden {
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.ice-lijst .fotos :nth-child(1) {
+  position: relative;
+  left: 30%;
+  top: 10%;
+}
+.ice-lijst .fotos :nth-child(2) {
+  position: relative;
+  top: 7%;
+  left: 40%;
+}
+.ice-lijst .tekst ul li {
+  list-style-type: none;
+  padding: 0.5rem 0;
+}
+
+.documenten {
+  margin: 5rem auto;
+}
+.documenten #filters button {
+  font-size: 16px;
+  padding: 10px 15px;
+  line-height: 12px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0;
+  margin: 10px 10px 10px 0;
+}
+.documenten #filters button img {
+  margin: 0 0 0 10px;
+}
+.documenten hr {
+  border: 2px solid #012836;
+}
+
+#kalender main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#kalender main iframe {
+  margin: 100px 0;
+}
+
+@media screen and (max-width: 1400px) {
+  #leden main #documenten #documentenlijst .document button span {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /*leden*/
+  /*header*/
+  #leden header {
+    background: none;
+    height: 10px;
+  }
+  #leden header a button {
+    display: none;
+  }
+  /*main*/
+  /*sectie 1*/
+  #leden main #clubreizen .clubreis img {
+    display: none;
+  }
+  #leden main #clubreizen .clubreis .tekstreis {
+    width: 100%;
+  }
+  /*sectie 2*/
+  #leden main #ice_lijst_sectie #images #iceimgtop {
+    display: none;
+  }
+  #leden main #ice_lijst_sectie #images #iceimgbot {
+    display: none;
+  }
+  /*sectie 3*/
+  #leden main #documenten #filters {
+    width: 100%;
+  }
+  #leden main #documenten #documentenlijst .document {
+    flex-direction: column;
+    align-items: start;
+  }
+  #leden main #documenten #documentenlijst .document button {
+    width: initial;
+  }
+  #leden main #documenten #documentenlijst .document button span {
+    display: flex;
+    padding-left: 20px;
+  }
+  #leden main #documenten #documentenlijst .document .doctekst {
+    width: 100%;
+  }
+  #leden main #documenten #documentenlijst .document .doctekst p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  /*leden*/
+  /*main*/
+  /*sectie 1*/
+  #leden main #clubreizen .clubreis .tekstreis .titelreis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /*main*/
+  /*sectie 1*/
+  #leden main #clubreizen {
+    margin: 100px 50px;
+  }
+  /*sectie 2*/
+  #leden main #ice_lijst_sectie {
+    margin: 100px 50px;
+  }
+  /*sectie 3*/
+  #leden main #documenten {
+    margin: 100px 50px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

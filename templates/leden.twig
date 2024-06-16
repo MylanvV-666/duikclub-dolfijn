@@ -1,0 +1,42 @@
+{% extends '_snippets/_head.twig' %}
+
+{% block content %}
+
+
+    {% set background = entry.foto.one() %}
+    <header class="header-leden row align-content-end justify-content-start p-5"
+            style="background-image:url('{{ background.url }}')">
+        <a href="{{ entry.knop.one().knopLinktNaar }}">
+            <button class="buttonwit px-5">{{ entry.knop.one().title }}</button>
+        </a>
+    </header>
+    <main>
+        {% include '_snippets/_clubreizen.twig' %}
+
+        <section class="ice-lijst row justify-content-center">
+            <div class="fotos col-12 col-md-5">
+                {% if entry.foto2|length %}
+                    {% set foto2 = entry.foto2.one() %}
+                    <img src="{{ foto2.url('verticaal') }}" alt="{{ foto2.title }}">
+                {% endif %}
+                {% if entry.foto3|length %}
+                    {% set foto3 = entry.foto3.one() %}
+                    <img src="{{ foto3.url('langHorizontaal') }}" alt="{{ foto3.title }}">
+                {% endif %}
+            </div>
+            <div class="tekst col-12 col-md-7">
+                <h2>{{ entry.titelH22 }}</h2>
+                <ul>
+                    {% set ice = craft.entries.section('ice').orderBy('postDate').all() %}
+                    {% for item in ice %}
+                        <li><a href="tel:{{ item.telefoon }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+
+        {% include'_snippets/_documenten.twig' %}
+    </main>
+
+
+{% endblock %}

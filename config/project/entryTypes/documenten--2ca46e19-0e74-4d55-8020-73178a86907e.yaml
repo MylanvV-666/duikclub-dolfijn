@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  d9379f5e-f75a-49c5-8e19-2003791824d7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Documentnaam
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: eae73f6f-475e-4d64-9f10-23dd1b647f01
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fea901f9-eab1-458f-928b-77c7edd1ec11 # pdf
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92ced75a-bab5-445a-8bfb-a7e21488fc6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f91e36f4-9384-45d5-b776-dd455ec19ade # Uitleg1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39c7ac67-9856-4118-a271-a0f3d4fd9688
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f2b0f4d6-f59f-4eae-8a76-588d86ad412b
+        userCondition: null
+handle: documenten
+hasTitleField: true
+icon: ''
+name: documenten
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

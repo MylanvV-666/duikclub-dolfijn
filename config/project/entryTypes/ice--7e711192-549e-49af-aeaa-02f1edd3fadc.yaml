@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  a0e7d751-ccbd-4047-b722-684bcc8f0824:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Naam
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9c1a2fc3-a505-4b64-a9e8-f686629b1831
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ddcb048-5f95-4fba-9c52-3f1af7cfb257 # Telefoon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e10c89a8-afc4-480d-91fc-07827f67d510
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d6e41151-43a0-4442-8c1e-6345971339eb
+        userCondition: null
+handle: ice
+hasTitleField: true
+icon: ''
+name: ICE
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

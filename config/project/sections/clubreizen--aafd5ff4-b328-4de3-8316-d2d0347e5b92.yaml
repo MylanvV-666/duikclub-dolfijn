@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 796496fc-b78c-46a3-a371-0219c787b9f0 # Clubreizen
+handle: clubreizen
+maxAuthors: 1
+name: Clubreizen
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    enabledByDefault: true
+    hasUrls: true
+    template: _snippets\_clubreizen.twig
+    uriFormat: 'clubreizen/{slug}'
+structure:
+  maxLevels: null
+  uid: 53af4130-7eab-423b-80e8-bda9f0ff7a96
+type: structure
