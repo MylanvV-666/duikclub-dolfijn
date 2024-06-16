@@ -1,0 +1,25 @@
+<form method="get" action="">
+    <div class="form-input">
+        <p><b>Product Categorieën:</b></p>
+        {% set productenCategories = craft.categories.group('productenCategorie').all() %}
+        {% for category in productenCategories %}
+            <div >
+                <input type="checkbox" id="productenCategorie_{{ category.id }}" name="producentCategorie[]" value="{{ category.id }}"
+                       {% if category.id in craft.app.request.getParam('productenCategorie', []) %}checked{% endif %}>
+                <label for="productenCategorie_{{ category.id }}">{{ category.title }}</label>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="form-input">
+        <p><b>Kleuren:</b></p>
+        {% set colors = craft.categories.group('kleuren').all() %}
+        {% for color in colors %}
+            <div>
+                <input type="checkbox" id="kleuren_{{ color.id }}" name="kleuren[]" value="{{ color.id }}"
+                       {% if color.id in craft.app.request.getParam('kleuren', []) %}checked{% endif %}>
+                <label for="kleuren_{{ color.id }}">{{ color.title }}</label>
+            </div>
+        {% endfor %}
+    </div>
+    <button type="submit">Filter</button>
+</form>

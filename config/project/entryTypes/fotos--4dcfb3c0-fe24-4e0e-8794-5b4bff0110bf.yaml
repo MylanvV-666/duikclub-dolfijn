@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  d82e7108-635e-4a65-921f-ee5a1aed0cb9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3b232888-ec53-43c2-a24e-ed07f3d904c9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe8539b7-02d7-4076-842e-b066d17bfcad # afbeeldingen
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c885306b-941d-447e-8760-a5ae24846827
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dba41749-3a5b-4f10-b1e0-877b1f6e3144
+        userCondition: null
+handle: fotos
+hasTitleField: true
+icon: ''
+name: 'foto''s'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

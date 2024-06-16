@@ -1,0 +1,42 @@
+{% extends '_snippets/_head.twig' %}
+
+{% block content %}
+
+    <main class="boetiek">
+        <div class="row">
+            <div class="filter col-3">
+                {% include '_snippets/_boetiekFilter.twig' %}
+            </div>
+            <div class="shop col-8">
+                <div class="row">
+                    {% set selectedProductenCategories = craft.app.request.getParam('productenCategorie', []) %}
+                    {% set selectedColors = craft.app.request.getParam('kleuren', []) %}
+
+                    {% set query = craft.entries.section('producten') %}
+
+                    {% if selectedProductenCategories %}
+                        {% set query = query.relatedTo({
+                            targetElement: selectedProductenCategories,
+                            field: 'productenCategorie'
+                        }) %}
+                    {% endif %}
+
+                    {% if selectedColors %}
+                        {% set query = query.relatedTo({
+                            targetElement: selectedColors,
+                            field: 'kleuren'
+                        }) %}
+                    {% endif %}
+
+                    {% set producten = query.all() %}
+                    {% for items in producten %}
+                        {% include '_snippets/_boetiekCard.twig' %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+{% endblock %}

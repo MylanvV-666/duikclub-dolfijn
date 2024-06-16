@@ -1,0 +1,19 @@
+<div class="col-6 col-md-4 mt-4">
+    <img src="{{ items.productfoto.one().url('square') }}" alt="{{ items.productfoto.one().title }}">
+    <p class="mt-2 text-center"><b>{{ items.title }}</b></p>
+    {% set maten = items.maat %}
+    <div class="row justify-content-center">
+        {% if maten is not empty %}
+            {% for maat in maten %}
+                <div class="col-2 maten">
+                    <span>{{ maat }}</span>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="col-12">
+                <p>No sizes available</p>
+            </div>
+        {% endif %}
+    </div>
+    <h3 class="text-right">€{{ items.prijs }}</h3>
+</div>

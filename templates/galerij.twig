@@ -1,0 +1,17 @@
+{% extends '_snippets/_head.twig' %}
+
+{% block content %}
+    <main>
+        <div class="text-center">
+            <h1>{{ entry.title }}</h1>
+        </div>
+        <div class="row justify-content-center">
+            {% set galerij = galerij.afbeeldingen.all() %}
+            {% for foto in galerij %}
+                <div class="slide">
+                    <img src="{{ foto.url('square') }}" alt="{{ foto.title }}"/>
+                </div>
+            {% endfor %}
+        </div>
+    </main>
+{% endblock %}

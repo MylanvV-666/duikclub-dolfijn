@@ -1,0 +1,13 @@
+@use "algemeen" as *;
+
+.boetiek{
+  .form-input{
+    margin-bottom: 3rem;
+  }
+  .maten{
+    margin: 0.1rem;
+    background-color: $groen;
+    border-radius: 0.5rem;
+    color: $wit;
+  }
+}

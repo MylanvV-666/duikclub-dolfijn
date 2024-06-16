@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 4e9739b8-5cc9-48ef-bfc0-b0583a54472a # Product
+handle: producten
+maxAuthors: 1
+name: Producten
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    enabledByDefault: true
+    hasUrls: true
+    template: producten/_entry
+    uriFormat: 'producten/{slug}'
+structure:
+  maxLevels: null
+  uid: fe18c093-3601-404b-bf87-c5aff99f6587
+type: structure

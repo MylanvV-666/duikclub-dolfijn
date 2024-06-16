@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  3f4309c8-4150-43aa-bb2c-bc64c7fa0f8a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a53a3248-c977-4aba-96a5-573ae0f5b025
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 929de33d-00c4-4918-8b7c-3ef1525eb932
+        userCondition: null
+handle: boetiek
+hasTitleField: true
+icon: ''
+name: boetiek
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

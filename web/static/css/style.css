@@ -1309,5 +1309,14 @@ nav #hamburger #uitklap .menu-items-burger a {
     margin: 100px 50px;
   }
 }
+.boetiek .form-input {
+  margin-bottom: 3rem;
+}
+.boetiek .maten {
+  margin: 0.1rem;
+  background-color: #4B8996;
+  border-radius: 0.5rem;
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */

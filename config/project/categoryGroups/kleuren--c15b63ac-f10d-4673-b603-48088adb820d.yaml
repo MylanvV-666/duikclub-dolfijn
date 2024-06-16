@@ -1,0 +1,49 @@
+defaultPlacement: end
+fieldLayouts:
+  c20e4aed-e69e-4652-bbe8-937e19bdf757:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: b5a21edf-b750-498f-a81f-35639153be8c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5ac77e2c-69fe-403d-9e0a-68db3f29636d
+        userCondition: null
+handle: kleuren
+name: Kleuren
+siteSettings:
+  c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
+    hasUrls: true
+    template: null
+    uriFormat: 'kleuren/{slug}'
+structure:
+  maxLevels: null
+  uid: b6542c74-56c7-45ec-b931-6da0c3ac29cf

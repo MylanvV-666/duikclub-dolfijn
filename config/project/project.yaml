@@ -1,4 +1,4 @@
-dateModified: 1718515424
+dateModified: 1718519388
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -26,13 +26,19 @@ meta:
     2f141443-d73e-4cd5-9414-23f192babda8: 'Navigatie link' # Navigatie link
     3a5628fe-88ab-4ade-aa40-c5bf83414dee: bestuur # bestuur
     4a432ea4-e716-435d-8a56-282ec1b29703: 'Knop 3' # Knop 3
+    4ab394bc-54c1-42e2-88d2-f6bbfa0c442f: Boetiek # Boetiek
+    4b938a5d-c080-4142-96a2-d2d0c3cd5813: Boetiek # Boetiek
     4d1070e7-0af4-4cdd-85d3-91155db1b7f5: 'Titel H2.3' # Titel H2.3
+    4dcfb3c0-fe24-4e0e-8794-5b4bff0110bf: 'foto''s' # foto's
+    4e9739b8-5cc9-48ef-bfc0-b0583a54472a: Product # Product
     5b1de7fa-3133-4824-9bea-05e8303c1f51: 'Foto Bestuur' # Foto Bestuur
     5b9d7c12-622b-4990-9155-c2741c5def38: 'Foto''s' # Foto's
     5c0dc2c9-285c-45aa-887a-c887ea0e4c0d: 'Titel H3.2' # Titel H3.2
     5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
     6ca1ff32-7d0c-4274-aeb0-2dbfb42fc6fe: 'Titel federaties' # Titel federaties
     6e5f486b-f97e-4b24-a0a5-b0e06ae0d0ef: duiken # duiken
+    06f2b175-b5b0-4efd-addf-fdc4b69d4a25: Producten # Producten
+    7a611a3e-0597-41c7-9b6f-e6a6cfcb824e: Productfoto # Productfoto
     7c631f85-d835-420c-bb78-46108ffa1d43: 'Google Maps link' # Google Maps link
     7e711192-549e-49af-aeaa-02f1edd3fadc: ICE # ICE
     8be40aa8-3de4-4725-b130-fdbc6a69a967: Logo-footer # Logo-footer
@@ -41,6 +47,7 @@ meta:
     8ffda722-c9bd-4fef-b761-1d5e6930693f: 'eind datum' # eind datum
     9d85c2dd-e42a-4d0b-8212-af42ae7e805b: 'Nav niet ingelogd' # Nav niet ingelogd
     9ddcb048-5f95-4fba-9c52-3f1af7cfb257: Telefoon # Telefoon
+    9f80cd2e-80b1-482f-a2ac-6206f7ad516e: producten-categorie # producten-categorie
     10a43b4a-2950-4a68-9db6-9ead8ae73b03: 'achtergrond initiatie' # achtergrond initiatie
     12b7a069-0112-452b-ae5f-804c0ab2992d: Uitleg # Uitleg
     13d1ccc4-b02c-46db-9af1-03469cce2ece: 'Over ons' # Over ons
@@ -78,13 +85,16 @@ meta:
     796496fc-b78c-46a3-a371-0219c787b9f0: Clubreizen # Clubreizen
     1944228b-667b-4679-a9a7-5cd61ba6363b: 'Titel H2.2' # Titel H2.2
     02450193-808b-42e8-b4cd-9a0991eb8258: 'Titel H2' # Titel H2
+    6145837d-f147-4a50-a650-289de5248d9a: producten-categorie # producten-categorie
     23162187-50bf-4930-b65c-16f4631c8527: 'Uitleg 2' # Uitleg 2
     24270014-0a29-4a8a-9cd7-1bacac913949: Duiken # Duiken
     63434597-0860-43b3-802d-0c07397e573b: 'Lessen initiatie' # Lessen initiatie
     87915945-61fd-4efb-8c23-37cef93e0a6a: Duikplaatsen # Duikplaatsen
+    97764720-a98b-4ef7-ab8d-b580b2fbf962: boetiek # boetiek
     a2e4df4b-9cc5-45c7-84e0-5a32babeb38a: 'Duikclub Dolfijn' # Duikclub Dolfijn
     a3675e76-0c34-492a-90fb-c5a791b71905: federaties # federaties
     aafd5ff4-b328-4de3-8316-d2d0347e5b92: Clubreizen # Clubreizen
+    ad6b5b94-9645-4a79-8439-b7e2ab7f64dc: galerij # galerij
     b2bf1231-98f4-43b7-ae03-0cf36a84f7ba: Leden # Leden
     b56f921c-3a00-4fec-b19c-58f744660752: Lessen # Lessen
     b95e3bf5-e962-483f-9c0c-e6af209b4f1f: horizontaal # horizontaal
@@ -95,7 +105,9 @@ meta:
     bb9b1097-9276-461c-aac1-6f5b359e8106: 'Lang horizontaal' # Lang horizontaal
     bc0bc75a-81c8-46b2-b5ec-9aef29a6b48e: kalender # kalender
     bf8f250d-e4d1-4d7d-9b2d-7715bf489fc9: 'Foto 3' # Foto 3
+    c15b63ac-f10d-4673-b603-48088adb820d: Kleuren # Kleuren
     c18f34ac-15d7-4f24-867e-546e592ad7d7: Prijs # Prijs
+    c865d06d-8839-4496-9b92-2940367417d2: galerij # galerij
     c967232c-866e-40c6-936d-7d06ff30cba0: 'Duikclub Dolfijn' # Duikclub Dolfijn
     ca016f7c-0fc0-4cf1-9f6b-4aec0fb7edb4: footer-federaties # footer-federaties
     cadb8ebf-9127-4f1f-b63a-38d94e89eaf1: 'Knop 4' # Knop 4
@@ -103,6 +115,7 @@ meta:
     cc07e5fd-bf6d-4c12-971b-1b386c10f883: 'Home Image' # Home Image
     cfeb32e3-62ea-485e-a0c9-e446aa903e3f: Knop # Knop
     d00f9e93-2d15-43f4-8dcb-b6e87b13ba35: 'Over ons' # Over ons
+    d0987993-b01a-44a5-b967-3c0efbaf355a: Maat # Maat
     d4c4c71f-d930-4395-bc67-191a80e03bad: Lessen # Lessen
     d5f7ba53-a945-4cf9-baa1-eed4e1006d47: ICE # ICE
     d6cbf5f4-6ab6-4d4f-8983-9fea51b225e3: Startpagina # Startpagina
@@ -114,6 +127,7 @@ meta:
     d1809068-0b65-420d-a675-e40b84fe0109: Duiksport # Duiksport
     dadb8ae5-9828-42c5-b632-584450769587: Leden # Leden
     e06bb397-2b42-4693-83e3-12537430bbc4: 'Titel H3.4' # Titel H3.4
+    e2cc301e-50a6-4a7d-bade-28c5b47c46c3: kleuren-Categorie # kleuren-Categorie
     e99cd9b1-606b-4306-acb3-f54a056171ea: Documenten # Documenten
     e972e539-dd96-4cf6-93dc-345af27b642e: login # login
     ea72abe5-bea8-4ae7-9a59-db81d2b10f9a: 'Titel h1' # Titel h1

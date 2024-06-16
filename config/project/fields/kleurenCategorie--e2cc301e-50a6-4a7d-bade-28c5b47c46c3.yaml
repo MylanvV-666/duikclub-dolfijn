@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: kleurenCategorie
+instructions: null
+name: kleuren-Categorie
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: 1
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:c15b63ac-f10d-4673-b603-48088adb820d' # Kleuren
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories
