@@ -24,7 +24,7 @@
     {% set documenten = craft.entries.section('documenten').all() %}
     {% for document in documenten %}
         <div class="row">
-            <div class="col-3 align-content-center">
+            <div class="documentknop col-3 align-content-center">
                 <a href="{{ document.pdfFile.one().url }}" target="_blank">
                     <button>{{ document.title }}</button>
                 </a>

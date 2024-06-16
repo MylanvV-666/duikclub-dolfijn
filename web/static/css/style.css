@@ -1067,6 +1067,10 @@ nav #groot_menu {
   background-color: #012836;
   padding: 0 40px;
 }
+nav #groot_menu .navlogo img {
+  max-height: 115px;
+  width: fit-content;
+}
 
 nav #groot_menu .menu-items {
   width: 650px;
@@ -1221,94 +1225,6 @@ nav #hamburger #uitklap .menu-items-burger a {
   border: 2px solid #012836;
 }
 
-#kalender main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#kalender main iframe {
-  margin: 100px 0;
-}
-
-@media screen and (max-width: 1400px) {
-  #leden main #documenten #documentenlijst .document button span {
-    display: none;
-  }
-}
-@media screen and (max-width: 1000px) {
-  /*leden*/
-  /*header*/
-  #leden header {
-    background: none;
-    height: 10px;
-  }
-  #leden header a button {
-    display: none;
-  }
-  /*main*/
-  /*sectie 1*/
-  #leden main #clubreizen .clubreis img {
-    display: none;
-  }
-  #leden main #clubreizen .clubreis .tekstreis {
-    width: 100%;
-  }
-  /*sectie 2*/
-  #leden main #ice_lijst_sectie #images #iceimgtop {
-    display: none;
-  }
-  #leden main #ice_lijst_sectie #images #iceimgbot {
-    display: none;
-  }
-  /*sectie 3*/
-  #leden main #documenten #filters {
-    width: 100%;
-  }
-  #leden main #documenten #documentenlijst .document {
-    flex-direction: column;
-    align-items: start;
-  }
-  #leden main #documenten #documentenlijst .document button {
-    width: initial;
-  }
-  #leden main #documenten #documentenlijst .document button span {
-    display: flex;
-    padding-left: 20px;
-  }
-  #leden main #documenten #documentenlijst .document .doctekst {
-    width: 100%;
-  }
-  #leden main #documenten #documentenlijst .document .doctekst p {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 900px) {
-  /*leden*/
-  /*main*/
-  /*sectie 1*/
-  #leden main #clubreizen .clubreis .tekstreis .titelreis {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 20px;
-  }
-}
-@media screen and (max-width: 800px) {
-  /*main*/
-  /*sectie 1*/
-  #leden main #clubreizen {
-    margin: 100px 50px;
-  }
-  /*sectie 2*/
-  #leden main #ice_lijst_sectie {
-    margin: 100px 50px;
-  }
-  /*sectie 3*/
-  #leden main #documenten {
-    margin: 100px 50px;
-  }
-}
 .boetiek .form-input {
   margin-bottom: 3rem;
 }
@@ -1317,6 +1233,15 @@ nav #hamburger #uitklap .menu-items-burger a {
   background-color: #4B8996;
   border-radius: 0.5rem;
   color: #fff;
+}
+
+#kalender main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#kalender main iframe {
+  margin: 100px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

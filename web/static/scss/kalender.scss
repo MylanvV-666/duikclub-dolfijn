@@ -1,0 +1,11 @@
+@use "algemeen" as *;
+
+#kalender main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  iframe {
+    margin: 100px 0;
+  }
+}

@@ -1,40 +1,73 @@
-
 <nav>
     <div id="groot_menu">
-        <a href="index.html">
-            <img src="static/assets/Dolfijn%201.png" alt="logo">
-        </a>
+        {% set menuitems = craft.navigate.raw('navigationLoggedin') %}
+        {% for item in menuitems %}
+            {% if item.name == 'Home' %}
+                {% set homeLink = item.url %}
+                <a class="navlogo" href="{{ homeLink }}">
+                    {% set logo = craft.assets()
+                        .volume('logos')
+                        .filename('Dolfijn_full-1.png')
+                        .one() %}
+                    <img src="{{ logo.url }}" alt="{{ logo.title }}">
+                </a>
+            {% endif %}
+        {% endfor %}
         <div class="menu-items">
-            <a href="over-ons.html">Over ons</a>
-            <a href="duiken.html">Duiken</a>
-            <a href="Leden.html">Leden</a>
-            <a href="kalender.html">Kalender</a>
-            <a href="boetiek.html">Boetiek</a>
-            <a href="contact.html">Contact</a>
+            {% set menuitems = craft.navigate.raw('navigationLoggedin') %}
+            {% set menuitemsWithoutFirst = menuitems | slice(1) %}
+            {% for item in menuitemsWithoutFirst %}
+                <a href="{{ item.url }}">{{ item.name }}</a>
+            {% endfor %}
         </div>
     </div>
     <div id="hamburger">
         <div id="nav_balk">
-            <a href="index.html">
-                <img src="static/assets/Dolfijn_full%201.png" alt="logo">
-            </a>
-            <img id="menu_open" src="static/assets/Menu-Line-1--Streamline-Micro.png.png" alt="menu">
+            {% set menuitems = craft.navigate.raw('navigationLoggedin') %}
+            {% for item in menuitems %}
+                {% if item.name == 'Home' %}
+                    {% set homeLink = item.url %}
+                    <a class="navlogo" href="{{ homeLink }}">
+                        {% set logo = craft.assets()
+                            .volume('logos')
+                            .filename('Dolfijn_full-1.png')
+                            .one() %}
+                        <img src="{{ logo.url }}" alt="{{ logo.title }}">
+                    </a>
+                {% endif %}
+            {% endfor %}
+            {% set hamburger = craft.assets()
+                .volume('logos')
+                .filename('Menu-Line-1-Streamline-Micro.png')
+                .one() %}
+            <img id="menu_open" src="{{ hamburger.url }}" alt="{{ hamburger.title }}">
         </div>
         <div id="uitklap">
             <div>
-                <a href="index.html">
-                    <img src="static/assets/Dolfijn_full%201.png" alt="logo">
-                </a>
-                <img id="menu_close" src="static/assets/Close--Streamline-Ultimate.png" alt="close">
+                {% set menuitems = craft.navigate.raw('navigationLoggedin') %}
+                {% for item in menuitems %}
+                    {% if item.name == 'Home' %}
+                        {% set homeLink = item.url %}
+                        <a href="{{ homeLink }}">
+                            {% set logo = craft.assets()
+                                .volume('logos')
+                                .filename('Dolfijn_full-1.png')
+                                .one() %}
+                            <img src="{{ logo.url }}" alt="{{ logo.title }}">
+                        </a>
+                    {% endif %}
+                {% endfor %}
+                {% set close = craft.assets()
+                    .volume('logos')
+                    .filename('Close-Streamline-Ultimate.png')
+                    .one() %}
+                <img src="{{ close.url }}" alt="{{ close.title }}">
             </div>
             <div class="menu-items-burger">
-                <a href="over-ons.html">Over ons</a>
-                <a href="duiken.html">Duiken</a>
-                <a href="Leden.html">Leden</a>
-                <a href="gallerij.html">Gallerij</a>
-                <a href="kalender.html">Kalender</a>
-                <a href="boetiek.html">Boetiek</a>
-                <a href="contact.html">Contact</a>
+                {% set menuitems = craft.navigate.raw('navigationLoggedin') %}
+                {% for item in menuitems %}
+                    <a href="{{ item.url }}">{{ item.name }}</a>
+                {% endfor %}
             </div>
         </div>
     </div>

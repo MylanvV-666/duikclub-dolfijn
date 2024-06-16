@@ -11,6 +11,10 @@ nav #groot_menu {
   align-items: center;
   background-color: #012836;
   padding: 0 40px;
+  .navlogo img{
+    max-height: 115px;
+    width: fit-content;
+  }
 }
 
 nav #groot_menu .menu-items {

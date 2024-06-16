@@ -63,8 +63,8 @@
                                 {% set foto2 = activiteit.foto2.one() %}
                                 <img src="{{ foto2.url('horizontaal') }}" alt="{{ foto2.title }}">
                             {% endif %}
-                            {% if activiteit.foto2|length %}
-                                {% set foto3 = activiteit.foto2.one() %}
+                            {% if activiteit.foto3|length %}
+                                {% set foto3 = activiteit.foto3.one() %}
                                 <img src="{{ foto3.url('horizontaal') }}" alt="{{ foto3.title }}">
                             {% endif %}
                         </div>
