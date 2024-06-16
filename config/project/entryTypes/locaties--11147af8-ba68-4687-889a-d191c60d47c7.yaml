@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  88f6e821-2f31-4410-9e3e-69f1923e5088:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ef0178f8-d0f5-4c94-b12a-fea92ef86166
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f91e36f4-9384-45d5-b776-dd455ec19ade # Uitleg1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cdbe7dab-b9eb-45a2-8276-9595c3436b12
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe8539b7-02d7-4076-842e-b066d17bfcad # afbeeldingen
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0aaa8d26-b39d-45c9-b790-df4d659a0af4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ba90cdc1-c0e9-4ed9-992b-add271239582
+        userCondition: null
+handle: locaties
+hasTitleField: true
+icon: ''
+name: locaties
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

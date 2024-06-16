@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - eaa7e28f-4742-4c66-999b-b00a7ab41bcd # contact
-handle: contact
+  - 2e76eb1e-7c0d-401b-8a0a-13759e3c51b2 # Login
+handle: login
 maxAuthors: 1
-name: Contact
+name: login
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
     enabledByDefault: true
     hasUrls: true
-    template: contact.twig
-    uriFormat: contact
+    template: login.twig
+    uriFormat: login
 type: single

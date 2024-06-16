@@ -5,9 +5,9 @@
     "carlcs/craft-redactorcustomstyles": "5.0.0",
     "craftcms/ckeditor": "4.0.6",
     "craftcms/cms": "5.1.1",
-    "solspace/craft-freeform": "5.3.0",
+    "solspace/craft-freeform": "5.3.5",
     "studioespresso/craft-navigate": "5.1.2",
-    "verbb/formie": "3.0.0-beta.14",
+    "verbb/formie": "dev-craft-5 as 3.0.0-beta.14",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

@@ -16,14 +16,7 @@
 
 //Bootstrap XL
 @media screen and (max-width: 1200px) {
-  /*navigatie niet leden*/
-  nav #groot_menu {
-    display: none;
-  }
 
-  nav #hamburger {
-    display: flex;
-  }
 
   /*footer*/
   footer {
@@ -374,28 +367,35 @@
   footer {
     width: 80%;
     margin: 0 auto;
-    .gegevensfooter{
+
+    .gegevensfooter {
       flex-direction: column;
       width: 100%;
       margin: 0 auto;
-      div{
+
+      div {
         width: 100%;
       }
-      .gegevensmeticonen{
-        div{
+
+      .gegevensmeticonen {
+        div {
           flex-direction: row;
           align-items: center;
-          img{
-            scale: 0.6;
+
+          img {
+            width: 20%;
+            margin-bottom: 1rem;
           }
-          p, a{
+
+          p, a {
             text-align: center;
             width: 15rem;
             height: fit-content;
           }
         }
       }
-      .lijn{
+
+      .lijn {
         border-right: none;
         border-bottom: 1px solid $donkerblauw;
       }
@@ -469,6 +469,18 @@
     width: 100%;
   }
 
+  /*footer*/
+
+  footer .balkfooter {
+    flex-direction: column;
+    height: 150px;
+  }
+  .gegevensmeticonen {
+    img {
+      width: 40%;
+    }
+  }
+
   /* ------------ LESSEN -----------*/
   #lessen-buttons {
     width: 100%;
@@ -517,28 +529,12 @@
 
 //Bootstrap SM
 @media screen and (max-width: 576px) {
-  /*navigatie niet leden*/
-  nav #hamburger #uitklap {
-    padding: 0 30px 100px 30px;
-  }
 
-  /*footer*/
-
-  footer .gegevensfooter div {
-    width: 100%;
-  }
-
-  #logo_footer {
-    display: none;
-  }
-
-  footer .gegevensfooter div a, footer .gegevensfooter div p {
-    text-align: left;
-  }
-
-  footer .balkfooter {
-    flex-direction: column;
-    height: 200px;
+/*footer*/
+  .gegevensmeticonen{
+    img{
+      width: 40%;
+    }
   }
 
   /*home*/

@@ -16,7 +16,7 @@ body {
 
 main {
   width: 75%;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 button {
@@ -64,6 +64,13 @@ p, a {
 
 a:hover {
   color: $groen;
+}
+
+@mixin input{
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-color: $donkerblauw;
+  margin-bottom: 1.5rem;
 }
 
 // ------------------ NAVIGATIE ------------------

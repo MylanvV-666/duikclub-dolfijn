@@ -1,0 +1,16 @@
+{% set initiatieles = craft.freeform.form("initiatieles").render({
+    'form': {
+        'class': 'formulier'
+    },
+    'inputs': {
+        'class': 'formulier-input'
+    },
+    'submit': {
+        'class': 'formulier-submit'
+    }
+})  %}
+<div class="row justify-content-center my-5">
+    <div class="col-12 col-md-4">
+        {{ initiatieles }}
+    </div>
+</div>

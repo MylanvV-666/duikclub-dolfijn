@@ -1,4 +1,4 @@
-dateModified: 1718485745
+dateModified: 1718503224
 email:
   fromEmail: mylanvanvugt@gmail.com
   fromName: 'Duikclub Dolfijn'
@@ -21,6 +21,7 @@ meta:
     2a3eea25-77ba-47cc-85b0-a1920e038b0d: Federaties # Federaties
     2c4e8754-f3bf-4096-9ae3-9a11212c3654: Duikplaatsen # Duikplaatsen
     2dfea5fd-7269-4188-a409-37395b79c4c6: footer-logo # footer-logo
+    2e76eb1e-7c0d-401b-8a0a-13759e3c51b2: Login # Login
     2f141443-d73e-4cd5-9414-23f192babda8: 'Navigatie link' # Navigatie link
     3a5628fe-88ab-4ade-aa40-c5bf83414dee: bestuur # bestuur
     4a432ea4-e716-435d-8a56-282ec1b29703: 'Knop 3' # Knop 3
@@ -31,6 +32,7 @@ meta:
     5f0fb296-50ea-493b-ba31-ebb357791b23: Rol # Rol
     6ca1ff32-7d0c-4274-aeb0-2dbfb42fc6fe: 'Titel federaties' # Titel federaties
     6e5f486b-f97e-4b24-a0a5-b0e06ae0d0ef: duiken # duiken
+    7c631f85-d835-420c-bb78-46108ffa1d43: 'Google Maps link' # Google Maps link
     8be40aa8-3de4-4725-b130-fdbc6a69a967: Logo-footer # Logo-footer
     8c0cd35b-1aba-46c8-b16a-d98f0be224f9: Foto1 # Foto1
     8c34371e-c68e-471f-8610-795e72818807: 'PDF''s' # PDF's
@@ -55,10 +57,12 @@ meta:
     750b8283-62c8-4f9f-bddd-a2f23039c1bd: 'met 2 foto''s' # met 2 foto's
     888ddfaa-bf6f-484f-a10b-4a2e5249a753: Federaties # Federaties
     950a9039-871a-447e-8e8b-6c305728b9ba: reglement # reglement
+    1931bfed-d4c4-493f-8083-02683ce5c683: Locaties # Locaties
     2977cff4-bcbc-4a4f-a18c-5e5debe273f1: 'algemene voorwaarden' # algemene voorwaarden
     7108a5e2-c2f3-4d7b-a353-7b9639603cda: 'Titel H3.1' # Titel H3.1
     7817d0be-7eec-4496-b32d-80a546b83654: 'met 3 foto''s' # met 3 foto's
     8063a39b-adbe-447a-a100-69422b04438d: verticaal # verticaal
+    11147af8-ba68-4687-889a-d191c60d47c7: locaties # locaties
     38526ff8-201f-4280-9758-4eafe67903af: Initiatie # Initiatie
     89323e4f-4a10-4a94-9ad9-4d99ec2a4128: prijzen # prijzen
     486688b8-6ea0-4455-96eb-adb504204342: 'Titel H3.3' # Titel H3.3
@@ -98,14 +102,16 @@ meta:
     d1712481-37e5-4d9f-b944-66f7661d3dea: footer-socials # footer-socials
     d1809068-0b65-420d-a675-e40b84fe0109: Duiksport # Duiksport
     e06bb397-2b42-4693-83e3-12537430bbc4: 'Titel H3.4' # Titel H3.4
+    e972e539-dd96-4cf6-93dc-345af27b642e: login # login
     ea72abe5-bea8-4ae7-9a59-db81d2b10f9a: 'Titel h1' # Titel h1
-    eaa7e28f-4742-4c66-999b-b00a7ab41bcd: empty # empty
+    eaa7e28f-4742-4c66-999b-b00a7ab41bcd: contact # contact
     f0f279ed-3217-4c69-8599-e7f5abb6fcd8: Contact # Contact
     f0075299-99cf-41b1-a05d-e33c296efccc: Bestuur # Bestuur
     f91e36f4-9384-45d5-b776-dd455ec19ade: Uitleg1 # Uitleg1
     f287c90d-2adb-4d28-b12d-dcd0d25fa64d: Duikplaatsen-indiv # Duikplaatsen-indiv
     f470ca0e-0522-477d-9818-131140a3814f: Footer # Footer
     fe6ec8ae-645c-4bc3-91d7-b7b6eed7727d: knoppen # knoppen
+    fe8539b7-02d7-4076-842e-b066d17bfcad: afbeeldingen # afbeeldingen
 plugins:
   ckeditor:
     edition: standard
@@ -115,7 +121,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: 8HBM2TS1FZW5GPMTPYK97EF0
-    schemaVersion: 3.4.5
+    schemaVersion: 3.4.6
     settings:
       ajaxTimeout: 10
       defaultDateDisplayType: ''
@@ -184,6 +190,327 @@ plugins:
       useQueueForIntegrations: true
       useQueueForNotifications: true
       validateCustomTemplates: true
+  freeform:
+    edition: express
+    enabled: true
+    schemaVersion: 5.1.0
+    settings:
+      alertNotificationRecipients: null
+      allowDashesInFieldHandles: false
+      allowFileTemplateEdit: true
+      autoScroll: true
+      autoScrollToErrors: true
+      badgeType: all
+      blockedEmails: null
+      blockedEmailsError: 'Invalid Email Address'
+      blockedIpAddresses: null
+      blockedKeywords: null
+      blockedKeywordsError: 'Invalid Entry Data'
+      bypassSpamCheckOnLoggedInUsers: false
+      clientDigestFrequency: 1
+      clientDigestRecipients: null
+      defaultView: forms
+      defaults:
+        __assoc__:
+          -
+            - previewHtml
+            - true
+          -
+            - twigInHtml
+            - true
+          -
+            - twigIsolation
+            - true
+          -
+            - includeSampleTemplates
+            - true
+          -
+            - notifications
+            -
+              __assoc__:
+                -
+                  - admin
+                  -
+                    __assoc__:
+                      -
+                        - template
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+                -
+                  - conditional
+                  -
+                    __assoc__:
+                      -
+                        - template
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+                -
+                  - userSelect
+                  -
+                    __assoc__:
+                      -
+                        - template
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+                -
+                  - emailField
+                  -
+                    __assoc__:
+                      -
+                        - template
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+          -
+            - settings
+            -
+              __assoc__:
+                -
+                  - general
+                  -
+                    __assoc__:
+                      -
+                        - formType
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+                      -
+                        - submissionTitle
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - '{{ dateCreated|date("Y-m-d H:i:s") }}'
+                      -
+                        - formattingTemplate
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - basic-light/index.twig
+                -
+                  - dataStorage
+                  -
+                    __assoc__:
+                      -
+                        - storeData
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - true
+                      -
+                        - defaultStatus
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - 2
+                      -
+                        - collectIp
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - true
+                -
+                  - processing
+                  -
+                    __assoc__:
+                      -
+                        - ajax
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - true
+                      -
+                        - showIndicator
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - true
+                      -
+                        - showText
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - true
+                      -
+                        - processingText
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - Processing...
+                -
+                  - successAndErrors
+                  -
+                    __assoc__:
+                      -
+                        - successBehavior
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - reload
+                      -
+                        - returnUrl
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+                      -
+                        - successTemplate
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - ''
+                      -
+                        - successMessage
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - 'Form has been submitted successfully!'
+                      -
+                        - errorMessage
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - 'Sorry, there was an error submitting the form. Please try again.'
+                -
+                  - limits
+                  -
+                    __assoc__:
+                      -
+                        - duplicateCheck
+                        -
+                          __assoc__:
+                            -
+                              - locked
+                              - false
+                            -
+                              - value
+                              - no_limit
+      digestFrequency: 1
+      digestOnlyOnProduction: false
+      digestRecipients: null
+      displayFeed: true
+      emailTemplateDefault: database
+      emailTemplateDirectory: null
+      emailTemplateStorageType: files_database
+      exportHandlesAsNames: ''
+      exportLabels: ''
+      fillWithGet: ''
+      footerScripts: false
+      formFieldShowOnlyAllowedForms: ''
+      formSubmitDisable: true
+      formSubmitExpiration: null
+      formTemplateDirectory: null
+      formattingTemplate: basic-light/index.twig
+      minimumSubmitTime: null
+      pluginName: null
+      purgableSpamAgeInDays: null
+      purgableSubmissionAgeInDays: null
+      purgableUnfinalizedAssetAgeInMinutes: '180'
+      rememberPageSubmitOrder: true
+      removeNewlines: ''
+      renderFormHtmlInCpViews: true
+      saveFormSessionLimit: 10
+      saveFormTtl: 30
+      scriptInsertLocation: footer
+      scriptInsertType: files
+      sessionContext: payload
+      sessionContextCount: 100
+      sessionContextSecret: ''
+      sessionContextTimeToLiveMinutes: 180
+      sessionEntryMaxCount: 50
+      sessionEntryTTL: 10800
+      showErrorsForBlockedEmails: false
+      showErrorsForBlockedKeywords: false
+      sitesEnabled: false
+      spamFolderEnabled: true
+      spamProtectionBehavior: simulate_success
+      submissionThrottlingCount: null
+      submissionThrottlingTimeFrame: null
+      successTemplateDirectory: null
+      updateSearchIndexes: '1'
   navigate:
     edition: standard
     enabled: true

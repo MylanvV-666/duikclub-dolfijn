@@ -11,7 +11,7 @@ body {
 
 main {
   width: 75%;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 button {
@@ -505,170 +505,30 @@ footer .balkfooter a :hover {
   height: fit-content;
 }
 
-#lessen-header {
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  margin: 2rem auto 0 auto;
+#initiatie-main {
+  margin: 5rem auto;
 }
-
-#lessen-header-tekst p {
-  margin: 1rem 1rem 0 0;
-}
-
-#lessen-header-foto1 {
-  height: 300px;
-  width: 200px;
-  overflow: hidden;
-  position: relative;
-  left: 10rem;
-  z-index: 10;
-}
-
-#lessen-header-foto1 img {
-  height: inherit;
-  width: fit-content;
-  overflow: hidden;
-}
-
-#lessen-header-foto2 {
-  height: 140px;
-  width: 350px;
-  overflow: hidden;
-  position: relative;
-  top: -1rem;
-  z-index: 0;
-}
-
-#lessen-header-foto2 img {
-  height: fit-content;
-  width: inherit;
-  overflow: hidden;
-}
-
-#lessen-buttons {
-  width: 60%;
-  margin: 2rem auto;
-  text-align: right;
-}
-
-#lessen_initiatie main {
-  width: 100%;
-  padding: 100px 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#lessen_initiatie main #gratis_duikinitiatie_lessenpage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#initiatie-main h1, #initiatie-main p {
   text-align: center;
-  width: 90%;
 }
-
-#lessen_initiatie main #nieuw_avontuur {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 100px 0;
-  width: 80%;
-}
-
-#lessen_initiatie main #nieuw_avontuur .fotos {
-  width: 60%;
-}
-
-#lessen_initiatie main #nieuw_avontuur .fotos .foto-mid {
+#initiatie-main section .fotos :nth-child(1) {
   position: relative;
-  right: 50px;
-  top: 100px;
+  left: 5%;
 }
-
-#lessen_initiatie main #nieuw_avontuur .fotos .foto-bot {
+#initiatie-main section .fotos :nth-child(2) {
   position: relative;
-  top: 75px;
+  left: 35%;
+  top: -10%;
 }
-
-#lessen_initiatie main #nieuw_avontuur .tekst {
-  width: 40%;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-#lessen_initiatie main #nieuw_avontuur .tekst h2 {
-  padding-bottom: 50px;
-}
-
-#lessen_initiatie main #nieuw_avontuur .tekst p {
-  padding-bottom: 125px;
-}
-
-#lessen_initiatie main #inschrijving_initiatie {
-  width: 80%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 100px 0;
-}
-
-#lessen_initiatie main #inschrijving_initiatie p {
-  padding: 20px 0 50px 0;
-}
-
-#lessen_initiatie main #inschrijving_initiatie form {
-  text-align: left;
-  width: 40%;
-}
-
-#duikplaatsen main {
-  width: 100%;
-  padding: 100px 150px;
-}
-
-#duikplaatsen main #duikplaatsenheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-#duikplaatsen main #duikplaatsenheader .fotos {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-}
-
-#duikplaatsen main #duikplaatsenheader .fotos .foto-top {
-  width: 50%;
+#initiatie-main section .fotos :nth-child(3) {
   position: relative;
-  left: 22rem;
+  top: -15%;
+}
+#initiatie-main section .tekst p {
+  text-align: start;
 }
 
-#duikplaatsen main #duikplaatsenheader .fotos .foto-bot {
-  position: relative;
-  bottom: 12rem;
-  right: 5rem;
-}
-
-#duikplaatsen main #duikplaatsenheader .tekst {
-  width: 50%;
-}
-
-#duikplaatsen main #duikplaatsenheader .tekst h1 {
-  padding-bottom: 100px;
-}
-
-#duikplaatsen main #duikplaatsenheader .tekst p {
-  width: 75%;
-}
-
-#duikplaatsen main .duikplaatsencarousel {
+.duikplaatsencarousel {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -676,25 +536,24 @@ footer .balkfooter a :hover {
   text-align: center;
   margin-bottom: 100px;
 }
-
-#duikplaatsen main .duikplaatsencarousel p {
+.duikplaatsencarousel p {
   width: 75%;
 }
 
 .slider {
   background: white;
-  height: 500px;
+  height: 250px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  margin: 50px auto;
+  margin: 0 auto;
   border-left: 2px solid #4B8996;
   border-right: 2px solid #4B8996;
 }
 
 .slider::before, .slider::after {
   content: "";
-  height: 500px;
+  height: 250px;
   position: absolute;
   width: 500px;
   z-index: 2;
@@ -722,8 +581,8 @@ footer .balkfooter a :hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 350px;
   overflow: hidden;
 }
 
@@ -732,24 +591,9 @@ footer .balkfooter a :hover {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-3500px);
+    transform: translateX(-2450px);
   }
 }
-#contact main {
-  width: 100%;
-  padding: 100px 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#contact main #contactformulier {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #contact main #contactformulier form {
   width: 40%;
 }
@@ -758,39 +602,29 @@ footer .balkfooter a :hover {
   padding-bottom: 50px;
 }
 
-#contact main #contactformulier form fieldset input {
-  width: 5%;
-}
-
-#contact main #contactgegevens {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  padding: 50px 0;
-}
-
-#contact main #contactgegevens #gegevens {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+#contactformulier input, #contactformulier textarea {
   width: 50%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-color: #012836;
+  margin-bottom: 1.5rem;
+}
+#contactformulier textarea {
+  height: 6rem;
+}
+#contactformulier #privacy {
+  height: 1.5rem;
+  margin-bottom: 0;
+}
+#contactformulier #privacy-label {
+  margin-bottom: 2.5rem;
 }
 
-#contact main #contactgegevens #kaart {
-  width: 50%;
-}
-
-#login main #inloggen {
-  width: 100%;
-  padding: 100px 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#login main #inloggen form {
-  width: 40%;
+.inlogscherm section form input {
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-color: #012836;
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 1600px) {
@@ -805,13 +639,6 @@ footer .balkfooter a :hover {
   }
 }
 @media screen and (max-width: 1200px) {
-  /*navigatie niet leden*/
-  nav #groot_menu {
-    display: none;
-  }
-  nav #hamburger {
-    display: flex;
-  }
   /*footer*/
   footer .gegevensfooter div {
     padding: 3rem;
@@ -1099,7 +926,8 @@ footer .balkfooter a :hover {
     align-items: center;
   }
   footer .gegevensfooter .gegevensmeticonen div img {
-    scale: 0.6;
+    width: 20%;
+    margin-bottom: 1rem;
   }
   footer .gegevensfooter .gegevensmeticonen div p, footer .gegevensfooter .gegevensmeticonen div a {
     text-align: center;
@@ -1159,6 +987,14 @@ footer .balkfooter a :hover {
   .duiksport-brevet-card {
     width: 100%;
   }
+  /*footer*/
+  footer .balkfooter {
+    flex-direction: column;
+    height: 150px;
+  }
+  .gegevensmeticonen img {
+    width: 40%;
+  }
   /* ------------ LESSEN -----------*/
   #lessen-buttons {
     width: 100%;
@@ -1197,23 +1033,9 @@ footer .balkfooter a :hover {
   }
 }
 @media screen and (max-width: 576px) {
-  /*navigatie niet leden*/
-  nav #hamburger #uitklap {
-    padding: 0 30px 100px 30px;
-  }
   /*footer*/
-  footer .gegevensfooter div {
-    width: 100%;
-  }
-  #logo_footer {
-    display: none;
-  }
-  footer .gegevensfooter div a, footer .gegevensfooter div p {
-    text-align: left;
-  }
-  footer .balkfooter {
-    flex-direction: column;
-    height: 200px;
+  .gegevensmeticonen img {
+    width: 40%;
   }
   /*home*/
   /*sectie2*/
@@ -1232,6 +1054,120 @@ footer .balkfooter a :hover {
   }
   #login main #inloggen form {
     width: 100%;
+  }
+}
+/*navigatie niet leden*/
+nav #groot_menu {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012836;
+  padding: 0 40px;
+}
+
+nav #groot_menu .menu-items {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav #groot_menu .menu-items a {
+  color: white;
+}
+
+nav #groot_menu .menu-items a:hover {
+  color: #4b8996;
+}
+
+nav #groot_menu .menu-items button {
+  background-color: #fff;
+  color: #012836;
+}
+
+nav #groot_menu .menu-items button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+nav #hamburger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+nav #hamburger #nav_balk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  background-color: #012836; /* Added background color for consistency */
+  padding: 10px;
+}
+
+nav #hamburger #nav_balk a, nav #hamburger #uitklap div a {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+nav #hamburger #nav_balk img, nav #hamburger #uitklap div img {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+nav #hamburger #nav_balk a img, nav #hamburger #uitklap div a img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+nav #hamburger #uitklap {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 20px 100px 100px 100px;
+}
+
+nav #hamburger #uitklap div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav #hamburger #uitklap .menu-items-burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav #hamburger #uitklap .menu-items-burger a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  /*navigatie niet leden*/
+  nav #groot_menu {
+    display: none;
+  }
+  nav #hamburger {
+    display: flex;
+  }
+}
+@media screen and (max-width: 650px) {
+  /*navigatie niet leden*/
+  nav #hamburger #uitklap {
+    padding: 0 30px 100px 30px;
   }
 }
 

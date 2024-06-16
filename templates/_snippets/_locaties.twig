@@ -1,0 +1,14 @@
+<section class="duikplaatsencarousel row text-center">
+    <h2>{{ locatie.title }}</h2>
+    {{ locatie.uitleg1 }}
+    <div class="slider">
+        <div class="slide-track">
+            {% set slides = locatie.afbeeldingen.all() %}
+            {% for afbeelding in slides %}
+            <div class="slide">
+                <img src="{{ afbeelding.url('square') }}" alt="{{ afbeelding.title }}"/>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

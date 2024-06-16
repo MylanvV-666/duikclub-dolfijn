@@ -1,113 +1,43 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta charset="utf-8"/>
-    <title>{{ systemName }}</title>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
-    <meta name="referrer" content="origin-when-cross-origin"/>
+{% extends '_snippets/_head.twig' %}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet">
-
-    <script defer src="web/static/script/script.js"></script>
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-<body id="contact">
-<nav>
-    <a href="index.html">
-        <img src="static/assets/Dolfijn%201.png" alt="logo">
-    </a>
-    <div class="menu-items">
-        <a href="over-ons.html">Over ons</a>
-        <a href="duiken.html">Duiken</a>
-        <a href="contact.html">Contact</a>
-        <a href="login.html">
-            <button>Login</button>
-        </a>
-    </div>
-</nav>
-<main>
-    <section id="contactformulier">
-        <h1>Contact</h1>
-        <form method="post" action="mailto:">
-            <label for="voornaam">Voornaam<span class="rood">*</span></label>
-            <br>
-            <input type="text" name="voornaam" id="voornaam" required>
-            <br>
-            <label for="naam">Naam<span class="rood">*</span></label>
-            <br>
-            <input type="text" name="naam" id="naam" required>
-            <br>
-            <label for="email">E-mail<span class="rood">*</span></label>
-            <br>
-            <input type="email" name="email" id="email" required>
-            <br>
-            <label for="bericht">Je boodschap<span class="rood">*</span></label>
-            <br>
-            <textarea name="bericht" id="bericht" required></textarea>
-            <br>
-            <fieldset>
+{% block content %}
+    <main>
+        <section id="contactformulier" class="my-5 align-content-center text-center">
+            <h1>{{ entry.titelH1 }}</h1>
+            <form method="post" action="mailto:">
+                <label for="voornaam">Voornaam<span class="rood">*</span></label>
+                <br>
+                <input type="text" name="voornaam" id="voornaam" required>
+                <br>
+                <label for="naam">Naam<span class="rood">*</span></label>
+                <br>
+                <input type="text" name="naam" id="naam" required>
+                <br>
+                <label for="email">E-mail<span class="rood">*</span></label>
+                <br>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="bericht">Je boodschap<span class="rood">*</span></label>
+                <br>
+                <textarea name="bericht" id="bericht" required></textarea>
+                <br>
                 <input type="checkbox" name="privacy" id="privacy" class="checkbox" required>
-                <label for="privacy"><span class="rood">*</span>Ik heb het privacybeleid, de servicevoorwaarden en de
+                <label for="privacy" id="privacy-label">*Ik heb het privacybeleid, de servicevoorwaarden en de
                     communityrichtlijnen gelezen en ga ermee akkoord.</label>
                 <br>
-            </fieldset>
-            <fieldset>
                 <button type="submit">Verzenden</button>
-            </fieldset>
-        </form>
-    </section>
-    <section id="contactgegevens">
-        <div id="gegevens">
-            <h2>Onze thuisbasis</h2>
-            <p>Eikenstraat 25<br>3740 Bilzen</p>
-            <p>e-maiadress@host.be</p>
-            <p>+32 456 78 91</p>
-        </div>
-        <div id="kaart">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.29810165103!2d5.587565312466157!3d50.936699852115694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0dc5f4fbca731%3A0x2ce2d027f84f5ae5!2sEikenstraat%2025%2C%203690%20Zutendaal!5e0!3m2!1snl!2sbe!4v1716212081198!5m2!1snl!2sbe"
-                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-</main>
-<footer>
-    <section class="gegevensfooter">
-        <div class="border">
-            <img src="static/assets/Dolfijn_full%201.png" alt="logo">
-        </div>
-        <div class="border">
-            <p><b>Met dank aan:</b></p>
-            <a href="https://www.limos-vzw.be/" target="_blank">Limos</a>
-            <a href="https://nelos.be/" target="_blank">Nelos</a>
-            <a href="https://www.cmas.org/" target="_blank">CMAS</a>
-        </div>
-        <div class="border">
-            <div class="gegevensmeticonen"><img src="static/assets/icon%20_home_.png" alt="icon">
-                <p>Eikenstraat 25<br>3740 Bilzen</p></div>
-            <div class="gegevensmeticonen"><img src="static/assets/icon%20_envelope%20closed_.png" alt="icon">
-                <p>email@email.com</p></div>
-            <div class="gegevensmeticonen"><img src="static/assets/icon%20_phone_.png" alt="icon">
-                <p>+32 456 78 91</p></div>
-        </div>
-        <div>
-            <img src="static/assets/icon%20_web_.png" alt="icon">
-            <div class="socialsfooter">
-                <a href="https://www.facebook.com/DuikclubDolfijn/" target="_blank"><img src="static/assets/icon%20_facebook_.png" alt="icon"></a>
-                <a href="#"><img src="static/assets/icon%20_instagram%20alt_.png" alt="icon"></a>
-                <a href="#"><img src="static/assets/icon%20_social%20linkedin_.png" alt="icon"></a>
+            </form>
+        </section>
+        <section class="row my-5">
+            <div class="col-12 col-md-6">
+                <h2>{{ entry.titelH2 }}</h2>
+                {{ entry.inleidendeTekstHome }}
+                <a href="{{ entry.eMail }}">{{ entry.eMail|replace({'mailto:': ''}) }}</a>
             </div>
-        </div>
-    </section>
-    <section class="balkfooter">
-        <a href="#">Regelement</a>
-        <a href="#">Algemene gebruiksvoorwaarden</a>
-        <a href="#">privacyverklaring</a>
-    </section>
-</footer>
-</body>
-</html>
+            <div class="col-12 col-md-6">
+                <iframe src="{{ entry.googleMapsLink }}" width="100%" height="300px" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+{% endblock %}

@@ -51,7 +51,7 @@
                     <div id="outdoor-foto3">
                         {% if entry.foto5|length %}
                             {% set foto5 = entry.foto5.one() %}
-                            <img src="{{ foto5.url('horizontaal') }}" alt="{{ entry.title }}">
+                            <img src="{{ foto5.url('horizontaal') }}" alt="{{ foto5.title }}">
                         {% endif %}
                     </div>
                 </div>

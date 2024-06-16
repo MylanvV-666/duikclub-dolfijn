@@ -1,0 +1,118 @@
+@use "algemeen" as *;
+
+
+/*navigatie niet leden*/
+nav #groot_menu {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012836;
+  padding: 0 40px;
+}
+
+nav #groot_menu .menu-items {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav #groot_menu .menu-items a {
+  color: white;
+}
+
+nav #groot_menu .menu-items a:hover {
+  color: #4b8996;
+}
+
+nav #groot_menu .menu-items button {
+  background-color: #fff;
+  color: #012836;
+}
+
+nav #groot_menu .menu-items button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+nav #hamburger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+nav #hamburger #nav_balk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  background-color: #012836; /* Added background color for consistency */
+  padding: 10px;
+}
+
+nav #hamburger #nav_balk a, nav #hamburger #uitklap div a {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+nav #hamburger #nav_balk img, nav #hamburger #uitklap div img {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+nav #hamburger #nav_balk a img, nav #hamburger #uitklap div a img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+nav #hamburger #uitklap {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 20px 100px 100px 100px;
+}
+
+nav #hamburger #uitklap div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav #hamburger #uitklap .menu-items-burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav #hamburger #uitklap .menu-items-burger a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  /*navigatie niet leden*/
+  nav #groot_menu {
+    display: none;
+  }
+
+  nav #hamburger {
+    display: flex;
+  }
+}
+@media screen and (max-width: 650px) {
+  /*navigatie niet leden*/
+  nav #hamburger #uitklap {
+    padding: 0 30px 100px 30px;
+  }
+}

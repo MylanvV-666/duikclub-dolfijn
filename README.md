@@ -1,4 +1,6 @@
 
+Dit project maakt gebruik van Craft CMS, Bootstrap en SCSS
+
     Stappen om te bewerken:
 
         1. Composer i
@@ -9,7 +11,3 @@
     Is sass niet geinstalleerd?
         - npm init -y
         - npm i sass
-
-
-Puntjes op de I achteraf: 
-- for-loop in footer socials door de socials in een structure te plaatsen

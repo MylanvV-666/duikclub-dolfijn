@@ -1,21 +1,5 @@
 @use "algemeen" as *;
 
-// main contact
-#contact main {
-  width: 100%;
-  padding: 100px 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-// sectie1
-#contact main #contactformulier {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #contact main #contactformulier form {
   width: 40%;
@@ -25,26 +9,26 @@
   padding-bottom: 50px;
 }
 
-#contact main #contactformulier form fieldset input {
-  width: 5%;
+#contactformulier {
+  input, textarea {
+    width: 50%;
+    @include input();
+  }
+
+  textarea {
+    height: 6rem;
+  }
+
+  #privacy {
+    height: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  #privacy-label {
+  margin-bottom: 2.5rem;
+  }
 }
 
-// sectie2
-#contact main #contactgegevens {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  padding: 50px 0;
-}
 
-#contact main #contactgegevens #gegevens {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
-}
 
-#contact main #contactgegevens #kaart {
-  width: 50%;
-}
+

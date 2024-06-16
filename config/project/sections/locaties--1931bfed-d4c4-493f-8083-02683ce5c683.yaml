@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - eaa7e28f-4742-4c66-999b-b00a7ab41bcd # contact
-handle: contact
+  - 11147af8-ba68-4687-889a-d191c60d47c7 # locaties
+handle: locaties
 maxAuthors: 1
-name: Contact
+name: Locaties
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   c967232c-866e-40c6-936d-7d06ff30cba0: # Duikclub Dolfijn
     enabledByDefault: true
     hasUrls: true
-    template: contact.twig
-    uriFormat: contact
-type: single
+    template: _snippets/_locaties.twig
+    uriFormat: 'locaties/{slug}'
+type: channel
